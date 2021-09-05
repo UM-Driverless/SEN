@@ -50,7 +50,7 @@ void main(void)
 {
     // Initialize the device
     SYSTEM_Initialize();
-
+    
     // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
     // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts
     // Use the following macros to:
@@ -60,15 +60,36 @@ void main(void)
 
     // Disable the Global Interrupts
     //INTERRUPT_GlobalInterruptDisable();
-
+    
+    // Inicializacion pruebas reluctor SEN_02 con pullup que falta RJM
+    RB0_SetPullup();
+    LED_SetLow();
+    
     while (1)
     {
-        LED_SetHigh();
+        /*LED_SetHigh();
         DELAY_milliseconds(1000);        
         LED_SetLow();
-        DELAY_milliseconds(1000);        
+        DELAY_milliseconds(1000); */       
         
         // Add your application code
+        //Digital input test with leds on and off
+        /*
+        Nop();
+        if (RB1_GetValue() == 1){
+            LED_SetHigh();
+        } else if (RB2_GetValue() == 1){
+            LED_SetLow();
+        }
+          */
+        
+        // Prueba circuito reluctor. Led On si recibe interrupt. No ha funcionado.
+        /*
+        if (RB0_GetValue() == 0){
+            LED_SetHigh();
+        }
+        */
+        
     }
 }
 /**
