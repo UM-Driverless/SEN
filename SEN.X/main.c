@@ -42,6 +42,7 @@
 */
 
 #include "mcc_generated_files/mcc.h"
+#include "reluctor.h"
 
 /*
                          Main application
@@ -56,22 +57,29 @@ void main(void)
     // Use the following macros to:
 
     // Enable the Global Interrupts
-    //INTERRUPT_GlobalInterruptEnable();
+    INTERRUPT_GlobalInterruptEnable();
 
     // Disable the Global Interrupts
     //INTERRUPT_GlobalInterruptDisable();
     
     // Inicializacion pruebas reluctor SEN_02 con pullup que falta RJM
-    RB0_SetPullup();
+    //RB0_SetPullup();
     LED_SetLow();
+    
+    // Test to know if interrupts are working 20210910 RJM
+    RB1_SetDigitalInput();
+    LED_SetDigitalOutput(); //RA4
     
     while (1)
     {
-        /*LED_SetHigh();
-        DELAY_milliseconds(1000);        
+        LED_SetHigh();
+        DELAY_milliseconds(1000);    
+        ReluctorFreqRead();
         LED_SetLow();
-        DELAY_milliseconds(1000); */       
+        DELAY_milliseconds(1000);
+        ReluctorFreqRead();
         
+        unsigned int variable = ReluctorPosRead();
         // Add your application code
         //Digital input test with leds on and off
         /*

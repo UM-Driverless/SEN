@@ -28,6 +28,8 @@
 #include "ext_int.h"
 // Inicializacion pruebas reluctor SEN_02 con pullup que falta RJM
 #include "pin_manager.h"
+//17.09.2021 DJU Introducir funciones reluctor
+#include "../reluctor.h"
 
 void (*INT0_InterruptHandler)(void);
 void (*INT1_InterruptHandler)(void);
@@ -45,8 +47,10 @@ void INT0_ISR(void)
 void INT0_CallBack(void)
 {
     // Add your custom callback code here
-    // Inicializacion pruebas reluctor SEN_02 con pullup que falta RJM
-    //LED_SetHigh();
+    //17.09.2021 DJU Introducir funciones reluctor
+    ReluctorFreqCount();
+    ReluctorPosCount();
+    //
     if(INT0_InterruptHandler)
     {
         INT0_InterruptHandler();

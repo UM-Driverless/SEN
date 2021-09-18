@@ -64,8 +64,8 @@ static void ADC_DefaultActiveClockTuning_ISR(void);
 
 void ADC_Initialize(void)
 {
-    //ADACT ADACTPPS; 
-    ADACT = 0x01;
+    //ADACT TMR0; 
+    ADACT = 0x02;
 
     //ADCCS FOSC/2; 
     ADCLK = 0x00;
