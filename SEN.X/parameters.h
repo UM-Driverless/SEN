@@ -12,8 +12,8 @@
 extern "C" {
 #endif
 
-#define wheel_perimeter 167 //cm
-#define wheel_tetons 32
+#define tyre_perimeter_cm 167
+#define wheel_teeth 32
 
 
 #ifdef	__cplusplus

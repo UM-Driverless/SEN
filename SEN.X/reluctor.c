@@ -6,6 +6,7 @@
  */
 
 #include "reluctor.h"
+#include "parameters.h"
 
 //Declaracion de variables globales
 unsigned char ucCountFreq;
@@ -25,7 +26,7 @@ void ReluctorFreqCount(void)
 
 void ReluctorFreqRead(void) //se ejecuta cada 100ms con TMR0
 {
-    uiMeterPerSecond = ucCountFreq*(wheel_perimeter/wheel_tetons);
+    uiMeterPerSecond = ucCountFreq*(tyre_perimeter_cm/wheel_teeth);
     uiKmeterPerHour = uiMeterPerSecond * 36/10;
     
     if ( uiKmeterPerHour >= VELOCIDADMAXRELUCTOR ) //150k/h
@@ -53,5 +54,5 @@ void ReluctorPosCount(void)
 
 unsigned int ReluctorPosRead(void)
 {
-    return (( ucCountVueltaRueda * 360 ) + ( ucCountPos*360 / wheel_tetons));
+    return (( ucCountVueltaRueda * 360 ) + ( ucCountPos*360 / wheel_teeth));
 }

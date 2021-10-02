@@ -11,7 +11,7 @@
 #ifdef	__cplusplus
 extern "C" {
 #endif
-    
+
 #include "parameters.h"
     
 //Declaracion de constantes 

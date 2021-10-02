@@ -44,6 +44,9 @@
 #include "mcc_generated_files/mcc.h"
 #include "reluctor.h"
 
+//probar RJM
+#include "parameters.h"
+
 /*
                          Main application
  */
