@@ -37519,6 +37519,35 @@ void INT2_DefaultInterruptHandler(void);
 # 28 "mcc_generated_files/ext_int.c" 2
 
 
+# 1 "mcc_generated_files/pin_manager.h" 1
+# 278 "mcc_generated_files/pin_manager.h"
+void PIN_MANAGER_Initialize (void);
+# 290 "mcc_generated_files/pin_manager.h"
+void PIN_MANAGER_IOC(void);
+# 30 "mcc_generated_files/ext_int.c" 2
+
+
+# 1 "mcc_generated_files/../reluctor.h" 1
+# 15 "mcc_generated_files/../reluctor.h"
+# 1 "./parameters.h" 1
+# 25 "./parameters.h"
+extern unsigned char ucWheelID = 1;
+# 15 "mcc_generated_files/../reluctor.h" 2
+# 26 "mcc_generated_files/../reluctor.h"
+extern unsigned char ucCountFreq;
+extern unsigned char ucCountPos;
+extern unsigned char ucCountVueltaRueda;
+extern unsigned char ucKPHData1;
+extern unsigned char ucKPHData2;
+
+
+void ReluctorFreqRead(void);
+void ReluctorFreqCount(void);
+unsigned int ReluctorPosRead(void);
+void ReluctorPosCount(void);
+# 32 "mcc_generated_files/ext_int.c" 2
+
+
 void (*INT0_InterruptHandler)(void);
 void (*INT1_InterruptHandler)(void);
 void (*INT2_InterruptHandler)(void);
@@ -37534,6 +37563,10 @@ void INT0_ISR(void)
 
 void INT0_CallBack(void)
 {
+
+
+    ReluctorFreqCount();
+    ReluctorPosCount();
 
     if(INT0_InterruptHandler)
     {

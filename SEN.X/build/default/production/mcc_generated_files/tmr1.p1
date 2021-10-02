@@ -1,94 +1,104 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F22171 `(v ~T0 @X0 0 tf ]
-[v F22173 `(v ~T0 @X0 0 tf ]
-[v F22175 `(v ~T0 @X0 0 tf ]
-"557 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
-[s S3030 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3030 . INT0IF ZCDIF ADIF ACTIF C1IF SMT1IF SMT1PRAIF SMT1PWAIF ]
-"556
-[u S3029 `S3030 1 ]
-[n S3029 . . ]
-"568
-[v _PIR1bits `VS3029 ~T0 @X0 0 e@1199 ]
-"608 mcc_generated_files/ext_int.h
-[; ;mcc_generated_files/ext_int.h: 608: void INT0_CallBack(void);
-[v _INT0_CallBack `(v ~T0 @X0 0 ef ]
-[v F22178 `(v ~T0 @X0 0 tf ]
-[v F22180 `(v ~T0 @X0 0 tf ]
-[v F22182 `(v ~T0 @X0 0 tf ]
-"875 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
-[s S3041 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3041 . INT1IF CLC2IF CWG1IF NCO1IF DMA2SCNTIF DMA2DCNTIF DMA2ORIF DMA2AIF ]
-"874
-[u S3040 `S3041 1 ]
-[n S3040 . . ]
-"886
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 886: extern volatile unsigned char NVMDATL __attribute__((address(0x046)));
-[v _PIR6bits `VS3040 ~T0 @X0 0 e@1204 ]
-"721 mcc_generated_files/ext_int.h
-[; ;mcc_generated_files/ext_int.h: 721: void INT1_CallBack(void);
-[v _INT1_CallBack `(v ~T0 @X0 0 ef ]
-[v F22187 `(v ~T0 @X0 0 tf ]
-[v F22189 `(v ~T0 @X0 0 tf ]
-[v F22191 `(v ~T0 @X0 0 tf ]
-"1113 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 1113:     struct {
-[s S3049 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3049 . INT2IF CLC5IF CWG2IF NCO2IF DMA3SCNTIF DMA3DCNTIF DMA3ORIF DMA3AIF ]
-"1112
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 1112: typedef union {
-[u S3048 `S3049 1 ]
-[n S3048 . . ]
-"1124
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 1124:         unsigned HLVDINTH :1;
-[v _PIR10bits `VS3048 ~T0 @X0 0 e@1208 ]
-"834 mcc_generated_files/ext_int.h
-[; ;mcc_generated_files/ext_int.h: 834: void INT2_CallBack(void);
-[v _INT2_CallBack `(v ~T0 @X0 0 ef ]
-[v F22196 `(v ~T0 @X0 0 tf ]
-[v F22198 `(v ~T0 @X0 0 tf ]
-[v F22200 `(v ~T0 @X0 0 tf ]
-"2080 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
-[s S3083 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3083 . INT0EDG INT1EDG INT2EDG . IPEN GIEL GIE ]
-"2089
-[s S3084 :7 `uc 1 :1 `uc 1 ]
-[n S3084 . . GIEH ]
-"2079
-[u S3082 `S3083 1 `S3084 1 ]
-[n S3082 . . . ]
-"2094
-[v _INTCON0bits `VS3082 ~T0 @X0 0 e@1238 ]
-"65108
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65108:     struct {
-[s S2997 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S2997 . INT0IE ZCDIE ADIE ACTIE C1IE SMT1IE SMT1PRAIE SMT1PWAIE ]
-"65107
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65107: typedef union {
-[u S2996 `S2997 1 ]
-[n S2996 . . ]
-"65119
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65119: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x49F)));
-[v _PIE1bits `VS2996 ~T0 @X0 0 e@1183 ]
-"65426
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65426:     struct {
-[s S3008 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3008 . INT1IE CLC2IE CWG1IE NCO1IE DMA2SCNTIE DMA2DCNTIE DMA2ORIE DMA2AIE ]
-"65425
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65425: typedef union {
-[u S3007 `S3008 1 ]
-[n S3007 . . ]
-"65437
-[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65437: extern volatile PIE6bits_t PIE6bits __attribute__((address(0x4A4)));
-[v _PIE6bits `VS3007 ~T0 @X0 0 e@1188 ]
-"128
-[s S3016 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3016 . INT2IE CLC5IE CWG2IE NCO2IE DMA3SCNTIE DMA3DCNTIE DMA3ORIE DMA3AIE ]
-"127
-[u S3015 `S3016 1 ]
-[n S3015 . . ]
-"139
-[v _PIE10bits `VS3015 ~T0 @X0 0 e@1192 ]
+[v F22162 `(v ~T0 @X0 0 tf ]
+"39512 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39512: extern volatile unsigned char T1GCON __attribute__((address(0x31F)));
+[v _T1GCON `Vuc ~T0 @X0 0 e@799 ]
+"39726
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39726: extern volatile unsigned char T1GATE __attribute__((address(0x320)));
+[v _T1GATE `Vuc ~T0 @X0 0 e@800 ]
+"39892
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39892: extern volatile unsigned char T1CLK __attribute__((address(0x321)));
+[v _T1CLK `Vuc ~T0 @X0 0 e@801 ]
+"39252
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39252: extern volatile unsigned char TMR1H __attribute__((address(0x31D)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@797 ]
+"39182
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39182: extern volatile unsigned char TMR1L __attribute__((address(0x31C)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@796 ]
+"689
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 689:     };
+[s S3035 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3035 . SPI1RXIF SPI1TXIF SPI1IF TMR2IF TMR1IF TMR1GIF CCP1IF TMR0IF ]
+"688
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 688:         unsigned NVMADRL :8;
+[u S3034 `S3035 1 ]
+[n S3034 . . ]
+"700
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 700: } NVMADRLbits_t;
+[v _PIR3bits `VS3034 ~T0 @X0 0 e@1201 ]
+"65240
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65240:     struct {
+[s S3002 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3002 . SPI1RXIE SPI1TXIE SPI1IE TMR2IE TMR1IE TMR1GIE CCP1IE TMR0IE ]
+"65239
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65239: typedef union {
+[u S3001 `S3002 1 ]
+[n S3001 . . ]
+"65251
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 65251: extern volatile PIE3bits_t PIE3bits __attribute__((address(0x4A1)));
+[v _PIE3bits `VS3001 ~T0 @X0 0 e@1185 ]
+[v F22154 `(v ~T0 @X0 0 tf ]
+"403 mcc_generated_files/tmr1.h
+[; ;mcc_generated_files/tmr1.h: 403:  void TMR1_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _TMR1_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F22154 ]
+"439
+[; ;mcc_generated_files/tmr1.h: 439: void TMR1_DefaultInterruptHandler(void);
+[v _TMR1_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
+"39322 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39322: extern volatile unsigned char T1CON __attribute__((address(0x31E)));
+[v _T1CON `Vuc ~T0 @X0 0 e@798 ]
+"39333
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39333:     struct {
+[s S1833 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 ]
+[n S1833 . ON RD16 NOT_SYNC . CKPS ]
+"39340
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39340:     struct {
+[s S1834 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1834 . TMR1ON T1RD16 NOT_T1SYNC . T1CKPS0 T1CKPS1 ]
+"39348
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39348:     struct {
+[s S1835 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1835 . . CKPS0 CKPS1 ]
+"39353
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39353:     struct {
+[s S1836 :1 `uc 1 :1 `uc 1 ]
+[n S1836 . . RD161 ]
+"39332
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39332: typedef union {
+[u S1832 `S1833 1 `S1834 1 `S1835 1 `S1836 1 ]
+[n S1832 . . . . . ]
+"39358
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39358: extern volatile T1CONbits_t T1CONbits __attribute__((address(0x31E)));
+[v _T1CONbits `VS1832 ~T0 @X0 0 e@798 ]
+"39523
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39523:     struct {
+[s S1843 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1843 . . GVAL GGO GSPM GTM GPOL GE ]
+"39532
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39532:     struct {
+[s S1844 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S1844 . . T1GVAL T1GGO T1GSPM T1GTM T1GPOL T1GE ]
+"39541
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39541:     struct {
+[s S1845 :3 `uc 1 :1 `uc 1 ]
+[n S1845 . . NOT_DONE ]
+"39545
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39545:     struct {
+[s S1846 :3 `uc 1 :1 `uc 1 ]
+[n S1846 . . NOT_T1DONE ]
+"39522
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39522: typedef union {
+[u S1842 `S1843 1 `S1844 1 `S1845 1 `S1846 1 ]
+[n S1842 . . . . . ]
+"39550
+[; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 39550: extern volatile T1GCONbits_t T1GCONbits __attribute__((address(0x31F)));
+[v _T1GCONbits `VS1842 ~T0 @X0 0 e@799 ]
+"385 mcc_generated_files/tmr1.h
+[; ;mcc_generated_files/tmr1.h: 385: void TMR1_CallBack(void);
+[v _TMR1_CallBack `(v ~T0 @X0 0 ef ]
+[v F22179 `(v ~T0 @X0 0 tf ]
+[v F22181 `(v ~T0 @X0 0 tf ]
+[v F22183 `(v ~T0 @X0 0 tf ]
 "363 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
 [; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 363: __asm("BOOTREG equ 038h");
 [; <" BOOTREG equ 038h ;# ">
@@ -3605,261 +3615,308 @@ Version 4.0 HI-TECH Software Intermediate Code
 "68860
 [; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 68860: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
-"30 mcc_generated_files/ext_int.c
-[; ;mcc_generated_files/ext_int.c: 30: void (*INT0_InterruptHandler)(void);
-[v _INT0_InterruptHandler `*F22171 ~T0 @X0 1 e ]
-"31
-[; ;mcc_generated_files/ext_int.c: 31: void (*INT1_InterruptHandler)(void);
-[v _INT1_InterruptHandler `*F22173 ~T0 @X0 1 e ]
-"32
-[; ;mcc_generated_files/ext_int.c: 32: void (*INT2_InterruptHandler)(void);
-[v _INT2_InterruptHandler `*F22175 ~T0 @X0 1 e ]
-"34
-[; ;mcc_generated_files/ext_int.c: 34: void INT0_ISR(void)
-[v _INT0_ISR `(v ~T0 @X0 1 ef ]
-"35
-[; ;mcc_generated_files/ext_int.c: 35: {
+"57 mcc_generated_files/tmr1.c
+[; ;mcc_generated_files/tmr1.c: 57: volatile uint16_t timer1ReloadVal;
+[v _timer1ReloadVal `Vus ~T0 @X0 1 e ]
+"58
+[; ;mcc_generated_files/tmr1.c: 58: void (*TMR1_InterruptHandler)(void);
+[v _TMR1_InterruptHandler `*F22162 ~T0 @X0 1 e ]
+"64
+[; ;mcc_generated_files/tmr1.c: 64: void TMR1_Initialize(void)
+[v _TMR1_Initialize `(v ~T0 @X0 1 ef ]
+"65
+[; ;mcc_generated_files/tmr1.c: 65: {
 {
-[e :U _INT0_ISR ]
+[e :U _TMR1_Initialize ]
 [f ]
-"36
-[; ;mcc_generated_files/ext_int.c: 36:     (PIR1bits.INT0IF = 0);
-[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
-"39
-[; ;mcc_generated_files/ext_int.c: 39:     INT0_CallBack();
-[e ( _INT0_CallBack ..  ]
-"40
-[; ;mcc_generated_files/ext_int.c: 40: }
+"69
+[; ;mcc_generated_files/tmr1.c: 69:     T1GCON = 0x00;
+[e = _T1GCON -> -> 0 `i `uc ]
+"72
+[; ;mcc_generated_files/tmr1.c: 72:     T1GATE = 0x00;
+[e = _T1GATE -> -> 0 `i `uc ]
+"75
+[; ;mcc_generated_files/tmr1.c: 75:     T1CLK = 0x01;
+[e = _T1CLK -> -> 1 `i `uc ]
+"78
+[; ;mcc_generated_files/tmr1.c: 78:     TMR1H = 0x0B;
+[e = _TMR1H -> -> 11 `i `uc ]
+"81
+[; ;mcc_generated_files/tmr1.c: 81:     TMR1L = 0xDC;
+[e = _TMR1L -> -> 220 `i `uc ]
+"84
+[; ;mcc_generated_files/tmr1.c: 84:     PIR3bits.TMR1IF = 0;
+[e = . . _PIR3bits 0 4 -> -> 0 `i `uc ]
+"87
+[; ;mcc_generated_files/tmr1.c: 87:     timer1ReloadVal=(uint16_t)((TMR1H << 8) | TMR1L);
+[e = _timer1ReloadVal -> | << -> _TMR1H `i -> 8 `i -> _TMR1L `i `us ]
+"90
+[; ;mcc_generated_files/tmr1.c: 90:     PIE3bits.TMR1IE = 1;
+[e = . . _PIE3bits 0 4 -> -> 1 `i `uc ]
+"93
+[; ;mcc_generated_files/tmr1.c: 93:     TMR1_SetInterruptHandler(TMR1_DefaultInterruptHandler);
+[e ( _TMR1_SetInterruptHandler (1 &U _TMR1_DefaultInterruptHandler ]
+"96
+[; ;mcc_generated_files/tmr1.c: 96:     T1CON = 0x21;
+[e = _T1CON -> -> 33 `i `uc ]
+"97
+[; ;mcc_generated_files/tmr1.c: 97: }
 [e :UE 3176 ]
 }
-"43
-[; ;mcc_generated_files/ext_int.c: 43: void INT0_CallBack(void)
-[v _INT0_CallBack `(v ~T0 @X0 1 ef ]
-"44
-[; ;mcc_generated_files/ext_int.c: 44: {
+"99
+[; ;mcc_generated_files/tmr1.c: 99: void TMR1_StartTimer(void)
+[v _TMR1_StartTimer `(v ~T0 @X0 1 ef ]
+"100
+[; ;mcc_generated_files/tmr1.c: 100: {
 {
-[e :U _INT0_CallBack ]
+[e :U _TMR1_StartTimer ]
 [f ]
-"46
-[; ;mcc_generated_files/ext_int.c: 46:     if(INT0_InterruptHandler)
-[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F22178 3178  ]
-"47
-[; ;mcc_generated_files/ext_int.c: 47:     {
-{
-"48
-[; ;mcc_generated_files/ext_int.c: 48:         INT0_InterruptHandler();
-[e ( *U _INT0_InterruptHandler ..  ]
-"49
-[; ;mcc_generated_files/ext_int.c: 49:     }
-}
-[e :U 3178 ]
-"50
-[; ;mcc_generated_files/ext_int.c: 50: }
+"102
+[; ;mcc_generated_files/tmr1.c: 102:     T1CONbits.TMR1ON = 1;
+[e = . . _T1CONbits 1 0 -> -> 1 `i `uc ]
+"103
+[; ;mcc_generated_files/tmr1.c: 103: }
 [e :UE 3177 ]
 }
-"52
-[; ;mcc_generated_files/ext_int.c: 52: void INT0_SetInterruptHandler(void (* InterruptHandler)(void)){
-[v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F22180 ]
+"105
+[; ;mcc_generated_files/tmr1.c: 105: void TMR1_StopTimer(void)
+[v _TMR1_StopTimer `(v ~T0 @X0 1 ef ]
+"106
+[; ;mcc_generated_files/tmr1.c: 106: {
 {
-[e :U _INT0_SetInterruptHandler ]
-[v _InterruptHandler `*F22182 ~T0 @X0 1 r1 ]
+[e :U _TMR1_StopTimer ]
 [f ]
-"53
-[; ;mcc_generated_files/ext_int.c: 53:     INT0_InterruptHandler = InterruptHandler;
-[e = _INT0_InterruptHandler _InterruptHandler ]
-"54
-[; ;mcc_generated_files/ext_int.c: 54: }
+"108
+[; ;mcc_generated_files/tmr1.c: 108:     T1CONbits.TMR1ON = 0;
+[e = . . _T1CONbits 1 0 -> -> 0 `i `uc ]
+"109
+[; ;mcc_generated_files/tmr1.c: 109: }
+[e :UE 3178 ]
+}
+"111
+[; ;mcc_generated_files/tmr1.c: 111: uint16_t TMR1_ReadTimer(void)
+[v _TMR1_ReadTimer `(us ~T0 @X0 1 ef ]
+"112
+[; ;mcc_generated_files/tmr1.c: 112: {
+{
+[e :U _TMR1_ReadTimer ]
+[f ]
+"113
+[; ;mcc_generated_files/tmr1.c: 113:     uint16_t readVal;
+[v _readVal `us ~T0 @X0 1 a ]
+"114
+[; ;mcc_generated_files/tmr1.c: 114:     uint8_t readValHigh;
+[v _readValHigh `uc ~T0 @X0 1 a ]
+"115
+[; ;mcc_generated_files/tmr1.c: 115:     uint8_t readValLow;
+[v _readValLow `uc ~T0 @X0 1 a ]
+"117
+[; ;mcc_generated_files/tmr1.c: 117:     T1CONbits.T1RD16 = 1;
+[e = . . _T1CONbits 1 1 -> -> 1 `i `uc ]
+"119
+[; ;mcc_generated_files/tmr1.c: 119:     readValLow = TMR1L;
+[e = _readValLow _TMR1L ]
+"120
+[; ;mcc_generated_files/tmr1.c: 120:     readValHigh = TMR1H;
+[e = _readValHigh _TMR1H ]
+"122
+[; ;mcc_generated_files/tmr1.c: 122:     readVal = ((uint16_t)readValHigh << 8) | readValLow;
+[e = _readVal -> | << -> -> _readValHigh `us `ui -> 8 `i -> _readValLow `ui `us ]
+"124
+[; ;mcc_generated_files/tmr1.c: 124:     return readVal;
+[e ) _readVal ]
+[e $UE 3179  ]
+"125
+[; ;mcc_generated_files/tmr1.c: 125: }
 [e :UE 3179 ]
 }
-"56
-[; ;mcc_generated_files/ext_int.c: 56: void INT0_DefaultInterruptHandler(void){
-[v _INT0_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
+"127
+[; ;mcc_generated_files/tmr1.c: 127: void TMR1_WriteTimer(uint16_t timerVal)
+[v _TMR1_WriteTimer `(v ~T0 @X0 1 ef1`us ]
+"128
+[; ;mcc_generated_files/tmr1.c: 128: {
 {
-[e :U _INT0_DefaultInterruptHandler ]
+[e :U _TMR1_WriteTimer ]
+"127
+[; ;mcc_generated_files/tmr1.c: 127: void TMR1_WriteTimer(uint16_t timerVal)
+[v _timerVal `us ~T0 @X0 1 r1 ]
+"128
+[; ;mcc_generated_files/tmr1.c: 128: {
 [f ]
-"59
-[; ;mcc_generated_files/ext_int.c: 59: }
+"129
+[; ;mcc_generated_files/tmr1.c: 129:     if (T1CONbits.NOT_SYNC == 1)
+[e $ ! == -> . . _T1CONbits 0 2 `i -> 1 `i 3181  ]
+"130
+[; ;mcc_generated_files/tmr1.c: 130:     {
+{
+"132
+[; ;mcc_generated_files/tmr1.c: 132:         T1CONbits.TMR1ON = 0;
+[e = . . _T1CONbits 1 0 -> -> 0 `i `uc ]
+"135
+[; ;mcc_generated_files/tmr1.c: 135:         TMR1H = (uint8_t)(timerVal >> 8);
+[e = _TMR1H -> >> -> _timerVal `ui -> 8 `i `uc ]
+"136
+[; ;mcc_generated_files/tmr1.c: 136:         TMR1L = (uint8_t)timerVal;
+[e = _TMR1L -> _timerVal `uc ]
+"139
+[; ;mcc_generated_files/tmr1.c: 139:         T1CONbits.TMR1ON =1;
+[e = . . _T1CONbits 1 0 -> -> 1 `i `uc ]
+"140
+[; ;mcc_generated_files/tmr1.c: 140:     }
+}
+[e $U 3182  ]
+"141
+[; ;mcc_generated_files/tmr1.c: 141:     else
+[e :U 3181 ]
+"142
+[; ;mcc_generated_files/tmr1.c: 142:     {
+{
+"144
+[; ;mcc_generated_files/tmr1.c: 144:         TMR1H = (uint8_t)(timerVal >> 8);
+[e = _TMR1H -> >> -> _timerVal `ui -> 8 `i `uc ]
+"145
+[; ;mcc_generated_files/tmr1.c: 145:         TMR1L = (uint8_t)timerVal;
+[e = _TMR1L -> _timerVal `uc ]
+"146
+[; ;mcc_generated_files/tmr1.c: 146:     }
+}
+[e :U 3182 ]
+"147
+[; ;mcc_generated_files/tmr1.c: 147: }
 [e :UE 3180 ]
 }
-"60
-[; ;mcc_generated_files/ext_int.c: 60: void INT1_ISR(void)
-[v _INT1_ISR `(v ~T0 @X0 1 ef ]
-"61
-[; ;mcc_generated_files/ext_int.c: 61: {
+"149
+[; ;mcc_generated_files/tmr1.c: 149: void TMR1_Reload(void)
+[v _TMR1_Reload `(v ~T0 @X0 1 ef ]
+"150
+[; ;mcc_generated_files/tmr1.c: 150: {
 {
-[e :U _INT1_ISR ]
+[e :U _TMR1_Reload ]
 [f ]
-"62
-[; ;mcc_generated_files/ext_int.c: 62:     (PIR6bits.INT1IF = 0);
-[e = . . _PIR6bits 0 0 -> -> 0 `i `uc ]
-"65
-[; ;mcc_generated_files/ext_int.c: 65:     INT1_CallBack();
-[e ( _INT1_CallBack ..  ]
-"66
-[; ;mcc_generated_files/ext_int.c: 66: }
-[e :UE 3181 ]
+"151
+[; ;mcc_generated_files/tmr1.c: 151:     TMR1_WriteTimer(timer1ReloadVal);
+[e ( _TMR1_WriteTimer (1 _timer1ReloadVal ]
+"152
+[; ;mcc_generated_files/tmr1.c: 152: }
+[e :UE 3183 ]
 }
-"69
-[; ;mcc_generated_files/ext_int.c: 69: void INT1_CallBack(void)
-[v _INT1_CallBack `(v ~T0 @X0 1 ef ]
-"70
-[; ;mcc_generated_files/ext_int.c: 70: {
+"154
+[; ;mcc_generated_files/tmr1.c: 154: void TMR1_StartSinglePulseAcquisition(void)
+[v _TMR1_StartSinglePulseAcquisition `(v ~T0 @X0 1 ef ]
+"155
+[; ;mcc_generated_files/tmr1.c: 155: {
 {
-[e :U _INT1_CallBack ]
+[e :U _TMR1_StartSinglePulseAcquisition ]
 [f ]
-"72
-[; ;mcc_generated_files/ext_int.c: 72:     if(INT1_InterruptHandler)
-[e $ ! != _INT1_InterruptHandler -> -> 0 `i `*F22187 3183  ]
-"73
-[; ;mcc_generated_files/ext_int.c: 73:     {
-{
-"74
-[; ;mcc_generated_files/ext_int.c: 74:         INT1_InterruptHandler();
-[e ( *U _INT1_InterruptHandler ..  ]
-"75
-[; ;mcc_generated_files/ext_int.c: 75:     }
-}
-[e :U 3183 ]
-"76
-[; ;mcc_generated_files/ext_int.c: 76: }
-[e :UE 3182 ]
-}
-"78
-[; ;mcc_generated_files/ext_int.c: 78: void INT1_SetInterruptHandler(void (* InterruptHandler)(void)){
-[v _INT1_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F22189 ]
-{
-[e :U _INT1_SetInterruptHandler ]
-[v _InterruptHandler `*F22191 ~T0 @X0 1 r1 ]
-[f ]
-"79
-[; ;mcc_generated_files/ext_int.c: 79:     INT1_InterruptHandler = InterruptHandler;
-[e = _INT1_InterruptHandler _InterruptHandler ]
-"80
-[; ;mcc_generated_files/ext_int.c: 80: }
+"156
+[; ;mcc_generated_files/tmr1.c: 156:     T1GCONbits.T1GGO = 1;
+[e = . . _T1GCONbits 1 2 -> -> 1 `i `uc ]
+"157
+[; ;mcc_generated_files/tmr1.c: 157: }
 [e :UE 3184 ]
 }
-"82
-[; ;mcc_generated_files/ext_int.c: 82: void INT1_DefaultInterruptHandler(void){
-[v _INT1_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
+"159
+[; ;mcc_generated_files/tmr1.c: 159: uint8_t TMR1_CheckGateValueStatus(void)
+[v _TMR1_CheckGateValueStatus `(uc ~T0 @X0 1 ef ]
+"160
+[; ;mcc_generated_files/tmr1.c: 160: {
 {
-[e :U _INT1_DefaultInterruptHandler ]
+[e :U _TMR1_CheckGateValueStatus ]
 [f ]
-"85
-[; ;mcc_generated_files/ext_int.c: 85: }
+"161
+[; ;mcc_generated_files/tmr1.c: 161:     return (T1GCONbits.T1GVAL);
+[e ) . . _T1GCONbits 1 1 ]
+[e $UE 3185  ]
+"162
+[; ;mcc_generated_files/tmr1.c: 162: }
 [e :UE 3185 ]
 }
-"86
-[; ;mcc_generated_files/ext_int.c: 86: void INT2_ISR(void)
-[v _INT2_ISR `(v ~T0 @X0 1 ef ]
-"87
-[; ;mcc_generated_files/ext_int.c: 87: {
+"164
+[; ;mcc_generated_files/tmr1.c: 164: void TMR1_ISR(void)
+[v _TMR1_ISR `(v ~T0 @X0 1 ef ]
+"165
+[; ;mcc_generated_files/tmr1.c: 165: {
 {
-[e :U _INT2_ISR ]
+[e :U _TMR1_ISR ]
 [f ]
-"88
-[; ;mcc_generated_files/ext_int.c: 88:     (PIR10bits.INT2IF = 0);
-[e = . . _PIR10bits 0 0 -> -> 0 `i `uc ]
-"91
-[; ;mcc_generated_files/ext_int.c: 91:     INT2_CallBack();
-[e ( _INT2_CallBack ..  ]
-"92
-[; ;mcc_generated_files/ext_int.c: 92: }
+"166
+[; ;mcc_generated_files/tmr1.c: 166:     static volatile unsigned int CountCallBack = 0;
+[v F22177 `Vui ~T0 @X0 1 s CountCallBack ]
+[i F22177
+-> -> 0 `i `ui
+]
+"169
+[; ;mcc_generated_files/tmr1.c: 169:     PIR3bits.TMR1IF = 0;
+[e = . . _PIR3bits 0 4 -> -> 0 `i `uc ]
+"170
+[; ;mcc_generated_files/tmr1.c: 170:     TMR1_WriteTimer(timer1ReloadVal);
+[e ( _TMR1_WriteTimer (1 _timer1ReloadVal ]
+"173
+[; ;mcc_generated_files/tmr1.c: 173:     if (++CountCallBack >= 5)
+[e $ ! >= =+ F22177 -> -> 1 `i `Vui -> -> 5 `i `ui 3187  ]
+"174
+[; ;mcc_generated_files/tmr1.c: 174:     {
+{
+"176
+[; ;mcc_generated_files/tmr1.c: 176:         TMR1_CallBack();
+[e ( _TMR1_CallBack ..  ]
+"179
+[; ;mcc_generated_files/tmr1.c: 179:         CountCallBack = 0;
+[e = F22177 -> -> 0 `i `ui ]
+"180
+[; ;mcc_generated_files/tmr1.c: 180:     }
+}
+[e :U 3187 ]
+"181
+[; ;mcc_generated_files/tmr1.c: 181: }
 [e :UE 3186 ]
 }
-"95
-[; ;mcc_generated_files/ext_int.c: 95: void INT2_CallBack(void)
-[v _INT2_CallBack `(v ~T0 @X0 1 ef ]
-"96
-[; ;mcc_generated_files/ext_int.c: 96: {
+"183
+[; ;mcc_generated_files/tmr1.c: 183: void TMR1_CallBack(void)
+[v _TMR1_CallBack `(v ~T0 @X0 1 ef ]
+"184
+[; ;mcc_generated_files/tmr1.c: 184: {
 {
-[e :U _INT2_CallBack ]
+[e :U _TMR1_CallBack ]
 [f ]
-"98
-[; ;mcc_generated_files/ext_int.c: 98:     if(INT2_InterruptHandler)
-[e $ ! != _INT2_InterruptHandler -> -> 0 `i `*F22196 3188  ]
-"99
-[; ;mcc_generated_files/ext_int.c: 99:     {
+"186
+[; ;mcc_generated_files/tmr1.c: 186:     if(TMR1_InterruptHandler)
+[e $ ! != _TMR1_InterruptHandler -> -> 0 `i `*F22179 3189  ]
+"187
+[; ;mcc_generated_files/tmr1.c: 187:     {
 {
-"100
-[; ;mcc_generated_files/ext_int.c: 100:         INT2_InterruptHandler();
-[e ( *U _INT2_InterruptHandler ..  ]
-"101
-[; ;mcc_generated_files/ext_int.c: 101:     }
+"188
+[; ;mcc_generated_files/tmr1.c: 188:         TMR1_InterruptHandler();
+[e ( *U _TMR1_InterruptHandler ..  ]
+"189
+[; ;mcc_generated_files/tmr1.c: 189:     }
 }
-[e :U 3188 ]
-"102
-[; ;mcc_generated_files/ext_int.c: 102: }
-[e :UE 3187 ]
+[e :U 3189 ]
+"190
+[; ;mcc_generated_files/tmr1.c: 190: }
+[e :UE 3188 ]
 }
-"104
-[; ;mcc_generated_files/ext_int.c: 104: void INT2_SetInterruptHandler(void (* InterruptHandler)(void)){
-[v _INT2_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F22198 ]
+"192
+[; ;mcc_generated_files/tmr1.c: 192: void TMR1_SetInterruptHandler(void (* InterruptHandler)(void)){
+[v _TMR1_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F22181 ]
 {
-[e :U _INT2_SetInterruptHandler ]
-[v _InterruptHandler `*F22200 ~T0 @X0 1 r1 ]
+[e :U _TMR1_SetInterruptHandler ]
+[v _InterruptHandler `*F22183 ~T0 @X0 1 r1 ]
 [f ]
-"105
-[; ;mcc_generated_files/ext_int.c: 105:     INT2_InterruptHandler = InterruptHandler;
-[e = _INT2_InterruptHandler _InterruptHandler ]
-"106
-[; ;mcc_generated_files/ext_int.c: 106: }
-[e :UE 3189 ]
-}
-"108
-[; ;mcc_generated_files/ext_int.c: 108: void INT2_DefaultInterruptHandler(void){
-[v _INT2_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
-{
-[e :U _INT2_DefaultInterruptHandler ]
-[f ]
-"111
-[; ;mcc_generated_files/ext_int.c: 111: }
+"193
+[; ;mcc_generated_files/tmr1.c: 193:     TMR1_InterruptHandler = InterruptHandler;
+[e = _TMR1_InterruptHandler _InterruptHandler ]
+"194
+[; ;mcc_generated_files/tmr1.c: 194: }
 [e :UE 3190 ]
 }
-"113
-[; ;mcc_generated_files/ext_int.c: 113: void EXT_INT_Initialize(void)
-[v _EXT_INT_Initialize `(v ~T0 @X0 1 ef ]
-"114
-[; ;mcc_generated_files/ext_int.c: 114: {
+"196
+[; ;mcc_generated_files/tmr1.c: 196: void TMR1_DefaultInterruptHandler(void){
+[v _TMR1_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
 {
-[e :U _EXT_INT_Initialize ]
+[e :U _TMR1_DefaultInterruptHandler ]
 [f ]
-"118
-[; ;mcc_generated_files/ext_int.c: 118:     (PIR1bits.INT0IF = 0);
-[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
-"119
-[; ;mcc_generated_files/ext_int.c: 119:     (INTCON0bits.INT0EDG = 1);
-[e = . . _INTCON0bits 0 0 -> -> 1 `i `uc ]
-"121
-[; ;mcc_generated_files/ext_int.c: 121:     INT0_SetInterruptHandler(INT0_DefaultInterruptHandler);
-[e ( _INT0_SetInterruptHandler (1 &U _INT0_DefaultInterruptHandler ]
-"122
-[; ;mcc_generated_files/ext_int.c: 122:     (PIE1bits.INT0IE = 1);
-[e = . . _PIE1bits 0 0 -> -> 1 `i `uc ]
-"127
-[; ;mcc_generated_files/ext_int.c: 127:     (PIR6bits.INT1IF = 0);
-[e = . . _PIR6bits 0 0 -> -> 0 `i `uc ]
-"128
-[; ;mcc_generated_files/ext_int.c: 128:     (INTCON0bits.INT1EDG = 1);
-[e = . . _INTCON0bits 0 1 -> -> 1 `i `uc ]
-"130
-[; ;mcc_generated_files/ext_int.c: 130:     INT1_SetInterruptHandler(INT1_DefaultInterruptHandler);
-[e ( _INT1_SetInterruptHandler (1 &U _INT1_DefaultInterruptHandler ]
-"131
-[; ;mcc_generated_files/ext_int.c: 131:     (PIE6bits.INT1IE = 1);
-[e = . . _PIE6bits 0 0 -> -> 1 `i `uc ]
-"136
-[; ;mcc_generated_files/ext_int.c: 136:     (PIR10bits.INT2IF = 0);
-[e = . . _PIR10bits 0 0 -> -> 0 `i `uc ]
-"137
-[; ;mcc_generated_files/ext_int.c: 137:     (INTCON0bits.INT2EDG = 1);
-[e = . . _INTCON0bits 0 2 -> -> 1 `i `uc ]
-"139
-[; ;mcc_generated_files/ext_int.c: 139:     INT2_SetInterruptHandler(INT2_DefaultInterruptHandler);
-[e ( _INT2_SetInterruptHandler (1 &U _INT2_DefaultInterruptHandler ]
-"140
-[; ;mcc_generated_files/ext_int.c: 140:     (PIE10bits.INT2IE = 1);
-[e = . . _PIE10bits 0 0 -> -> 1 `i `uc ]
-"142
-[; ;mcc_generated_files/ext_int.c: 142: }
+"199
+[; ;mcc_generated_files/tmr1.c: 199: }
 [e :UE 3191 ]
 }

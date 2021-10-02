@@ -3857,8 +3857,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _ADC_Initialize ]
 [f ]
 "68
-[; ;mcc_generated_files/adc.c: 68:     ADACT = 0x01;
-[e = _ADACT -> -> 1 `i `uc ]
+[; ;mcc_generated_files/adc.c: 68:     ADACT = 0x02;
+[e = _ADACT -> -> 2 `i `uc ]
 "71
 [; ;mcc_generated_files/adc.c: 71:     ADCLK = 0x00;
 [e = _ADCLK -> -> 0 `i `uc ]

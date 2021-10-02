@@ -37669,7 +37669,7 @@ static void ADC_DefaultActiveClockTuning_ISR(void);
 void ADC_Initialize(void)
 {
 
-    ADACT = 0x01;
+    ADACT = 0x02;
 
 
     ADCLK = 0x00;

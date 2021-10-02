@@ -12,9 +12,17 @@
 extern "C" {
 #endif
 
+// OUR CONSTANTS
 #define tyre_perimeter_cm 167
 #define wheel_teeth 32
-
+#define WHEEL_FL  1
+#define WHEEL_FR  2
+#define WHEEL_RL  3
+#define WHEEL_RR  4
+    
+    
+//VARIABLES
+extern unsigned char ucWheelID = WHEEL_FL;
 
 #ifdef	__cplusplus
 }

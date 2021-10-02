@@ -37744,7 +37744,7 @@ CAN_OP_MODE_STATUS CAN1_OperationModeSet(const CAN_OP_MODES requestMode)
             || CAN_CONFIGURATION_MODE == requestMode)
     {
         C1CONTbits.REQOP = requestMode;
-# 149 "mcc_generated_files/can1.c"
+# 150 "mcc_generated_files/can1.c"
     }
     else
     {

@@ -3756,177 +3756,177 @@ Version 4.0 HI-TECH Software Intermediate Code
 "138
 [; ;mcc_generated_files/can1.c: 138:         C1CONTbits.REQOP = requestMode;
 [e = . . _C1CONTbits 0 0 -> _requestMode `uc ]
-"149
-[; ;mcc_generated_files/can1.c: 149:     }
+"150
+[; ;mcc_generated_files/can1.c: 150:     }
 }
 [e $U 3186  ]
-"150
-[; ;mcc_generated_files/can1.c: 150:     else
-[e :U 3185 ]
 "151
-[; ;mcc_generated_files/can1.c: 151:     {
-{
+[; ;mcc_generated_files/can1.c: 151:     else
+[e :U 3185 ]
 "152
-[; ;mcc_generated_files/can1.c: 152:         status = CAN_OP_MODE_REQUEST_FAIL;
-[e = _status . `E22356 1 ]
+[; ;mcc_generated_files/can1.c: 152:     {
+{
 "153
-[; ;mcc_generated_files/can1.c: 153:     }
+[; ;mcc_generated_files/can1.c: 153:         status = CAN_OP_MODE_REQUEST_FAIL;
+[e = _status . `E22356 1 ]
+"154
+[; ;mcc_generated_files/can1.c: 154:     }
 }
 [e :U 3186 ]
-"155
-[; ;mcc_generated_files/can1.c: 155:     return status;
+"156
+[; ;mcc_generated_files/can1.c: 156:     return status;
 [e ) _status ]
 [e $UE 3184  ]
-"156
-[; ;mcc_generated_files/can1.c: 156: }
+"157
+[; ;mcc_generated_files/can1.c: 157: }
 [e :UE 3184 ]
 }
-"158
-[; ;mcc_generated_files/can1.c: 158: CAN_OP_MODES CAN1_OperationModeGet(void)
-[v _CAN1_OperationModeGet `(E22346 ~T0 @X0 1 ef ]
 "159
-[; ;mcc_generated_files/can1.c: 159: {
+[; ;mcc_generated_files/can1.c: 159: CAN_OP_MODES CAN1_OperationModeGet(void)
+[v _CAN1_OperationModeGet `(E22346 ~T0 @X0 1 ef ]
+"160
+[; ;mcc_generated_files/can1.c: 160: {
 {
 [e :U _CAN1_OperationModeGet ]
 [f ]
-"160
-[; ;mcc_generated_files/can1.c: 160:     return C1CONUbits.OPMOD;
+"161
+[; ;mcc_generated_files/can1.c: 161:     return C1CONUbits.OPMOD;
 [e ) -> . . _C1CONUbits 0 5 `E22346 ]
 [e $UE 3187  ]
-"161
-[; ;mcc_generated_files/can1.c: 161: }
+"162
+[; ;mcc_generated_files/can1.c: 162: }
 [e :UE 3187 ]
 }
-"165
-[; ;mcc_generated_files/can1.c: 165: _Bool CAN1_IsBusOff(void)
-[v _CAN1_IsBusOff `(a ~T0 @X0 1 ef ]
 "166
-[; ;mcc_generated_files/can1.c: 166: {
+[; ;mcc_generated_files/can1.c: 166: _Bool CAN1_IsBusOff(void)
+[v _CAN1_IsBusOff `(a ~T0 @X0 1 ef ]
+"167
+[; ;mcc_generated_files/can1.c: 167: {
 {
 [e :U _CAN1_IsBusOff ]
 [f ]
-"167
-[; ;mcc_generated_files/can1.c: 167:     return C1TRECUbits.TXBO;
+"168
+[; ;mcc_generated_files/can1.c: 168:     return C1TRECUbits.TXBO;
 [e ) -> . . _C1TRECUbits 0 5 `a ]
 [e $UE 3188  ]
-"168
-[; ;mcc_generated_files/can1.c: 168: }
+"169
+[; ;mcc_generated_files/can1.c: 169: }
 [e :UE 3188 ]
 }
-"170
-[; ;mcc_generated_files/can1.c: 170: _Bool CAN1_IsRxErrorPassive(void)
-[v _CAN1_IsRxErrorPassive `(a ~T0 @X0 1 ef ]
 "171
-[; ;mcc_generated_files/can1.c: 171: {
+[; ;mcc_generated_files/can1.c: 171: _Bool CAN1_IsRxErrorPassive(void)
+[v _CAN1_IsRxErrorPassive `(a ~T0 @X0 1 ef ]
+"172
+[; ;mcc_generated_files/can1.c: 172: {
 {
 [e :U _CAN1_IsRxErrorPassive ]
 [f ]
-"172
-[; ;mcc_generated_files/can1.c: 172:     return C1TRECUbits.RXBP;
+"173
+[; ;mcc_generated_files/can1.c: 173:     return C1TRECUbits.RXBP;
 [e ) -> . . _C1TRECUbits 0 3 `a ]
 [e $UE 3189  ]
-"173
-[; ;mcc_generated_files/can1.c: 173: }
+"174
+[; ;mcc_generated_files/can1.c: 174: }
 [e :UE 3189 ]
 }
-"175
-[; ;mcc_generated_files/can1.c: 175: _Bool CAN1_IsRxErrorWarning(void)
-[v _CAN1_IsRxErrorWarning `(a ~T0 @X0 1 ef ]
 "176
-[; ;mcc_generated_files/can1.c: 176: {
+[; ;mcc_generated_files/can1.c: 176: _Bool CAN1_IsRxErrorWarning(void)
+[v _CAN1_IsRxErrorWarning `(a ~T0 @X0 1 ef ]
+"177
+[; ;mcc_generated_files/can1.c: 177: {
 {
 [e :U _CAN1_IsRxErrorWarning ]
 [f ]
-"177
-[; ;mcc_generated_files/can1.c: 177:     return C1TRECUbits.RXWARN;
+"178
+[; ;mcc_generated_files/can1.c: 178:     return C1TRECUbits.RXWARN;
 [e ) -> . . _C1TRECUbits 0 1 `a ]
 [e $UE 3190  ]
-"178
-[; ;mcc_generated_files/can1.c: 178: }
+"179
+[; ;mcc_generated_files/can1.c: 179: }
 [e :UE 3190 ]
 }
-"180
-[; ;mcc_generated_files/can1.c: 180: _Bool CAN1_IsRxErrorActive(void)
-[v _CAN1_IsRxErrorActive `(a ~T0 @X0 1 ef ]
 "181
-[; ;mcc_generated_files/can1.c: 181: {
+[; ;mcc_generated_files/can1.c: 181: _Bool CAN1_IsRxErrorActive(void)
+[v _CAN1_IsRxErrorActive `(a ~T0 @X0 1 ef ]
+"182
+[; ;mcc_generated_files/can1.c: 182: {
 {
 [e :U _CAN1_IsRxErrorActive ]
 [f ]
-"182
-[; ;mcc_generated_files/can1.c: 182:     return !CAN1_IsRxErrorPassive();
+"183
+[; ;mcc_generated_files/can1.c: 183:     return !CAN1_IsRxErrorPassive();
 [e ) -> -> ! != -> ( _CAN1_IsRxErrorPassive ..  `i -> 0 `i `i `a ]
 [e $UE 3191  ]
-"183
-[; ;mcc_generated_files/can1.c: 183: }
+"184
+[; ;mcc_generated_files/can1.c: 184: }
 [e :UE 3191 ]
 }
-"185
-[; ;mcc_generated_files/can1.c: 185: _Bool CAN1_IsTxErrorPassive(void)
-[v _CAN1_IsTxErrorPassive `(a ~T0 @X0 1 ef ]
 "186
-[; ;mcc_generated_files/can1.c: 186: {
+[; ;mcc_generated_files/can1.c: 186: _Bool CAN1_IsTxErrorPassive(void)
+[v _CAN1_IsTxErrorPassive `(a ~T0 @X0 1 ef ]
+"187
+[; ;mcc_generated_files/can1.c: 187: {
 {
 [e :U _CAN1_IsTxErrorPassive ]
 [f ]
-"187
-[; ;mcc_generated_files/can1.c: 187:     return C1TRECUbits.TXBP;
+"188
+[; ;mcc_generated_files/can1.c: 188:     return C1TRECUbits.TXBP;
 [e ) -> . . _C1TRECUbits 0 4 `a ]
 [e $UE 3192  ]
-"188
-[; ;mcc_generated_files/can1.c: 188: }
+"189
+[; ;mcc_generated_files/can1.c: 189: }
 [e :UE 3192 ]
 }
-"190
-[; ;mcc_generated_files/can1.c: 190: _Bool CAN1_IsTxErrorWarning(void)
-[v _CAN1_IsTxErrorWarning `(a ~T0 @X0 1 ef ]
 "191
-[; ;mcc_generated_files/can1.c: 191: {
+[; ;mcc_generated_files/can1.c: 191: _Bool CAN1_IsTxErrorWarning(void)
+[v _CAN1_IsTxErrorWarning `(a ~T0 @X0 1 ef ]
+"192
+[; ;mcc_generated_files/can1.c: 192: {
 {
 [e :U _CAN1_IsTxErrorWarning ]
 [f ]
-"192
-[; ;mcc_generated_files/can1.c: 192:     return C1TRECUbits.TXWARN;
+"193
+[; ;mcc_generated_files/can1.c: 193:     return C1TRECUbits.TXWARN;
 [e ) -> . . _C1TRECUbits 0 2 `a ]
 [e $UE 3193  ]
-"193
-[; ;mcc_generated_files/can1.c: 193: }
+"194
+[; ;mcc_generated_files/can1.c: 194: }
 [e :UE 3193 ]
 }
-"195
-[; ;mcc_generated_files/can1.c: 195: _Bool CAN1_IsTxErrorActive(void)
-[v _CAN1_IsTxErrorActive `(a ~T0 @X0 1 ef ]
 "196
-[; ;mcc_generated_files/can1.c: 196: {
+[; ;mcc_generated_files/can1.c: 196: _Bool CAN1_IsTxErrorActive(void)
+[v _CAN1_IsTxErrorActive `(a ~T0 @X0 1 ef ]
+"197
+[; ;mcc_generated_files/can1.c: 197: {
 {
 [e :U _CAN1_IsTxErrorActive ]
 [f ]
-"197
-[; ;mcc_generated_files/can1.c: 197:     return !CAN1_IsTxErrorPassive();
+"198
+[; ;mcc_generated_files/can1.c: 198:     return !CAN1_IsTxErrorPassive();
 [e ) -> -> ! != -> ( _CAN1_IsTxErrorPassive ..  `i -> 0 `i `i `a ]
 [e $UE 3194  ]
-"198
-[; ;mcc_generated_files/can1.c: 198: }
+"199
+[; ;mcc_generated_files/can1.c: 199: }
 [e :UE 3194 ]
 }
-"200
-[; ;mcc_generated_files/can1.c: 200: void CAN1_Sleep(void)
-[v _CAN1_Sleep `(v ~T0 @X0 1 ef ]
 "201
-[; ;mcc_generated_files/can1.c: 201: {
+[; ;mcc_generated_files/can1.c: 201: void CAN1_Sleep(void)
+[v _CAN1_Sleep `(v ~T0 @X0 1 ef ]
+"202
+[; ;mcc_generated_files/can1.c: 202: {
 {
 [e :U _CAN1_Sleep ]
 [f ]
-"202
-[; ;mcc_generated_files/can1.c: 202:     C1INTHbits.WAKIF = 0;
-[e = . . _C1INTHbits 0 5 -> -> 0 `i `uc ]
 "203
-[; ;mcc_generated_files/can1.c: 203:     C1INTTbits.WAKIE = 1;
+[; ;mcc_generated_files/can1.c: 203:     C1INTHbits.WAKIF = 0;
+[e = . . _C1INTHbits 0 5 -> -> 0 `i `uc ]
+"204
+[; ;mcc_generated_files/can1.c: 204:     C1INTTbits.WAKIE = 1;
 [e = . . _C1INTTbits 0 5 -> -> 1 `i `uc ]
-"205
-[; ;mcc_generated_files/can1.c: 205:     CAN1_OperationModeSet(CAN_DISABLE_MODE);
-[e ( _CAN1_OperationModeSet (1 . `E22346 1 ]
 "206
-[; ;mcc_generated_files/can1.c: 206: }
+[; ;mcc_generated_files/can1.c: 206:     CAN1_OperationModeSet(CAN_DISABLE_MODE);
+[e ( _CAN1_OperationModeSet (1 . `E22346 1 ]
+"207
+[; ;mcc_generated_files/can1.c: 207: }
 [e :UE 3195 ]
 }

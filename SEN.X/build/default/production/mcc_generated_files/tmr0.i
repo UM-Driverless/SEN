@@ -1,4 +1,4 @@
-# 1 "mcc_generated_files/delay.c"
+# 1 "mcc_generated_files/tmr0.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,8 +6,8 @@
 # 1 "<built-in>" 2
 # 1 "C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "mcc_generated_files/delay.c" 2
-# 29 "mcc_generated_files/delay.c"
+# 1 "mcc_generated_files/tmr0.c" 2
+# 51 "mcc_generated_files/tmr0.c"
 # 1 "C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -37481,10 +37481,55 @@ __attribute__((__unsupported__("The READTIMER" "3" "() macro is not available wi
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\\pic\\include\\xc.h" 2 3
-# 29 "mcc_generated_files/delay.c" 2
+# 51 "mcc_generated_files/tmr0.c" 2
 
-# 1 "mcc_generated_files/device_config.h" 1
-# 30 "mcc_generated_files/delay.c" 2
+# 1 "mcc_generated_files/tmr0.h" 1
+# 55 "mcc_generated_files/tmr0.h"
+# 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdbool.h" 1 3
+# 55 "mcc_generated_files/tmr0.h" 2
+# 106 "mcc_generated_files/tmr0.h"
+void TMR0_Initialize(void);
+# 135 "mcc_generated_files/tmr0.h"
+void TMR0_StartTimer(void);
+# 167 "mcc_generated_files/tmr0.h"
+void TMR0_StopTimer(void);
+# 202 "mcc_generated_files/tmr0.h"
+uint8_t TMR0_ReadTimer(void);
+# 241 "mcc_generated_files/tmr0.h"
+void TMR0_WriteTimer(uint8_t timerVal);
+# 278 "mcc_generated_files/tmr0.h"
+void TMR0_Reload(uint8_t periodVal);
+# 297 "mcc_generated_files/tmr0.h"
+void TMR0_ISR(void);
+# 315 "mcc_generated_files/tmr0.h"
+void TMR0_CallBack(void);
+# 333 "mcc_generated_files/tmr0.h"
+ void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
+# 351 "mcc_generated_files/tmr0.h"
+extern void (*TMR0_InterruptHandler)(void);
+# 369 "mcc_generated_files/tmr0.h"
+void TMR0_DefaultInterruptHandler(void);
+# 52 "mcc_generated_files/tmr0.c" 2
+
+# 1 "mcc_generated_files/../reluctor.h" 1
+# 15 "mcc_generated_files/../reluctor.h"
+# 1 "./parameters.h" 1
+# 25 "./parameters.h"
+extern unsigned char ucWheelID = 1;
+# 15 "mcc_generated_files/../reluctor.h" 2
+# 26 "mcc_generated_files/../reluctor.h"
+extern unsigned char ucCountFreq;
+extern unsigned char ucCountPos;
+extern unsigned char ucCountVueltaRueda;
+extern unsigned char ucKPHData1;
+extern unsigned char ucKPHData2;
+
+
+void ReluctorFreqRead(void);
+void ReluctorFreqCount(void);
+unsigned int ReluctorPosRead(void);
+void ReluctorPosCount(void);
+# 53 "mcc_generated_files/tmr0.c" 2
 
 
 
@@ -37492,27 +37537,106 @@ unsigned char __t3rd16on(void);
 
 
 
+void (*TMR0_InterruptHandler)(void);
 
-void DELAY_milliseconds(uint16_t milliseconds) {
-    while(milliseconds--){
-        _delay((unsigned long)((1)*(10000000/4000.0)));
+void TMR0_Initialize(void)
+{
+
+
+
+    T0CON1 = 0x47;
+
+
+    TMR0H = 0xC2;
+
+
+    TMR0L = 0x00;
+
+
+    PIR3bits.TMR0IF = 0;
+
+
+    PIE3bits.TMR0IE = 1;
+
+
+    TMR0_SetInterruptHandler(TMR0_DefaultInterruptHandler);
+
+
+    T0CON0 = 0x80;
+}
+
+void TMR0_StartTimer(void)
+{
+
+    T0CON0bits.T0EN = 1;
+}
+
+void TMR0_StopTimer(void)
+{
+
+    T0CON0bits.T0EN = 0;
+}
+
+uint8_t TMR0_ReadTimer(void)
+{
+    uint8_t readVal;
+
+
+    readVal = TMR0L;
+
+    return readVal;
+}
+
+void TMR0_WriteTimer(uint8_t timerVal)
+{
+
+    TMR0L = timerVal;
+ }
+
+void TMR0_Reload(uint8_t periodVal)
+{
+
+   TMR0H = periodVal;
+}
+
+void TMR0_ISR(void)
+{
+    static volatile uint16_t CountCallBack = 0;
+
+
+    PIR3bits.TMR0IF = 0;
+
+
+
+
+
+    if (++CountCallBack >= 5)
+    {
+
+        TMR0_CallBack();
+
+
+        CountCallBack = 0;
+    }
+
+
+}
+
+void TMR0_CallBack(void)
+{
+
+
+    if(TMR0_InterruptHandler)
+    {
+        TMR0_InterruptHandler();
     }
 }
 
+void TMR0_SetInterruptHandler(void (* InterruptHandler)(void)){
+    TMR0_InterruptHandler = InterruptHandler;
+}
+
+void TMR0_DefaultInterruptHandler(void){
 
 
-
-
-
-void DELAY_microseconds(uint16_t microseconds) {
-    while( microseconds >= 32)
-    {
-        _delay((unsigned long)((32)*(10000000/4000000.0)));
-        microseconds -= 32;
-    }
-
-    while(microseconds--)
-    {
-        _delay((unsigned long)((1)*(10000000/4000000.0)));
-    }
 }

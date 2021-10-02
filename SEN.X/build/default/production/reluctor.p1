@@ -1,0 +1,144 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"25 ./parameters.h
+[; ;./parameters.h: 25: extern unsigned char ucWheelID = 1;
+[v _ucWheelID `uc ~T0 @X0 1 e ]
+[i _ucWheelID
+-> -> 1 `i `uc
+]
+"12 reluctor.c
+[; ;reluctor.c: 12: unsigned char ucCountFreq;
+[v _ucCountFreq `uc ~T0 @X0 1 e ]
+"13
+[; ;reluctor.c: 13: unsigned char ucCountPos;
+[v _ucCountPos `uc ~T0 @X0 1 e ]
+"14
+[; ;reluctor.c: 14: unsigned char ucCountVueltaRueda;
+[v _ucCountVueltaRueda `uc ~T0 @X0 1 e ]
+"15
+[; ;reluctor.c: 15: unsigned int uiMeterPerSecond;
+[v _uiMeterPerSecond `ui ~T0 @X0 1 e ]
+"16
+[; ;reluctor.c: 16: unsigned int uiKmeterPerHour;
+[v _uiKmeterPerHour `ui ~T0 @X0 1 e ]
+"17
+[; ;reluctor.c: 17: unsigned char ucKPHData1;
+[v _ucKPHData1 `uc ~T0 @X0 1 e ]
+"18
+[; ;reluctor.c: 18: unsigned char ucKPHData2;
+[v _ucKPHData2 `uc ~T0 @X0 1 e ]
+"19
+[; ;reluctor.c: 19: unsigned char ucReluctorState;
+[v _ucReluctorState `uc ~T0 @X0 1 e ]
+"22
+[; ;reluctor.c: 22: void ReluctorFreqCount(void)
+[v _ReluctorFreqCount `(v ~T0 @X0 1 ef ]
+"23
+[; ;reluctor.c: 23: {
+{
+[e :U _ReluctorFreqCount ]
+[f ]
+"24
+[; ;reluctor.c: 24:     ucCountFreq++;
+[e ++ _ucCountFreq -> -> 1 `i `uc ]
+"25
+[; ;reluctor.c: 25: }
+[e :UE 1 ]
+}
+"27
+[; ;reluctor.c: 27: void ReluctorFreqRead(void)
+[v _ReluctorFreqRead `(v ~T0 @X0 1 ef ]
+"28
+[; ;reluctor.c: 28: {
+{
+[e :U _ReluctorFreqRead ]
+[f ]
+"29
+[; ;reluctor.c: 29:     uiMeterPerSecond = ucCountFreq*(167/32);
+[e = _uiMeterPerSecond -> * -> _ucCountFreq `i / -> 167 `i -> 32 `i `ui ]
+"30
+[; ;reluctor.c: 30:     uiKmeterPerHour = uiMeterPerSecond * 36/10;
+[e = _uiKmeterPerHour / * _uiMeterPerSecond -> -> 36 `i `ui -> -> 10 `i `ui ]
+"32
+[; ;reluctor.c: 32:     if ( uiKmeterPerHour >= 15000 )
+[e $ ! >= _uiKmeterPerHour -> -> 15000 `i `ui 3  ]
+"33
+[; ;reluctor.c: 33:     {
+{
+"34
+[; ;reluctor.c: 34:         ucReluctorState = 0x01;
+[e = _ucReluctorState -> -> 1 `i `uc ]
+"35
+[; ;reluctor.c: 35:     }
+}
+[e $U 4  ]
+"36
+[; ;reluctor.c: 36:     else
+[e :U 3 ]
+"37
+[; ;reluctor.c: 37:     {
+{
+"38
+[; ;reluctor.c: 38:         ucReluctorState = 0x00;
+[e = _ucReluctorState -> -> 0 `i `uc ]
+"39
+[; ;reluctor.c: 39:         ucKPHData1 = (( uiKmeterPerHour / 100 ) & 0x00FF);
+[e = _ucKPHData1 -> & / _uiKmeterPerHour -> -> 100 `i `ui -> -> 255 `i `ui `uc ]
+"40
+[; ;reluctor.c: 40:         ucKPHData2 = (( uiKmeterPerHour - ( 1000 * ucKPHData1 )) & 0x00FF);
+[e = _ucKPHData2 -> & - _uiKmeterPerHour -> * -> 1000 `i -> _ucKPHData1 `i `ui -> -> 255 `i `ui `uc ]
+"41
+[; ;reluctor.c: 41:     }
+}
+[e :U 4 ]
+"43
+[; ;reluctor.c: 43:     ucCountFreq = 0;
+[e = _ucCountFreq -> -> 0 `i `uc ]
+"44
+[; ;reluctor.c: 44: }
+[e :UE 2 ]
+}
+"46
+[; ;reluctor.c: 46: void ReluctorPosCount(void)
+[v _ReluctorPosCount `(v ~T0 @X0 1 ef ]
+"47
+[; ;reluctor.c: 47: {
+{
+[e :U _ReluctorPosCount ]
+[f ]
+"48
+[; ;reluctor.c: 48:     ucCountPos++;
+[e ++ _ucCountPos -> -> 1 `i `uc ]
+"49
+[; ;reluctor.c: 49:     if(ucCountPos >= 32){
+[e $ ! >= -> _ucCountPos `i -> 32 `i 6  ]
+{
+"50
+[; ;reluctor.c: 50:         ucCountPos = 0;
+[e = _ucCountPos -> -> 0 `i `uc ]
+"51
+[; ;reluctor.c: 51:         ucCountVueltaRueda++;
+[e ++ _ucCountVueltaRueda -> -> 1 `i `uc ]
+"52
+[; ;reluctor.c: 52:     }
+}
+[e :U 6 ]
+"53
+[; ;reluctor.c: 53: }
+[e :UE 5 ]
+}
+"55
+[; ;reluctor.c: 55: unsigned int ReluctorPosRead(void)
+[v _ReluctorPosRead `(ui ~T0 @X0 1 ef ]
+"56
+[; ;reluctor.c: 56: {
+{
+[e :U _ReluctorPosRead ]
+[f ]
+"57
+[; ;reluctor.c: 57:     return (( ucCountVueltaRueda * 360 ) + ( ucCountPos*360 / 32));
+[e ) -> + * -> _ucCountVueltaRueda `i -> 360 `i / * -> _ucCountPos `i -> 360 `i -> 32 `i `ui ]
+[e $UE 7  ]
+"58
+[; ;reluctor.c: 58: }
+[e :UE 7 ]
+}
