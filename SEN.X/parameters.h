@@ -15,13 +15,17 @@ extern "C" {
 // OUR CONSTANTS
 #define tyre_perimeter_cm 167
 #define wheel_teeth 32
-#define WHEEL_FL  1
-#define WHEEL_FR  2
-#define WHEEL_RL  3
-#define WHEEL_RR  4
+
+#define TMR0_period_ms = 10
+#define TMR1_period_ms = 100
+// Wheels in same order as their CAN ID. (Left, Right, Front, Back/Rear)
+#define WHEEL_BL  1 // Back Left
+#define WHEEL_BR  2 // Back Right
+#define WHEEL_FL  3 // Front Left
+#define WHEEL_FR  4 // Front Right
+
     
-    
-//VARIABLES
+// VARIABLES. Set which wheel is being programmed.
 extern unsigned char ucWheelID = WHEEL_FL;
 
 #ifdef	__cplusplus

@@ -119,7 +119,7 @@ void TMR0_Reload(uint8_t periodVal)
    TMR0H = periodVal;
 }
 
-void TMR0_ISR(void)
+void TMR0_ISR(void) 
 {
     static volatile uint16_t CountCallBack = 0;
 
@@ -129,7 +129,7 @@ void TMR0_ISR(void)
     //17.09.2021 DJU Introducir funciones reluctor
     //ReluctorFreqRead();
     
-    // callback function - called every 5th pass
+    // callback function - called every 5th pass of timer at 10ms
     if (++CountCallBack >= TMR0_INTERRUPT_TICKER_FACTOR)
     {
         // ticker function call
@@ -145,7 +145,7 @@ void TMR0_ISR(void)
 void TMR0_CallBack(void)
 {
     // Add your custom callback code here
-
+    
     if(TMR0_InterruptHandler)
     {
         TMR0_InterruptHandler();

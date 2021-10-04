@@ -14,8 +14,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/ext_int.h: 608: void INT0_CallBack(void);
 [v _INT0_CallBack `(v ~T0 @X0 0 ef ]
 "34 mcc_generated_files/../reluctor.h
-[; ;mcc_generated_files/../reluctor.h: 34: void ReluctorFreqCount(void);
-[v _ReluctorFreqCount `(v ~T0 @X0 0 ef ]
+[; ;mcc_generated_files/../reluctor.h: 34: void ReluctorCountTeeth(void);
+[v _ReluctorCountTeeth `(v ~T0 @X0 0 ef ]
 "36
 [; ;mcc_generated_files/../reluctor.h: 36: void ReluctorPosCount(void);
 [v _ReluctorPosCount `(v ~T0 @X0 0 ef ]
@@ -3611,11 +3611,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "68860
 [; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 68860: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
-"25 ./parameters.h
-[; ;./parameters.h: 25: extern unsigned char ucWheelID = 1;
+"29 ./parameters.h
+[; ;./parameters.h: 29: extern unsigned char ucWheelID = 3;
 [v _ucWheelID `uc ~T0 @X0 1 e ]
 [i _ucWheelID
--> -> 1 `i `uc
+-> -> 3 `i `uc
 ]
 "34 mcc_generated_files/ext_int.c
 [; ;mcc_generated_files/ext_int.c: 34: void (*INT0_InterruptHandler)(void);
@@ -3653,8 +3653,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _INT0_CallBack ]
 [f ]
 "51
-[; ;mcc_generated_files/ext_int.c: 51:     ReluctorFreqCount();
-[e ( _ReluctorFreqCount ..  ]
+[; ;mcc_generated_files/ext_int.c: 51:     ReluctorCountTeeth();
+[e ( _ReluctorCountTeeth ..  ]
 "52
 [; ;mcc_generated_files/ext_int.c: 52:     ReluctorPosCount();
 [e ( _ReluctorPosCount ..  ]

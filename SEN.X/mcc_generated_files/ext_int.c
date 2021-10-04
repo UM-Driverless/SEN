@@ -48,7 +48,7 @@ void INT0_CallBack(void)
 {
     // Add your custom callback code here
     //17.09.2021 DJU Introducir funciones reluctor
-    ReluctorFreqCount();
+    ReluctorCountTeeth();
     ReluctorPosCount();
     //
     if(INT0_InterruptHandler)

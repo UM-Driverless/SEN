@@ -38142,11 +38142,11 @@ void PMD_Initialize(void);
 # 1 "./reluctor.h" 1
 # 15 "./reluctor.h"
 # 1 "./parameters.h" 1
-# 25 "./parameters.h"
-extern unsigned char ucWheelID = 1;
+# 29 "./parameters.h"
+extern unsigned char ucWheelID = 3;
 # 15 "./reluctor.h" 2
 # 26 "./reluctor.h"
-extern unsigned char ucCountFreq;
+extern unsigned char ucCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned char ucCountVueltaRueda;
 extern unsigned char ucKPHData1;
@@ -38154,7 +38154,7 @@ extern unsigned char ucKPHData2;
 
 
 void ReluctorFreqRead(void);
-void ReluctorFreqCount(void);
+void ReluctorCountTeeth(void);
 unsigned int ReluctorPosRead(void);
 void ReluctorPosCount(void);
 # 45 "main.c" 2
@@ -38181,24 +38181,16 @@ void main(void)
 
 
 
-
-
-    do { LATAbits.LATA4 = 0; } while(0);
-
-
-    do { TRISBbits.TRISB1 = 1; } while(0);
-    do { TRISAbits.TRISA4 = 0; } while(0);
-
     while (1)
     {
+
         do { LATAbits.LATA4 = 1; } while(0);
         DELAY_milliseconds(1000);
-        ReluctorFreqRead();
         do { LATAbits.LATA4 = 0; } while(0);
         DELAY_milliseconds(1000);
-        ReluctorFreqRead();
+
 
         unsigned int variable = ReluctorPosRead();
-# 104 "main.c"
+# 102 "main.c"
     }
 }

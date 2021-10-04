@@ -37514,11 +37514,11 @@ void TMR0_DefaultInterruptHandler(void);
 # 1 "mcc_generated_files/../reluctor.h" 1
 # 15 "mcc_generated_files/../reluctor.h"
 # 1 "./parameters.h" 1
-# 25 "./parameters.h"
-extern unsigned char ucWheelID = 1;
+# 29 "./parameters.h"
+extern unsigned char ucWheelID = 3;
 # 15 "mcc_generated_files/../reluctor.h" 2
 # 26 "mcc_generated_files/../reluctor.h"
-extern unsigned char ucCountFreq;
+extern unsigned char ucCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned char ucCountVueltaRueda;
 extern unsigned char ucKPHData1;
@@ -37526,7 +37526,7 @@ extern unsigned char ucKPHData2;
 
 
 void ReluctorFreqRead(void);
-void ReluctorFreqCount(void);
+void ReluctorCountTeeth(void);
 unsigned int ReluctorPosRead(void);
 void ReluctorPosCount(void);
 # 53 "mcc_generated_files/tmr0.c" 2

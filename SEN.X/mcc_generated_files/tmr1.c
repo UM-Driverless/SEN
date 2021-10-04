@@ -164,12 +164,16 @@ uint8_t TMR1_CheckGateValueStatus(void)
 void TMR1_ISR(void)
 {
     static volatile unsigned int CountCallBack = 0;
-
+    
     // Clear the TMR1 interrupt flag
     PIR3bits.TMR1IF = 0;
     TMR1_WriteTimer(timer1ReloadVal);
-
-    // callback function - called every 5th pass
+    
+    // 01.10.2021 RJM - CUSTOM CALLBACK CODE FOR TMR1 - FRECUENCIOMETRO
+    // Se ejecuta cada vez que ocurre el timer TMR1, 100ms. Callback count ignorada.
+    ReluctorFreqRead();
+    
+    // callback function - called every 2th pasos
     if (++CountCallBack >= TMR1_INTERRUPT_TICKER_FACTOR)
     {
         // ticker function call
@@ -183,6 +187,8 @@ void TMR1_ISR(void)
 void TMR1_CallBack(void)
 {
     // Add your custom callback code here
+    // RJM 01.10.2021 - SEND CAN MESSAGE
+    CANWriteMessage(...);
     if(TMR1_InterruptHandler)
     {
         TMR1_InterruptHandler();

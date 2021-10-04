@@ -17,11 +17,11 @@
 # 1 "./reluctor.h" 1
 # 15 "./reluctor.h"
 # 1 "./parameters.h" 1
-# 25 "./parameters.h"
-extern unsigned char ucWheelID = 1;
+# 29 "./parameters.h"
+extern unsigned char ucWheelID = 3;
 # 15 "./reluctor.h" 2
 # 26 "./reluctor.h"
-extern unsigned char ucCountFreq;
+extern unsigned char ucCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned char ucCountVueltaRueda;
 extern unsigned char ucKPHData1;
@@ -29,7 +29,7 @@ extern unsigned char ucKPHData2;
 
 
 void ReluctorFreqRead(void);
-void ReluctorFreqCount(void);
+void ReluctorCountTeeth(void);
 unsigned int ReluctorPosRead(void);
 void ReluctorPosCount(void);
 # 8 "reluctor.c" 2
@@ -37,38 +37,42 @@ void ReluctorPosCount(void);
 
 
 
-unsigned char ucCountFreq;
+unsigned char ucCountTeeth;
 unsigned char ucCountPos;
 unsigned char ucCountVueltaRueda;
-unsigned int uiMeterPerSecond;
-unsigned int uiKmeterPerHour;
+
+unsigned char ui_cm_in_period;
+
+unsigned int ui_MeterPerSecond_E_2;
+unsigned int uiKPH_E_2;
 unsigned char ucKPHData1;
 unsigned char ucKPHData2;
 unsigned char ucReluctorState;
 
 
-void ReluctorFreqCount(void)
+void ReluctorCountTeeth(void)
 {
-    ucCountFreq++;
+    ucCountTeeth++;
 }
 
 void ReluctorFreqRead(void)
 {
-    uiMeterPerSecond = ucCountFreq*(167/32);
-    uiKmeterPerHour = uiMeterPerSecond * 36/10;
+    ui_cm_in_period = ucCountTeeth*(167/32);
+    ui_MeterPerSecond_E_2 = ui_cm_in_period * (1000 / = 10);
+    uiKPH_E_2 = ui_MeterPerSecond_E_2 * 36/10;
 
-    if ( uiKmeterPerHour >= 15000 )
+    if ( uiKPH_E_2 >= 15000 )
     {
         ucReluctorState = 0x01;
     }
     else
     {
         ucReluctorState = 0x00;
-        ucKPHData1 = (( uiKmeterPerHour / 100 ) & 0x00FF);
-        ucKPHData2 = (( uiKmeterPerHour - ( 1000 * ucKPHData1 )) & 0x00FF);
+        ucKPHData1 = (( uiKPH_E_2 / 100 ) & 0x00FF);
+        ucKPHData2 = (( uiKPH_E_2 - ( 1000 * ucKPHData1 )) & 0x00FF);
     }
 
-    ucCountFreq = 0;
+    ucCountTeeth = 0;
 }
 
 void ReluctorPosCount(void)

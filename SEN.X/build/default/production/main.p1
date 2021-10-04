@@ -24,29 +24,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n S3060 . . ]
 "1491
 [v _LATAbits `VS3060 ~T0 @X0 0 e@1214 ]
-"1728
-[s S3069 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3069 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
-"1727
-[u S3068 `S3069 1 ]
-[n S3068 . . ]
-"1739
-[v _TRISBbits `VS3068 ~T0 @X0 0 e@1223 ]
-"1666
-[s S3067 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3067 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
-"1665
-[u S3066 `S3067 1 ]
-[n S3066 . . ]
-"1677
-[v _TRISAbits `VS3066 ~T0 @X0 0 e@1222 ]
 "34 ./mcc_generated_files/delay.h
 [; ;./mcc_generated_files/delay.h: 34: void DELAY_milliseconds(uint16_t milliseconds);
 [v _DELAY_milliseconds `(v ~T0 @X0 0 ef1`us ]
-"33 ./reluctor.h
-[; ;./reluctor.h: 33: void ReluctorFreqRead(void);
-[v _ReluctorFreqRead `(v ~T0 @X0 0 ef ]
-"35
+"35 ./reluctor.h
 [; ;./reluctor.h: 35: unsigned int ReluctorPosRead(void);
 [v _ReluctorPosRead `(ui ~T0 @X0 0 ef ]
 "363 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
@@ -3565,11 +3546,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "68860
 [; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 68860: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
-"25 ./parameters.h
-[; ;./parameters.h: 25: extern unsigned char ucWheelID = 1;
+"29 ./parameters.h
+[; ;./parameters.h: 29: extern unsigned char ucWheelID = 3;
 [v _ucWheelID `uc ~T0 @X0 1 e ]
 [i _ucWheelID
--> -> 1 `i `uc
+-> -> 3 `i `uc
 ]
 [v $root$_main `(v ~T0 @X0 0 e ]
 "53 main.c
@@ -3586,70 +3567,43 @@ Version 4.0 HI-TECH Software Intermediate Code
 "63
 [; ;main.c: 63:     (INTCON0bits.GIE = 1);
 [e = . . _INTCON0bits 0 6 -> -> 1 `i `uc ]
-"70
-[; ;main.c: 70:     do { LATAbits.LATA4 = 0; } while(0);
-[e :U 3184 ]
-{
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
-}
+"68
+[; ;main.c: 68:     while (1)
 [e :U 3183 ]
-"73
-[; ;main.c: 73:     do { TRISBbits.TRISB1 = 1; } while(0);
+"69
+[; ;main.c: 69:     {
+{
+"71
+[; ;main.c: 71:         do { LATAbits.LATA4 = 1; } while(0);
 [e :U 3187 ]
-{
-[e = . . _TRISBbits 0 1 -> -> 1 `i `uc ]
-}
-[e :U 3186 ]
-"74
-[; ;main.c: 74:     do { TRISAbits.TRISA4 = 0; } while(0);
-[e :U 3190 ]
-{
-[e = . . _TRISAbits 0 4 -> -> 0 `i `uc ]
-}
-[e :U 3189 ]
-"76
-[; ;main.c: 76:     while (1)
-[e :U 3192 ]
-"77
-[; ;main.c: 77:     {
-{
-"78
-[; ;main.c: 78:         do { LATAbits.LATA4 = 1; } while(0);
-[e :U 3196 ]
 {
 [e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
 }
-[e :U 3195 ]
-"79
-[; ;main.c: 79:         DELAY_milliseconds(1000);
+[e :U 3186 ]
+"72
+[; ;main.c: 72:         DELAY_milliseconds(1000);
 [e ( _DELAY_milliseconds (1 -> -> 1000 `i `us ]
-"80
-[; ;main.c: 80:         ReluctorFreqRead();
-[e ( _ReluctorFreqRead ..  ]
-"81
-[; ;main.c: 81:         do { LATAbits.LATA4 = 0; } while(0);
-[e :U 3199 ]
+"73
+[; ;main.c: 73:         do { LATAbits.LATA4 = 0; } while(0);
+[e :U 3190 ]
 {
 [e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
 }
-[e :U 3198 ]
-"82
-[; ;main.c: 82:         DELAY_milliseconds(1000);
+[e :U 3189 ]
+"74
+[; ;main.c: 74:         DELAY_milliseconds(1000);
 [e ( _DELAY_milliseconds (1 -> -> 1000 `i `us ]
-"83
-[; ;main.c: 83:         ReluctorFreqRead();
-[e ( _ReluctorFreqRead ..  ]
-"85
-[; ;main.c: 85:         unsigned int variable = ReluctorPosRead();
+"77
+[; ;main.c: 77:         unsigned int variable = ReluctorPosRead();
 [v _variable `ui ~T0 @X0 1 a ]
 [e = _variable ( _ReluctorPosRead ..  ]
-"104
-[; ;main.c: 104:     }
+"102
+[; ;main.c: 102:     }
 }
-[e :U 3191 ]
-[e $U 3192  ]
-[e :U 3193 ]
-"105
-[; ;main.c: 105: }
+[e :U 3182 ]
+[e $U 3183  ]
+[e :U 3184 ]
+"103
+[; ;main.c: 103: }
 [e :UE 3181 ]
 }

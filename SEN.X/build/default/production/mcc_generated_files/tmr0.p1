@@ -3582,11 +3582,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "68860
 [; ;C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 68860: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
-"25 ./parameters.h
-[; ;./parameters.h: 25: extern unsigned char ucWheelID = 1;
+"29 ./parameters.h
+[; ;./parameters.h: 29: extern unsigned char ucWheelID = 3;
 [v _ucWheelID `uc ~T0 @X0 1 e ]
 [i _ucWheelID
--> -> 1 `i `uc
+-> -> 3 `i `uc
 ]
 "60 mcc_generated_files/tmr0.c
 [; ;mcc_generated_files/tmr0.c: 60: void (*TMR0_InterruptHandler)(void);

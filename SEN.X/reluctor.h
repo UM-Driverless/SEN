@@ -14,7 +14,7 @@ extern "C" {
 
 #include "parameters.h"
     
-//Declaracion de constantes 
+//Declaracion de constantes
 //ESTADOS RELUCTOR
 #define VELOCITYOK 0x00
 #define VELOCITYOUTOFRANGE 0x01
@@ -23,7 +23,7 @@ extern "C" {
 #define VELOCIDADMAXRELUCTOR 15000
 
 //Declaracion de variables globales
-extern unsigned char ucCountFreq;
+extern unsigned char ucCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned char ucCountVueltaRueda;
 extern unsigned char ucKPHData1;
@@ -31,7 +31,7 @@ extern unsigned char ucKPHData2;
 
 //Declaracion de funciones
 void ReluctorFreqRead(void);
-void ReluctorFreqCount(void);
+void ReluctorCountTeeth(void);
 unsigned int ReluctorPosRead(void);
 void ReluctorPosCount(void);
 

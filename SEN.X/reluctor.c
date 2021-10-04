@@ -8,39 +8,43 @@
 #include "reluctor.h"
 #include "parameters.h"
 
-//Declaracion de variables globales
-unsigned char ucCountFreq;
+// Declaracion de variables globales
+unsigned char ucCountTeeth; // Count teeth and reset every time
 unsigned char ucCountPos;
 unsigned char ucCountVueltaRueda;
-unsigned int uiMeterPerSecond;
-unsigned int uiKmeterPerHour;
+
+unsigned char ui_cm_in_period; // cm calculated in a count cycle
+// speed in cm/s or m/s*10^-2, calculated after dividing by counting period (TMR0_period_ms)
+unsigned int ui_MeterPerSecond_E_2;
+unsigned int uiKPH_E_2;
 unsigned char ucKPHData1;
 unsigned char ucKPHData2;
 unsigned char ucReluctorState;
 
 //FUNCIONES
-void ReluctorFreqCount(void)
+void ReluctorCountTeeth(void) // se ejecuta cada 10ms con TMR0
 {
-    ucCountFreq++;
+    ucCountTeeth++;
 }
 
-void ReluctorFreqRead(void) //se ejecuta cada 100ms con TMR0
+void ReluctorFreqRead(void) //se ejecuta cada 100ms con TMR1
 {
-    uiMeterPerSecond = ucCountFreq*(tyre_perimeter_cm/wheel_teeth);
-    uiKmeterPerHour = uiMeterPerSecond * 36/10;
+    ui_cm_in_period = ucCountTeeth*(tyre_perimeter_cm/wheel_teeth);
+    ui_MeterPerSecond_E_2 = ui_cm_in_period * (1000 / TMR0_period_ms);
+    uiKPH_E_2 = ui_MeterPerSecond_E_2 * 36/10;
     
-    if ( uiKmeterPerHour >= VELOCIDADMAXRELUCTOR ) //150k/h
+    if ( uiKPH_E_2 >= VELOCIDADMAXRELUCTOR ) //150k/h
     {
         ucReluctorState = VELOCITYOUTOFRANGE; //no enviar mensaje CAN
     }
     else
     {
         ucReluctorState = VELOCITYOK; //enviar mensaje CAN
-        ucKPHData1 = (( uiKmeterPerHour / 100 ) & 0x00FF);
-        ucKPHData2 = (( uiKmeterPerHour - ( 1000 * ucKPHData1 )) & 0x00FF);
-    }   
+        ucKPHData1 = (( uiKPH_E_2 / 100 ) & 0x00FF);
+        ucKPHData2 = (( uiKPH_E_2 - ( 1000 * ucKPHData1 )) & 0x00FF);
+    }
     
-    ucCountFreq = 0;
+    ucCountTeeth = 0;
 }
 
 void ReluctorPosCount(void)

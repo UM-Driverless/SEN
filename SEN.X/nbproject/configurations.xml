@@ -25,6 +25,7 @@
       </logicalFolder>
       <itemPath>reluctor.h</itemPath>
       <itemPath>parameters.h</itemPath>
+      <itemPath>MESSAGES.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -56,6 +57,7 @@
       </logicalFolder>
       <itemPath>main.c</itemPath>
       <itemPath>reluctor.c</itemPath>
+      <itemPath>MESSAGES.C</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
