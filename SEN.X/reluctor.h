@@ -11,8 +11,6 @@
 #ifdef	__cplusplus
 extern "C" {
 #endif
-
-#include "parameters.h"
     
 //Declaracion de constantes
 //ESTADOS RELUCTOR
@@ -25,9 +23,12 @@ extern "C" {
 //Declaracion de variables globales
 extern unsigned char ucCountTeeth;
 extern unsigned char ucCountPos;
-extern unsigned char ucCountVueltaRueda;
+extern unsigned int uiCountVueltaRueda;
+extern unsigned char ucCountVueltaRueda1;
+extern unsigned char ucCountVueltaRueda2;
 extern unsigned char ucKPHData1;
 extern unsigned char ucKPHData2;
+extern unsigned char ucReluctorState;
 
 //Declaracion de funciones
 void ReluctorFreqRead(void);

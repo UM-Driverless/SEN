@@ -49,11 +49,12 @@
 
 void SYSTEM_Initialize(void)
 {
+    PIN_MANAGER_Initialize();
+    LED_SetHigh(); //PAARA COMPROBAR INICIALIZACIONES
     INTERRUPT_Initialize();
     PMD_Initialize();
     I2C1_Initialize();
     ADC_Initialize();
-    PIN_MANAGER_Initialize();
     OSCILLATOR_Initialize();
     TMR1_Initialize();
     EXT_INT_Initialize();

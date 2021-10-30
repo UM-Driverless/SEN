@@ -71,9 +71,9 @@ typedef uint16_t adc_result_t;
  */
 typedef enum
 {
-    channel_ANC0 =  0x10,
-    channel_ANC1 =  0x11,
-    channel_ANC2 =  0x12,
+    A0 =  0x10,
+    A1 =  0x11,
+    A2 =  0x12,
     channel_VSS =  0x3B,
     channel_Temp =  0x3C,
     channel_DAC1 =  0x3D,

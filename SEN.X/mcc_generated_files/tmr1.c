@@ -50,6 +50,8 @@
 
 #include <xc.h>
 #include "tmr1.h"
+#include "../reluctor.h"
+#include "../MESSAGES.h"
 
 /**
   Section: Global Variables Definitions
@@ -172,6 +174,8 @@ void TMR1_ISR(void)
     // 01.10.2021 RJM - CUSTOM CALLBACK CODE FOR TMR1 - FRECUENCIOMETRO
     // Se ejecuta cada vez que ocurre el timer TMR1, 100ms. Callback count ignorada.
     ReluctorFreqRead();
+    //Frecuencia de mensajes CAN a 10Hz
+    MESSAGESSendEvery100ms();
     
     // callback function - called every 2th pasos
     if (++CountCallBack >= TMR1_INTERRUPT_TICKER_FACTOR)
@@ -188,7 +192,6 @@ void TMR1_CallBack(void)
 {
     // Add your custom callback code here
     // RJM 01.10.2021 - SEND CAN MESSAGE
-    CANWriteMessage(...);
     if(TMR1_InterruptHandler)
     {
         TMR1_InterruptHandler();

@@ -7,6 +7,8 @@
 
 #include "MESSAGES.h"
 #include "mcc_generated_files/mcc.h"
+#include "parameters.h"
+#include "reluctor.h"
 
 
 void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char data1, unsigned char data2, unsigned char data3, unsigned char data4, unsigned char data5, unsigned char data6, unsigned char data7, unsigned char data8)
@@ -54,5 +56,33 @@ void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char d
             }
         }
     }
+}
+
+void MESSAGESSendEvery100ms(void)
+{
+    switch (ucWheelID)
+    {
+        case WHEEL_FL:
+            if ( ucReluctorState == VELOCITYOK )
+            {
+                CANWriteMessage(ID_SIGSENFL, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                Nop();
+                CANWriteMessage(ID_SIGSENRL, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+            }
+            break;
+        case WHEEL_FR:
+            if ( ucReluctorState == VELOCITYOK )
+            {
+                CANWriteMessage(ID_SIGSENFR, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                Nop();
+                CANWriteMessage(ID_SIGSENRR, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+            }
+            break;
+        case WHEEL_RL:
+            break;
+        case WHEEL_RR:
+            break;
+    }
+    
 }
 

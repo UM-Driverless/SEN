@@ -43,8 +43,6 @@
 
 #include "mcc_generated_files/mcc.h"
 #include "reluctor.h"
-
-//probar RJM
 #include "parameters.h"
 
 /*
@@ -54,6 +52,11 @@ void main(void)
 {
     // Initialize the device
     SYSTEM_Initialize();
+    
+    PARAMETERSInit();
+    
+    STBY_SetDigitalOutput();
+    STBY_SetLow();
     
     // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
     // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts
@@ -74,7 +77,7 @@ void main(void)
         DELAY_milliseconds(1000);
 
         
-        unsigned int variable = ReluctorPosRead();
+        //unsigned int variable = ReluctorPosRead();
         
         
         

@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F26Q84 ]
 [d frameptr 1249 ]
-"67 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/examples/i2c1_master_example.c
+"67 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/examples/i2c1_master_example.c
 [e E355 . `uc
 I2C1_NOERR 0
 I2C1_BUSY 1
@@ -17,7 +17,11 @@ I2C1_RESTART_WRITE 3
 I2C1_CONTINUE 4
 I2C1_RESET_LINK 5
 ]
-"110 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+"105 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+[e E22458 . `uc
+FIFO1 1
+]
+"242
 [e E22356 . `uc
 CAN_OP_MODE_REQUEST_SUCCESS 0
 CAN_OP_MODE_REQUEST_FAIL 1
@@ -33,22 +37,82 @@ CAN_EXTERNAL_LOOPBACK_MODE 5
 CAN_NORMAL_2_0_MODE 6
 CAN_RESTRICTED_OPERATION_MODE 7
 ]
-"194 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
+"305
+[e E22453 . `uc
+CAN_RX_MSG_NOT_AVAILABLE 0
+CAN_RX_MSG_AVAILABLE 1
+CAN_RX_MSG_OVERFLOW 8
+]
+"321
+[e E22328 . `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+"322
+[e E22332 . `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+"323
+[e E22324 . `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"431
+[e E22361 . `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+"477
+[e E22340 . `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+"488
+[e E22365 . `uc
+DLC_0 0
+DLC_1 1
+DLC_2 2
+DLC_3 3
+DLC_4 4
+DLC_5 5
+DLC_6 6
+DLC_7 7
+DLC_8 8
+DLC_12 9
+DLC_16 10
+DLC_20 11
+DLC_24 12
+DLC_32 13
+DLC_48 14
+DLC_64 15
+]
+[e E22336 . `uc
+CAN_2_0_FORMAT 0
+CAN_FD_FORMAT 1
+]
+"506
+[e E22383 . `uc
+TXQ 0
+]
+"194 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
 [e E22153 . `uc
 CONTEXT_1 0
 ]
 "223
 [e E22143 . `uc
-channel_ANC0 16
-channel_ANC1 17
-channel_ANC2 18
+A0 16
+A1 17
+A2 18
 channel_VSS 59
 channel_Temp 60
 channel_DAC1 61
 channel_FVR_Buffer1 62
 channel_FVR_Buffer2 63
 ]
-"159 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+"159 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
 [e E22532 . `uc
 I2C1_IDLE 0
 I2C1_SEND_ADR_READ 1
@@ -92,39 +156,95 @@ I2C1_DATA_NACK 3
 I2C1_TIMEOUT 4
 I2C1_NULL 5
 ]
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+"41 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
+[e E22734 . `uc
+CAN_NORMAL_FD_MODE 0
+CAN_DISABLE_MODE 1
+CAN_INTERNAL_LOOPBACK_MODE 2
+CAN_LISTEN_ONLY_MODE 3
+CAN_CONFIGURATION_MODE 4
+CAN_EXTERNAL_LOOPBACK_MODE 5
+CAN_NORMAL_2_0_MODE 6
+CAN_RESTRICTED_OPERATION_MODE 7
+]
+"43
+[e E22744 . `uc
+CAN_OP_MODE_REQUEST_SUCCESS 0
+CAN_OP_MODE_REQUEST_FAIL 1
+CAN_OP_MODE_SYS_ERROR_OCCURED 2
+]
+"46
+[e E22724 . `uc
+CAN_2_0_FORMAT 0
+CAN_FD_FORMAT 1
+]
+"47
+[e E22712 . `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"48
+[e E22720 . `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+"49
+[e E22716 . `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+"53
+[e E22749 . `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+[e E22771 . `uc
+TXQ 0
+]
+"55
+[e E22728 . `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
-"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\lwdiv.c
 [v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"53 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\main.c
+"51 C:\Users\panze\Documents\GitHub\SEN\SEN.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"65 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
+"65 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 "418
 [v _ADC_SetADIInterruptHandler ADC_SetADIInterruptHandler `(v  1 e 1 0 ]
@@ -138,21 +258,81 @@ I2C1_NULL 5
 [v _ADC_DefaultContext1Threshold_ISR ADC_DefaultContext1Threshold_ISR `(v  1 s 1 ADC_DefaultContext1Threshold_ISR ]
 "446
 [v _ADC_DefaultActiveClockTuning_ISR ADC_DefaultActiveClockTuning_ISR `(v  1 s 1 ADC_DefaultActiveClockTuning_ISR ]
-"88 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
-[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
-"105
-[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+"121 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+[v _DefaultInvalidMessageHandler DefaultInvalidMessageHandler `(v  1 s 1 DefaultInvalidMessageHandler ]
+"125
+[v _DefaultBusWakeUpActivityHandler DefaultBusWakeUpActivityHandler `(v  1 s 1 DefaultBusWakeUpActivityHandler ]
 "129
-[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
+[v _DefaultBusErrorHandler DefaultBusErrorHandler `(v  1 s 1 DefaultBusErrorHandler ]
+"133
+[v _DefaultModeChangeHandler DefaultModeChangeHandler `(v  1 s 1 DefaultModeChangeHandler ]
+"137
+[v _DefaultSystemErrorHandler DefaultSystemErrorHandler `(v  1 s 1 DefaultSystemErrorHandler ]
+"141
+[v _DefaultTxAttemptHandler DefaultTxAttemptHandler `(v  1 s 1 DefaultTxAttemptHandler ]
+"145
+[v _DefaultRxBufferOverflowHandler DefaultRxBufferOverflowHandler `(v  1 s 1 DefaultRxBufferOverflowHandler ]
+"149
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 e 1 0 ]
 "159
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+"175
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+"179
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+"195
+[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
+"211
+[v _CAN1_ErrorNotificationInterruptEnable CAN1_ErrorNotificationInterruptEnable `(v  1 s 1 CAN1_ErrorNotificationInterruptEnable ]
+"237
+[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+"266
+[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
+[v i2_CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
+"295
 [v _CAN1_OperationModeGet CAN1_OperationModeGet `(E22346  1 e 1 0 ]
-"171
+[v i2_CAN1_OperationModeGet CAN1_OperationModeGet `(E22346  1 e 1 0 ]
+"300
+[v _GetRxFifoDepth GetRxFifoDepth `(uc  1 s 1 GetRxFifoDepth ]
+"305
+[v _GetRxFifoStatus GetRxFifoStatus `(E22453  1 s 1 GetRxFifoStatus ]
+"310
+[v _ReadMessageFromFifo ReadMessageFromFifo `(v  1 s 1 ReadMessageFromFifo ]
+"426
+[v _isTxChannel isTxChannel `(a  1 s 1 isTxChannel ]
+"431
+[v _GetTxFifoStatus GetTxFifoStatus `(E22361  1 s 1 GetTxFifoStatus ]
+"436
+[v _WriteMessageToFifo WriteMessageToFifo `(v  1 s 1 WriteMessageToFifo ]
+"477
+[v _ValidateTransmission ValidateTransmission `(E22340  1 s 1 ValidateTransmission ]
+"506
+[v _CAN1_Transmit CAN1_Transmit `(E22340  1 e 1 0 ]
+"528
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E22361  1 e 1 0 ]
+"545
 [v _CAN1_IsRxErrorPassive CAN1_IsRxErrorPassive `(a  1 e 1 0 ]
-"186
+"560
 [v _CAN1_IsTxErrorPassive CAN1_IsTxErrorPassive `(a  1 e 1 0 ]
-"38 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/delay.c
+"583
+[v _CAN1_SetInvalidMessageInterruptHandler CAN1_SetInvalidMessageInterruptHandler `(v  1 e 1 0 ]
+"588
+[v _CAN1_SetBusWakeUpActivityInterruptHandler CAN1_SetBusWakeUpActivityInterruptHandler `(v  1 e 1 0 ]
+"593
+[v _CAN1_SetBusErrorInterruptHandler CAN1_SetBusErrorInterruptHandler `(v  1 e 1 0 ]
+"598
+[v _CAN1_SetModeChangeInterruptHandler CAN1_SetModeChangeInterruptHandler `(v  1 e 1 0 ]
+"603
+[v _CAN1_SetSystemErrorInterruptHandler CAN1_SetSystemErrorInterruptHandler `(v  1 e 1 0 ]
+"608
+[v _CAN1_SetTxAttemptInterruptHandler CAN1_SetTxAttemptInterruptHandler `(v  1 e 1 0 ]
+"613
+[v _CAN1_SetRxBufferOverFlowInterruptHandler CAN1_SetRxBufferOverFlowInterruptHandler `(v  1 e 1 0 ]
+"618
+[v _CAN1_ISR CAN1_ISR `(v  1 e 1 0 ]
+"38 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/delay.c
 [v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
-"142 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/examples/i2c1_master_example.c
+"142 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/examples/i2c1_master_example.c
 [v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
 "149
 [v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
@@ -162,33 +342,17 @@ I2C1_NULL 5
 [v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
 "170
 [v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
-"38 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
+"36 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
 [v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
-"47
+"45
 [v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
-"60
+"58
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
-"64
+"62
 [v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"68
-[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
-"77
-[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
-"86
-[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
-"90
-[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"94
-[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
-"103
-[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
-"112
-[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
-"116
-[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
-"121
+"66
 [v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
-"183 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+"183 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 "207
 [v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
@@ -308,19 +472,19 @@ I2C1_NULL 5
 [v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
 "816
 [v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
-"52 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+"52 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "58
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
-"50 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
+"50 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"64
+"65
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"78
+"79
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-"55 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/pin_manager.c
+"55 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"62 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
+"62 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 "122
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
@@ -330,39 +494,55 @@ I2C1_NULL 5
 [v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
 "159
 [v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"64 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
+"66 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
-"127
+"129
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
-"164
+"166
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
-"183
+"191
 [v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
-"192
+"201
 [v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
-"196
+"205
 [v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"22 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\reluctor.c
-[v _ReluctorFreqCount ReluctorFreqCount `(v  1 e 1 0 ]
-"27
+"14 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
+[v _CANWriteMessage CANWriteMessage `(v  1 e 1 0 ]
+"61
+[v _MESSAGESSendEvery100ms MESSAGESSendEvery100ms `(v  1 e 1 0 ]
+"18 C:\Users\panze\Documents\GitHub\SEN\SEN.X\PARAMETERS.c
+[v _PARAMETERSInit PARAMETERSInit `(v  1 e 1 0 ]
+"28 C:\Users\panze\Documents\GitHub\SEN\SEN.X\reluctor.c
+[v _ReluctorCountTeeth ReluctorCountTeeth `(v  1 e 1 0 ]
+"33
 [v _ReluctorFreqRead ReluctorFreqRead `(v  1 e 1 0 ]
-"46
+"53
 [v _ReluctorPosCount ReluctorPosCount `(v  1 e 1 0 ]
-"55
-[v _ReluctorPosRead ReluctorPosRead `(ui  1 e 2 0 ]
-[s S319 . 1 `uc 1 INT2IE 1 0 :1:0 
-`uc 1 CLC5IE 1 0 :1:1 
-`uc 1 CWG2IE 1 0 :1:2 
-`uc 1 NCO2IE 1 0 :1:3 
-`uc 1 DMA3SCNTIE 1 0 :1:4 
-`uc 1 DMA3DCNTIE 1 0 :1:5 
-`uc 1 DMA3ORIE 1 0 :1:6 
-`uc 1 DMA3AIE 1 0 :1:7 
+[s S623 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
 ]
-"139 C:/Users/ruben/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
-[u S328 . 1 `S319 1 . 1 0 ]
-[v _PIE10bits PIE10bits `VES328  1 e 1 @1192 ]
-[s S248 . 1 `uc 1 INT0IF 1 0 :1:0 
+"22 C:\Users\panze\Documents\GitHub\SEN\SEN.X/MESSAGES.h
+[u S629 . 1 `uc 1 msgfields 1 0 `S623 1 . 1 0 ]
+[s S632 . 7 `ul 1 msgId 4 0 `S629 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v _msg msg `S632  1 e 7 0 ]
+"23
+[v _CANDATAdata CANDATAdata `[32]uc  1 e 32 0 ]
+[s S298 . 1 `uc 1 SWIF 1 0 :1:0 
+`uc 1 HLVDIF 1 0 :1:1 
+`uc 1 OSFIF 1 0 :1:2 
+`uc 1 CSWIF 1 0 :1:3 
+`uc 1 TU16AIF 1 0 :1:4 
+`uc 1 CLC1IF 1 0 :1:5 
+`uc 1 CANIF 1 0 :1:6 
+`uc 1 IOCIF 1 0 :1:7 
+]
+"506 C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
+[u S307 . 1 `S298 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES307  1 e 1 @1198 ]
+[s S252 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -372,9 +552,9 @@ I2C1_NULL 5
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
 "568
-[u S257 . 1 `S248 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES257  1 e 1 @1199 ]
-[s S730 . 1 `uc 1 ADTIF 1 0 :1:0 
+[u S261 . 1 `S252 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES261  1 e 1 @1199 ]
+[s S1083 . 1 `uc 1 ADTIF 1 0 :1:0 
 `uc 1 ADCH2IF 1 0 :1:1 
 `uc 1 ADCH3IF 1 0 :1:2 
 `uc 1 ADCH4IF 1 0 :1:3 
@@ -384,10 +564,10 @@ I2C1_NULL 5
 `uc 1 DMA1AIF 1 0 :1:7 
 ]
 "633
-[s S739 . 1 `uc 1 ADCH1IF 1 0 :1:0 
+[s S1092 . 1 `uc 1 ADCH1IF 1 0 :1:0 
 ]
-[u S741 . 1 `S730 1 . 1 0 `S739 1 . 1 0 ]
-[v _PIR2bits PIR2bits `VES741  1 e 1 @1200 ]
+[u S1094 . 1 `S1083 1 . 1 0 `S1092 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1094  1 e 1 @1200 ]
 [s S202 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
 `uc 1 SPI1TXIF 1 0 :1:1 
 `uc 1 SPI1IF 1 0 :1:2 
@@ -400,19 +580,7 @@ I2C1_NULL 5
 "700
 [u S211 . 1 `S202 1 . 1 0 ]
 [v _PIR3bits PIR3bits `VES211  1 e 1 @1201 ]
-[s S294 . 1 `uc 1 INT1IF 1 0 :1:0 
-`uc 1 CLC2IF 1 0 :1:1 
-`uc 1 CWG1IF 1 0 :1:2 
-`uc 1 NCO1IF 1 0 :1:3 
-`uc 1 DMA2SCNTIF 1 0 :1:4 
-`uc 1 DMA2DCNTIF 1 0 :1:5 
-`uc 1 DMA2ORIF 1 0 :1:6 
-`uc 1 DMA2AIF 1 0 :1:7 
-]
-"886
-[u S303 . 1 `S294 1 . 1 0 ]
-[v _PIR6bits PIR6bits `VES303  1 e 1 @1204 ]
-[s S1808 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
+[s S2159 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
 `uc 1 I2C1TXIF 1 0 :1:1 
 `uc 1 I2C1IF 1 0 :1:2 
 `uc 1 I2C1EIF 1 0 :1:3 
@@ -422,20 +590,8 @@ I2C1_NULL 5
 `uc 1 PWM3IF 1 0 :1:7 
 ]
 "948
-[u S1817 . 1 `S1808 1 . 1 0 ]
-[v _PIR7bits PIR7bits `VES1817  1 e 1 @1205 ]
-[s S340 . 1 `uc 1 INT2IF 1 0 :1:0 
-`uc 1 CLC5IF 1 0 :1:1 
-`uc 1 CWG2IF 1 0 :1:2 
-`uc 1 NCO2IF 1 0 :1:3 
-`uc 1 DMA3SCNTIF 1 0 :1:4 
-`uc 1 DMA3DCNTIF 1 0 :1:5 
-`uc 1 DMA3ORIF 1 0 :1:6 
-`uc 1 DMA3AIF 1 0 :1:7 
-]
-"1124
-[u S349 . 1 `S340 1 . 1 0 ]
-[v _PIR10bits PIR10bits `VES349  1 e 1 @1208 ]
+[u S2168 . 1 `S2159 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES2168  1 e 1 @1205 ]
 "1339
 [v _PMD0 PMD0 `VEuc  1 e 1 @96 ]
 "1405
@@ -444,7 +600,7 @@ I2C1_NULL 5
 [v _PMD2 PMD2 `VEuc  1 e 1 @98 ]
 "1474
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
-[s S2282 . 1 `uc 1 LATA0 1 0 :1:0 
+[s S2482 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 LATA3 1 0 :1:3 
@@ -454,12 +610,24 @@ I2C1_NULL 5
 `uc 1 LATA7 1 0 :1:7 
 ]
 "1491
-[u S2291 . 1 `S2282 1 . 1 0 ]
-[v _LATAbits LATAbits `VES2291  1 e 1 @1214 ]
+[u S2491 . 1 `S2482 1 . 1 0 ]
+[v _LATAbits LATAbits `VES2491  1 e 1 @1214 ]
 "1514
 [v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
 "1536
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
+[s S2917 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1553
+[u S2926 . 1 `S2917 1 . 1 0 ]
+[v _LATBbits LATBbits `VES2926  1 e 1 @1215 ]
 "1565
 [v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
 "1598
@@ -468,23 +636,11 @@ I2C1_NULL 5
 [v _PMD5 PMD5 `VEuc  1 e 1 @101 ]
 "1660
 [v _TRISA TRISA `VEuc  1 e 1 @1222 ]
-[s S2324 . 1 `uc 1 TRISA0 1 0 :1:0 
-`uc 1 TRISA1 1 0 :1:1 
-`uc 1 TRISA2 1 0 :1:2 
-`uc 1 TRISA3 1 0 :1:3 
-`uc 1 TRISA4 1 0 :1:4 
-`uc 1 TRISA5 1 0 :1:5 
-`uc 1 TRISA6 1 0 :1:6 
-`uc 1 TRISA7 1 0 :1:7 
-]
-"1677
-[u S2333 . 1 `S2324 1 . 1 0 ]
-[v _TRISAbits TRISAbits `VES2333  1 e 1 @1222 ]
 "1678
 [v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
 "1722
 [v _TRISB TRISB `VEuc  1 e 1 @1223 ]
-[s S2303 . 1 `uc 1 TRISB0 1 0 :1:0 
+[s S2896 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -494,8 +650,8 @@ I2C1_NULL 5
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "1739
-[u S2312 . 1 `S2303 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES2312  1 e 1 @1223 ]
+[u S2905 . 1 `S2896 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES2905  1 e 1 @1223 ]
 "1740
 [v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
 "1784
@@ -532,7 +688,7 @@ I2C1_NULL 5
 [v _C1CONL C1CONL `VEuc  1 e 1 @256 ]
 "9014
 [v _C1CONH C1CONH `VEuc  1 e 1 @257 ]
-[s S461 . 1 `uc 1 WAKFIL 1 0 :1:0 
+[s S488 . 1 `uc 1 WAKFIL 1 0 :1:0 
 `uc 1 WFT 1 0 :2:1 
 `uc 1 BUSY 1 0 :1:3 
 `uc 1 BRSDIS 1 0 :1:4 
@@ -541,15 +697,15 @@ I2C1_NULL 5
 `uc 1 ON 1 0 :1:7 
 ]
 "9035
-[s S469 . 1 `uc 1 . 1 0 :1:0 
+[s S496 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 WFT0 1 0 :1:1 
 `uc 1 WFT1 1 0 :1:2 
 ]
-[u S473 . 1 `S461 1 . 1 0 `S469 1 . 1 0 ]
-[v _C1CONHbits C1CONHbits `VES473  1 e 1 @257 ]
+[u S500 . 1 `S488 1 . 1 0 `S496 1 . 1 0 ]
+[v _C1CONHbits C1CONHbits `VES500  1 e 1 @257 ]
 "9085
 [v _C1CONU C1CONU `VEuc  1 e 1 @258 ]
-[s S545 . 1 `uc 1 RTXAT 1 0 :1:0 
+[s S591 . 1 `uc 1 RTXAT 1 0 :1:0 
 `uc 1 ESIGM 1 0 :1:1 
 `uc 1 SERR2LOM 1 0 :1:2 
 `uc 1 STEF 1 0 :1:3 
@@ -557,19 +713,19 @@ I2C1_NULL 5
 `uc 1 OPMOD 1 0 :3:5 
 ]
 "9106
-[s S552 . 1 `uc 1 . 1 0 :5:0 
+[s S598 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 OPMOD0 1 0 :1:5 
 `uc 1 OPMOD1 1 0 :1:6 
 `uc 1 OPMOD2 1 0 :1:7 
 ]
-[u S557 . 1 `S545 1 . 1 0 `S552 1 . 1 0 ]
-[v _C1CONUbits C1CONUbits `VES557  1 e 1 @258 ]
-[s S515 . 1 `uc 1 REQOP 1 0 :3:0 
+[u S603 . 1 `S591 1 . 1 0 `S598 1 . 1 0 ]
+[v _C1CONUbits C1CONUbits `VES603  1 e 1 @258 ]
+[s S542 . 1 `uc 1 REQOP 1 0 :3:0 
 `uc 1 ABAT 1 0 :1:3 
 `uc 1 TXBWS 1 0 :4:4 
 ]
 "9178
-[s S519 . 1 `uc 1 REQOP0 1 0 :1:0 
+[s S546 . 1 `uc 1 REQOP0 1 0 :1:0 
 `uc 1 REQOP1 1 0 :1:1 
 `uc 1 REQOP2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -578,8 +734,8 @@ I2C1_NULL 5
 `uc 1 TXBWS2 1 0 :1:6 
 `uc 1 TXBWS3 1 0 :1:7 
 ]
-[u S528 . 1 `S515 1 . 1 0 `S519 1 . 1 0 ]
-[v _C1CONTbits C1CONTbits `VES528  1 e 1 @259 ]
+[u S555 . 1 `S542 1 . 1 0 `S546 1 . 1 0 ]
+[v _C1CONTbits C1CONTbits `VES555  1 e 1 @259 ]
 "9233
 [v _C1NBTCFGL C1NBTCFGL `VEuc  1 e 1 @260 ]
 "9297
@@ -588,7 +744,20 @@ I2C1_NULL 5
 [v _C1NBTCFGU C1NBTCFGU `VEuc  1 e 1 @262 ]
 "9431
 [v _C1NBTCFGT C1NBTCFGT `VEuc  1 e 1 @263 ]
-[s S590 . 1 `uc 1 . 1 0 :2:0 
+"10407
+[v _C1INTL C1INTL `VEuc  1 e 1 @284 ]
+[s S732 . 1 `uc 1 TXIF 1 0 :1:0 
+`uc 1 RXIF 1 0 :1:1 
+`uc 1 TBCIF 1 0 :1:2 
+`uc 1 MODIF 1 0 :1:3 
+`uc 1 TEFIF 1 0 :1:4 
+]
+"10421
+[u S738 . 1 `S732 1 . 1 0 ]
+[v _C1INTLbits C1INTLbits `VES738  1 e 1 @284 ]
+"10451
+[v _C1INTH C1INTH `VEuc  1 e 1 @285 ]
+[s S572 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 TXATIF 1 0 :1:2 
 `uc 1 RXOVIF 1 0 :1:3 
 `uc 1 SERRIF 1 0 :1:4 
@@ -597,9 +766,13 @@ I2C1_NULL 5
 `uc 1 IVMIF 1 0 :1:7 
 ]
 "10467
-[u S598 . 1 `S590 1 . 1 0 ]
-[v _C1INTHbits C1INTHbits `VES598  1 e 1 @285 ]
-[s S609 . 1 `uc 1 . 1 0 :2:0 
+[u S580 . 1 `S572 1 . 1 0 ]
+[v _C1INTHbits C1INTHbits `VES580  1 e 1 @285 ]
+"10502
+[v _C1INTU C1INTU `VEuc  1 e 1 @286 ]
+"10546
+[v _C1INTT C1INTT `VEuc  1 e 1 @287 ]
+[s S699 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 TXATIE 1 0 :1:2 
 `uc 1 RXOVIE 1 0 :1:3 
 `uc 1 SERRIE 1 0 :1:4 
@@ -608,9 +781,9 @@ I2C1_NULL 5
 `uc 1 IVMIE 1 0 :1:7 
 ]
 "10562
-[u S617 . 1 `S609 1 . 1 0 ]
-[v _C1INTTbits C1INTTbits `VES617  1 e 1 @287 ]
-[s S573 . 1 `uc 1 EWARN 1 0 :1:0 
+[u S707 . 1 `S699 1 . 1 0 ]
+[v _C1INTTbits C1INTTbits `VES707  1 e 1 @287 ]
+[s S682 . 1 `uc 1 EWARN 1 0 :1:0 
 `uc 1 RXWARN 1 0 :1:1 
 `uc 1 TXWARN 1 0 :1:2 
 `uc 1 RXBP 1 0 :1:3 
@@ -618,10 +791,50 @@ I2C1_NULL 5
 `uc 1 TXBO 1 0 :1:5 
 ]
 "12179
-[u S580 . 1 `S573 1 . 1 0 ]
-[v _C1TRECUbits C1TRECUbits `VES580  1 e 1 @310 ]
+[u S689 . 1 `S682 1 . 1 0 ]
+[v _C1TRECUbits C1TRECUbits `VES689  1 e 1 @310 ]
 "13232
 [v _C1FIFOBA C1FIFOBA `VEul  1 e 4 @332 ]
+"13519
+[v _C1TXQCONL C1TXQCONL `VEuc  1 e 1 @336 ]
+"13560
+[v _C1TXQCONH C1TXQCONH `VEuc  1 e 1 @337 ]
+"13592
+[v _C1TXQCONU C1TXQCONU `VEuc  1 e 1 @338 ]
+"13662
+[v _C1TXQCONT C1TXQCONT `VEuc  1 e 1 @339 ]
+[s S747 . 1 `uc 1 TXQNIF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TXQEIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXATIF 1 0 :1:4 
+`uc 1 TXERR 1 0 :1:5 
+`uc 1 TXLARB 1 0 :1:6 
+`uc 1 TXABT 1 0 :1:7 
+]
+"13755
+[u S756 . 1 `S747 1 . 1 0 ]
+[v _C1TXQSTALbits C1TXQSTALbits `VES756  1 e 1 @340 ]
+"14150
+[v _C1FIFOCON1L C1FIFOCON1L `VEuc  1 e 1 @348 ]
+"14212
+[v _C1FIFOCON1H C1FIFOCON1H `VEuc  1 e 1 @349 ]
+"14244
+[v _C1FIFOCON1U C1FIFOCON1U `VEuc  1 e 1 @350 ]
+"14314
+[v _C1FIFOCON1T C1FIFOCON1T `VEuc  1 e 1 @351 ]
+[s S768 . 1 `uc 1 TFNRFNIF 1 0 :1:0 
+`uc 1 TFHRFHIF 1 0 :1:1 
+`uc 1 TFERFFIF 1 0 :1:2 
+`uc 1 RXOVIF 1 0 :1:3 
+`uc 1 TXATIF 1 0 :1:4 
+`uc 1 TXERR 1 0 :1:5 
+`uc 1 TXLARB 1 0 :1:6 
+`uc 1 TXABT 1 0 :1:7 
+]
+"14414
+[u S777 . 1 `S768 1 . 1 0 ]
+[v _C1FIFOSTA1Lbits C1FIFOSTA1Lbits `VES777  1 e 1 @352 ]
 "24366
 [v _RB4PPS RB4PPS `VEuc  1 e 1 @525 ]
 "24716
@@ -632,10 +845,6 @@ I2C1_NULL 5
 [v _CANRXPPS CANRXPPS `VEuc  1 e 1 @573 ]
 "25032
 [v _INT0PPS INT0PPS `VEuc  1 e 1 @574 ]
-"25092
-[v _INT1PPS INT1PPS `VEuc  1 e 1 @575 ]
-"25158
-[v _INT2PPS INT2PPS `VEuc  1 e 1 @576 ]
 "28447
 [v _ADACTPPS ADACTPPS `VEuc  1 e 1 @617 ]
 "28909
@@ -652,7 +861,7 @@ I2C1_NULL 5
 [v _I2C1CNTH I2C1CNTH `VEuc  1 e 1 @653 ]
 "30567
 [v _I2C1CON0 I2C1CON0 `VEuc  1 e 1 @660 ]
-[s S1597 . 1 `uc 1 MODE 1 0 :3:0 
+[s S1948 . 1 `uc 1 MODE 1 0 :3:0 
 `uc 1 MDR 1 0 :1:3 
 `uc 1 CSTR 1 0 :1:4 
 `uc 1 S 1 0 :1:5 
@@ -660,17 +869,17 @@ I2C1_NULL 5
 `uc 1 EN 1 0 :1:7 
 ]
 "30589
-[s S1604 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S1955 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 I2CEN 1 0 :1:7 
 ]
-[u S1610 . 1 `S1597 1 . 1 0 `S1604 1 . 1 0 ]
-[v _I2C1CON0bits I2C1CON0bits `VES1610  1 e 1 @660 ]
+[u S1961 . 1 `S1948 1 . 1 0 `S1955 1 . 1 0 ]
+[v _I2C1CON0bits I2C1CON0bits `VES1961  1 e 1 @660 ]
 "30644
 [v _I2C1CON1 I2C1CON1 `VEuc  1 e 1 @661 ]
-[s S1650 . 1 `uc 1 CSD 1 0 :1:0 
+[s S2001 . 1 `uc 1 CSD 1 0 :1:0 
 `uc 1 TXU 1 0 :1:1 
 `uc 1 RXO 1 0 :1:2 
 `uc 1 P 1 0 :1:3 
@@ -680,13 +889,13 @@ I2C1_NULL 5
 `uc 1 ACKCNT 1 0 :1:7 
 ]
 "30661
-[u S1659 . 1 `S1650 1 . 1 0 ]
-[v _I2C1CON1bits I2C1CON1bits `VES1659  1 e 1 @661 ]
+[u S2010 . 1 `S2001 1 . 1 0 ]
+[v _I2C1CON1bits I2C1CON1bits `VES2010  1 e 1 @661 ]
 "30706
 [v _I2C1CON2 I2C1CON2 `VEuc  1 e 1 @662 ]
 "30782
 [v _I2C1ERR I2C1ERR `VEuc  1 e 1 @663 ]
-[s S1671 . 1 `uc 1 NACKIE 1 0 :1:0 
+[s S2022 . 1 `uc 1 NACKIE 1 0 :1:0 
 `uc 1 BCLIE 1 0 :1:1 
 `uc 1 BTOIE 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -695,7 +904,7 @@ I2C1_NULL 5
 `uc 1 BTOIF 1 0 :1:6 
 ]
 "30807
-[s S1679 . 1 `uc 1 NACK1IE 1 0 :1:0 
+[s S2030 . 1 `uc 1 NACK1IE 1 0 :1:0 
 `uc 1 BCL1IE 1 0 :1:1 
 `uc 1 BTO1IE 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -703,9 +912,9 @@ I2C1_NULL 5
 `uc 1 BCL1IF 1 0 :1:5 
 `uc 1 BTO1IF 1 0 :1:6 
 ]
-[u S1687 . 1 `S1671 1 . 1 0 `S1679 1 . 1 0 ]
-[v _I2C1ERRbits I2C1ERRbits `VES1687  1 e 1 @663 ]
-[s S1627 . 1 `uc 1 RXBF 1 0 :1:0 
+[u S2038 . 1 `S2022 1 . 1 0 `S2030 1 . 1 0 ]
+[v _I2C1ERRbits I2C1ERRbits `VES2038  1 e 1 @663 ]
+[s S1978 . 1 `uc 1 RXBF 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 CLRBF 1 0 :1:2 
 `uc 1 RXRE 1 0 :1:3 
@@ -715,11 +924,11 @@ I2C1_NULL 5
 `uc 1 TXWE 1 0 :1:7 
 ]
 "30979
-[u S1636 . 1 `S1627 1 . 1 0 ]
-[v _I2C1STAT1bits I2C1STAT1bits `VES1636  1 e 1 @665 ]
+[u S1987 . 1 `S1978 1 . 1 0 ]
+[v _I2C1STAT1bits I2C1STAT1bits `VES1987  1 e 1 @665 ]
 "31009
 [v _I2C1PIR I2C1PIR `VEuc  1 e 1 @666 ]
-[s S1707 . 1 `uc 1 SCIF 1 0 :1:0 
+[s S2058 . 1 `uc 1 SCIF 1 0 :1:0 
 `uc 1 RSCIF 1 0 :1:1 
 `uc 1 PCIF 1 0 :1:2 
 `uc 1 ADRIF 1 0 :1:3 
@@ -729,7 +938,7 @@ I2C1_NULL 5
 `uc 1 CNTIF 1 0 :1:7 
 ]
 "31036
-[s S1716 . 1 `uc 1 SC1IF 1 0 :1:0 
+[s S2067 . 1 `uc 1 SC1IF 1 0 :1:0 
 `uc 1 RSC1IF 1 0 :1:1 
 `uc 1 PC1IF 1 0 :1:2 
 `uc 1 ADR1IF 1 0 :1:3 
@@ -738,11 +947,11 @@ I2C1_NULL 5
 `uc 1 ACKT1IF 1 0 :1:6 
 `uc 1 CNT1IF 1 0 :1:7 
 ]
-[u S1725 . 1 `S1707 1 . 1 0 `S1716 1 . 1 0 ]
-[v _I2C1PIRbits I2C1PIRbits `VES1725  1 e 1 @666 ]
+[u S2076 . 1 `S2058 1 . 1 0 `S2067 1 . 1 0 ]
+[v _I2C1PIRbits I2C1PIRbits `VES2076  1 e 1 @666 ]
 "31111
 [v _I2C1PIE I2C1PIE `VEuc  1 e 1 @667 ]
-[s S1768 . 1 `uc 1 SCIE 1 0 :1:0 
+[s S2119 . 1 `uc 1 SCIE 1 0 :1:0 
 `uc 1 RSCIE 1 0 :1:1 
 `uc 1 PCIE 1 0 :1:2 
 `uc 1 ADRIE 1 0 :1:3 
@@ -752,7 +961,7 @@ I2C1_NULL 5
 `uc 1 CNTIE 1 0 :1:7 
 ]
 "31138
-[s S1777 . 1 `uc 1 SC1IE 1 0 :1:0 
+[s S2128 . 1 `uc 1 SC1IE 1 0 :1:0 
 `uc 1 RSC1IE 1 0 :1:1 
 `uc 1 PC1IE 1 0 :1:2 
 `uc 1 ADR1IE 1 0 :1:3 
@@ -761,8 +970,8 @@ I2C1_NULL 5
 `uc 1 ACKT1IE 1 0 :1:6 
 `uc 1 CNT1IE 1 0 :1:7 
 ]
-[u S1786 . 1 `S1768 1 . 1 0 `S1777 1 . 1 0 ]
-[v _I2C1PIEbits I2C1PIEbits `VES1786  1 e 1 @667 ]
+[u S2137 . 1 `S2119 1 . 1 0 `S2128 1 . 1 0 ]
+[v _I2C1PIEbits I2C1PIEbits `VES2137  1 e 1 @667 ]
 "31283
 [v _I2C1BAUD I2C1BAUD `VEuc  1 e 1 @669 ]
 "31303
@@ -773,31 +982,31 @@ I2C1_NULL 5
 [v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
 "38942
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
-[s S2623 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S2821 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 MD16 1 0 :1:4 
 `uc 1 OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
 "38970
-[s S2629 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S2827 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T0MD16 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
 "38970
-[s S2635 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S2833 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
 `uc 1 T016BIT 1 0 :1:4 
 ]
 "38970
-[u S2641 . 1 `S2623 1 . 1 0 `S2629 1 . 1 0 `S2635 1 . 1 0 ]
+[u S2839 . 1 `S2821 1 . 1 0 `S2827 1 . 1 0 `S2833 1 . 1 0 ]
 "38970
 "38970
-[v _T0CON0bits T0CON0bits `VES2641  1 e 1 @794 ]
+[v _T0CON0bits T0CON0bits `VES2839  1 e 1 @794 ]
 "39040
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
 "39182
@@ -806,14 +1015,14 @@ I2C1_NULL 5
 [v _TMR1H TMR1H `VEuc  1 e 1 @797 ]
 "39322
 [v _T1CON T1CON `VEuc  1 e 1 @798 ]
-[s S2441 . 1 `uc 1 ON 1 0 :1:0 
+[s S2619 . 1 `uc 1 ON 1 0 :1:0 
 `uc 1 RD16 1 0 :1:1 
 `uc 1 NOT_SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 CKPS 1 0 :2:4 
 ]
 "39358
-[s S2447 . 1 `uc 1 TMR1ON 1 0 :1:0 
+[s S2625 . 1 `uc 1 TMR1ON 1 0 :1:0 
 `uc 1 T1RD16 1 0 :1:1 
 `uc 1 NOT_T1SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -821,22 +1030,22 @@ I2C1_NULL 5
 `uc 1 T1CKPS1 1 0 :1:5 
 ]
 "39358
-[s S2454 . 1 `uc 1 . 1 0 :4:0 
+[s S2632 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CKPS0 1 0 :1:4 
 `uc 1 CKPS1 1 0 :1:5 
 ]
 "39358
-[s S2458 . 1 `uc 1 . 1 0 :1:0 
+[s S2636 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RD161 1 0 :1:1 
 ]
 "39358
-[u S2461 . 1 `S2441 1 . 1 0 `S2447 1 . 1 0 `S2454 1 . 1 0 `S2458 1 . 1 0 ]
+[u S2639 . 1 `S2619 1 . 1 0 `S2625 1 . 1 0 `S2632 1 . 1 0 `S2636 1 . 1 0 ]
 "39358
 "39358
-[v _T1CONbits T1CONbits `VES2461  1 e 1 @798 ]
+[v _T1CONbits T1CONbits `VES2639  1 e 1 @798 ]
 "39512
 [v _T1GCON T1GCON `VEuc  1 e 1 @799 ]
-[s S2487 . 1 `uc 1 . 1 0 :2:0 
+[s S2665 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 GVAL 1 0 :1:2 
 `uc 1 GGO 1 0 :1:3 
 `uc 1 GSPM 1 0 :1:4 
@@ -845,7 +1054,7 @@ I2C1_NULL 5
 `uc 1 GE 1 0 :1:7 
 ]
 "39550
-[s S2495 . 1 `uc 1 . 1 0 :2:0 
+[s S2673 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T1GVAL 1 0 :1:2 
 `uc 1 T1GGO 1 0 :1:3 
 `uc 1 T1GSPM 1 0 :1:4 
@@ -854,42 +1063,42 @@ I2C1_NULL 5
 `uc 1 T1GE 1 0 :1:7 
 ]
 "39550
-[s S2503 . 1 `uc 1 . 1 0 :3:0 
+[s S2681 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_DONE 1 0 :1:3 
 ]
 "39550
-[s S2506 . 1 `uc 1 . 1 0 :3:0 
+[s S2684 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_T1DONE 1 0 :1:3 
 ]
 "39550
-[u S2509 . 1 `S2487 1 . 1 0 `S2495 1 . 1 0 `S2503 1 . 1 0 `S2506 1 . 1 0 ]
+[u S2687 . 1 `S2665 1 . 1 0 `S2673 1 . 1 0 `S2681 1 . 1 0 `S2684 1 . 1 0 ]
 "39550
 "39550
-[v _T1GCONbits T1GCONbits `VES2509  1 e 1 @799 ]
+[v _T1GCONbits T1GCONbits `VES2687  1 e 1 @799 ]
 "39726
 [v _T1GATE T1GATE `VEuc  1 e 1 @800 ]
 "39892
 [v _T1CLK T1CLK `VEuc  1 e 1 @801 ]
 "54261
 [v _ADCP ADCP `VEuc  1 e 1 @984 ]
-[s S1086 . 1 `uc 1 CPRDY 1 0 :1:0 
+[s S1439 . 1 `uc 1 CPRDY 1 0 :1:0 
 `uc 1 . 1 0 :6:1 
 `uc 1 ON 1 0 :1:7 
 ]
 "54326
-[s S1090 . 1 `uc 1 ADCPRDY 1 0 :1:0 
+[s S1443 . 1 `uc 1 ADCPRDY 1 0 :1:0 
 `uc 1 . 1 0 :6:1 
 `uc 1 CPON 1 0 :1:7 
 ]
 "54326
-[s S1094 . 1 `uc 1 . 1 0 :7:0 
+[s S1447 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 ADCPON 1 0 :1:7 
 ]
 "54326
-[u S1097 . 1 `S1086 1 . 1 0 `S1090 1 . 1 0 `S1094 1 . 1 0 ]
+[u S1450 . 1 `S1439 1 . 1 0 `S1443 1 . 1 0 `S1447 1 . 1 0 ]
 "54326
 "54326
-[v _ADCPbits ADCPbits `VES1097  1 e 1 @984 ]
+[v _ADCPbits ADCPbits `VES1450  1 e 1 @984 ]
 "54363
 [v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
 "54491
@@ -942,7 +1151,7 @@ I2C1_NULL 5
 [v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
 "57330
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
-[s S786 . 1 `uc 1 GO 1 0 :1:0 
+[s S1139 . 1 `uc 1 GO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM 1 0 :2:2 
 `uc 1 CS 1 0 :1:4 
@@ -951,7 +1160,7 @@ I2C1_NULL 5
 `uc 1 ON 1 0 :1:7 
 ]
 "57368
-[s S794 . 1 `uc 1 ADGO 1 0 :1:0 
+[s S1147 . 1 `uc 1 ADGO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM 1 0 :2:2 
 `uc 1 ADCS 1 0 :1:4 
@@ -960,52 +1169,52 @@ I2C1_NULL 5
 `uc 1 ADON 1 0 :1:7 
 ]
 "57368
-[s S802 . 1 `uc 1 DONE 1 0 :1:0 
+[s S1155 . 1 `uc 1 DONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM0 1 0 :1:2 
 ]
 "57368
-[s S806 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+[s S1159 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
 ]
 "57368
-[s S808 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+[s S1161 . 1 `uc 1 GO_nDONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM0 1 0 :1:2 
 ]
 "57368
-[u S812 . 1 `S786 1 . 1 0 `S794 1 . 1 0 `S802 1 . 1 0 `S806 1 . 1 0 `S808 1 . 1 0 ]
+[u S1165 . 1 `S1139 1 . 1 0 `S1147 1 . 1 0 `S1155 1 . 1 0 `S1159 1 . 1 0 `S1161 1 . 1 0 ]
 "57368
 "57368
-[v _ADCON0bits ADCON0bits `VES812  1 e 1 @1011 ]
+[v _ADCON0bits ADCON0bits `VES1165  1 e 1 @1011 ]
 "57458
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
-[s S1058 . 1 `uc 1 DSEN 1 0 :1:0 
+[s S1411 . 1 `uc 1 DSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 GPOL 1 0 :1:5 
 `uc 1 IPEN 1 0 :1:6 
 `uc 1 PPOL 1 0 :1:7 
 ]
 "57479
-[s S1064 . 1 `uc 1 ADDSEN 1 0 :1:0 
+[s S1417 . 1 `uc 1 ADDSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 ADGPOL 1 0 :1:5 
 `uc 1 ADIPEN 1 0 :1:6 
 `uc 1 ADPPOL 1 0 :1:7 
 ]
 "57479
-[u S1070 . 1 `S1058 1 . 1 0 `S1064 1 . 1 0 ]
+[u S1423 . 1 `S1411 1 . 1 0 `S1417 1 . 1 0 ]
 "57479
 "57479
-[v _ADCON1bits ADCON1bits `VES1070  1 e 1 @1012 ]
+[v _ADCON1bits ADCON1bits `VES1423  1 e 1 @1012 ]
 "57524
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
-[s S921 . 1 `uc 1 MODE 1 0 :3:0 
+[s S1274 . 1 `uc 1 MODE 1 0 :3:0 
 `uc 1 ACLR 1 0 :1:3 
 `uc 1 CRS 1 0 :3:4 
 `uc 1 PSIS 1 0 :1:7 
 ]
 "57572
-[s S926 . 1 `uc 1 ADMD0 1 0 :1:0 
+[s S1279 . 1 `uc 1 ADMD0 1 0 :1:0 
 `uc 1 ADMD1 1 0 :1:1 
 `uc 1 ADMD2 1 0 :1:2 
 `uc 1 ADACLR 1 0 :1:3 
@@ -1015,12 +1224,12 @@ I2C1_NULL 5
 `uc 1 ADPSIS 1 0 :1:7 
 ]
 "57572
-[s S935 . 1 `uc 1 ADMD 1 0 :3:0 
+[s S1288 . 1 `uc 1 ADMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCRS 1 0 :3:4 
 ]
 "57572
-[s S939 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S1292 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -1029,29 +1238,29 @@ I2C1_NULL 5
 `uc 1 CRS2 1 0 :1:6 
 ]
 "57572
-[s S947 . 1 `uc 1 MD 1 0 :3:0 
+[s S1300 . 1 `uc 1 MD 1 0 :3:0 
 ]
 "57572
-[s S949 . 1 `uc 1 MD0 1 0 :1:0 
+[s S1302 . 1 `uc 1 MD0 1 0 :1:0 
 `uc 1 MD1 1 0 :1:1 
 `uc 1 MD2 1 0 :1:2 
 ]
 "57572
-[s S953 . 1 `uc 1 ADMODE 1 0 :3:0 
+[s S1306 . 1 `uc 1 ADMODE 1 0 :3:0 
 ]
 "57572
-[u S955 . 1 `S921 1 . 1 0 `S926 1 . 1 0 `S935 1 . 1 0 `S939 1 . 1 0 `S947 1 . 1 0 `S949 1 . 1 0 `S953 1 . 1 0 ]
+[u S1308 . 1 `S1274 1 . 1 0 `S1279 1 . 1 0 `S1288 1 . 1 0 `S1292 1 . 1 0 `S1300 1 . 1 0 `S1302 1 . 1 0 `S1306 1 . 1 0 ]
 "57572
 "57572
-[v _ADCON2bits ADCON2bits `VES955  1 e 1 @1013 ]
+[v _ADCON2bits ADCON2bits `VES1308  1 e 1 @1013 ]
 "57702
 [v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
-[s S867 . 1 `uc 1 TMD 1 0 :3:0 
+[s S1220 . 1 `uc 1 TMD 1 0 :3:0 
 `uc 1 SOI 1 0 :1:3 
 `uc 1 CALC 1 0 :3:4 
 ]
 "57737
-[s S871 . 1 `uc 1 ADTMD0 1 0 :1:0 
+[s S1224 . 1 `uc 1 ADTMD0 1 0 :1:0 
 `uc 1 ADTMD1 1 0 :1:1 
 `uc 1 ADTMD2 1 0 :1:2 
 `uc 1 ADSOI 1 0 :1:3 
@@ -1060,12 +1269,12 @@ I2C1_NULL 5
 `uc 1 ADCALC2 1 0 :1:6 
 ]
 "57737
-[s S879 . 1 `uc 1 ADTMD 1 0 :3:0 
+[s S1232 . 1 `uc 1 ADTMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCALC 1 0 :3:4 
 ]
 "57737
-[s S883 . 1 `uc 1 TMD0 1 0 :1:0 
+[s S1236 . 1 `uc 1 TMD0 1 0 :1:0 
 `uc 1 TMD1 1 0 :1:1 
 `uc 1 TMD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -1074,13 +1283,13 @@ I2C1_NULL 5
 `uc 1 CALC2 1 0 :1:6 
 ]
 "57737
-[u S891 . 1 `S867 1 . 1 0 `S871 1 . 1 0 `S879 1 . 1 0 `S883 1 . 1 0 ]
+[u S1244 . 1 `S1220 1 . 1 0 `S1224 1 . 1 0 `S1232 1 . 1 0 `S1236 1 . 1 0 ]
 "57737
 "57737
-[v _ADCON3bits ADCON3bits `VES891  1 e 1 @1014 ]
+[v _ADCON3bits ADCON3bits `VES1244  1 e 1 @1014 ]
 "57832
 [v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
-[s S998 . 1 `uc 1 STAT 1 0 :3:0 
+[s S1351 . 1 `uc 1 STAT 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 MATH 1 0 :1:4 
 `uc 1 LTHR 1 0 :1:5 
@@ -1088,7 +1297,7 @@ I2C1_NULL 5
 `uc 1 OV 1 0 :1:7 
 ]
 "57867
-[s S1005 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+[s S1358 . 1 `uc 1 ADSTAT0 1 0 :1:0 
 `uc 1 ADSTAT1 1 0 :1:1 
 `uc 1 ADSTAT2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -1098,20 +1307,20 @@ I2C1_NULL 5
 `uc 1 ADAOV 1 0 :1:7 
 ]
 "57867
-[s S1014 . 1 `uc 1 ADSTAT 1 0 :3:0 
+[s S1367 . 1 `uc 1 ADSTAT 1 0 :3:0 
 `uc 1 . 1 0 :4:3 
 `uc 1 ADOV 1 0 :1:7 
 ]
 "57867
-[s S1018 . 1 `uc 1 STAT0 1 0 :1:0 
+[s S1371 . 1 `uc 1 STAT0 1 0 :1:0 
 `uc 1 STAT1 1 0 :1:1 
 `uc 1 STAT2 1 0 :1:2 
 ]
 "57867
-[u S1022 . 1 `S998 1 . 1 0 `S1005 1 . 1 0 `S1014 1 . 1 0 `S1018 1 . 1 0 ]
+[u S1375 . 1 `S1351 1 . 1 0 `S1358 1 . 1 0 `S1367 1 . 1 0 `S1371 1 . 1 0 ]
 "57867
 "57867
-[v _ADSTATbits ADSTATbits `VES1022  1 e 1 @1015 ]
+[v _ADSTATbits ADSTATbits `VES1375  1 e 1 @1015 ]
 "57957
 [v _ADREF ADREF `VEuc  1 e 1 @1016 ]
 "58039
@@ -1122,15 +1331,15 @@ I2C1_NULL 5
 [v _ADCTX ADCTX `VEuc  1 e 1 @1019 ]
 "58317
 [v _ADCSEL1 ADCSEL1 `VEuc  1 e 1 @1020 ]
-[s S847 . 1 `uc 1 . 1 0 :6:0 
+[s S1200 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 SSI 1 0 :1:6 
 `uc 1 CHEN 1 0 :1:7 
 ]
 "58329
-[u S851 . 1 `S847 1 . 1 0 ]
+[u S1204 . 1 `S1200 1 . 1 0 ]
 "58329
 "58329
-[v _ADCSEL1bits ADCSEL1bits `VES851  1 e 1 @1020 ]
+[v _ADCSEL1bits ADCSEL1bits `VES1204  1 e 1 @1020 ]
 "58425
 [v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
 "58487
@@ -1165,7 +1374,21 @@ I2C1_NULL 5
 [v _WPUE WPUE `VEuc  1 e 1 @1057 ]
 "59934
 [v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
-[s S227 . 1 `uc 1 INT0IE 1 0 :1:0 
+[s S277 . 1 `uc 1 SWIE 1 0 :1:0 
+`uc 1 HLVDIE 1 0 :1:1 
+`uc 1 OSFIE 1 0 :1:2 
+`uc 1 CSWIE 1 0 :1:3 
+`uc 1 TU16AIE 1 0 :1:4 
+`uc 1 CLC1IE 1 0 :1:5 
+`uc 1 CANIE 1 0 :1:6 
+`uc 1 IOCIE 1 0 :1:7 
+]
+"65057
+[u S286 . 1 `S277 1 . 1 0 ]
+"65057
+"65057
+[v _PIE0bits PIE0bits `VES286  1 e 1 @1182 ]
+[s S231 . 1 `uc 1 INT0IE 1 0 :1:0 
 `uc 1 ZCDIE 1 0 :1:1 
 `uc 1 ADIE 1 0 :1:2 
 `uc 1 ACTIE 1 0 :1:3 
@@ -1175,10 +1398,10 @@ I2C1_NULL 5
 `uc 1 SMT1PWAIE 1 0 :1:7 
 ]
 "65119
-[u S236 . 1 `S227 1 . 1 0 ]
+[u S240 . 1 `S231 1 . 1 0 ]
 "65119
 "65119
-[v _PIE1bits PIE1bits `VES236  1 e 1 @1183 ]
+[v _PIE1bits PIE1bits `VES240  1 e 1 @1183 ]
 [s S181 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
 `uc 1 SPI1TXIE 1 0 :1:1 
 `uc 1 SPI1IE 1 0 :1:2 
@@ -1193,21 +1416,7 @@ I2C1_NULL 5
 "65251
 "65251
 [v _PIE3bits PIE3bits `VES190  1 e 1 @1185 ]
-[s S273 . 1 `uc 1 INT1IE 1 0 :1:0 
-`uc 1 CLC2IE 1 0 :1:1 
-`uc 1 CWG1IE 1 0 :1:2 
-`uc 1 NCO1IE 1 0 :1:3 
-`uc 1 DMA2SCNTIE 1 0 :1:4 
-`uc 1 DMA2DCNTIE 1 0 :1:5 
-`uc 1 DMA2ORIE 1 0 :1:6 
-`uc 1 DMA2AIE 1 0 :1:7 
-]
-"65437
-[u S282 . 1 `S273 1 . 1 0 ]
-"65437
-"65437
-[v _PIE6bits PIE6bits `VES282  1 e 1 @1188 ]
-[s S1747 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
+[s S2098 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
 `uc 1 I2C1TXIE 1 0 :1:1 
 `uc 1 I2C1IE 1 0 :1:2 
 `uc 1 I2C1EIE 1 0 :1:3 
@@ -1217,75 +1426,104 @@ I2C1_NULL 5
 `uc 1 PWM3IE 1 0 :1:7 
 ]
 "65499
-[u S1756 . 1 `S1747 1 . 1 0 ]
+[u S2107 . 1 `S2098 1 . 1 0 ]
 "65499
 "65499
-[v _PIE7bits PIE7bits `VES1756  1 e 1 @1189 ]
-"56 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
+[v _PIE7bits PIE7bits `VES2107  1 e 1 @1189 ]
+"56 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
 [v _ADC_ConversionComplete_ISR ADC_ConversionComplete_ISR `*.37(v  1 s 2 ADC_ConversionComplete_ISR ]
 "57
 [v _ADC_Context1Thereshld_ISR ADC_Context1Thereshld_ISR `*.37(v  1 s 2 ADC_Context1Thereshld_ISR ]
 "58
 [v _ADC_ActiveClockTuning_ISR ADC_ActiveClockTuning_ISR `*.37(v  1 s 2 ADC_ActiveClockTuning_ISR ]
-"34 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
+"103 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+[v _rxMsgData rxMsgData `[8]uc  1 s 8 rxMsgData ]
+[s S386 CAN1_RX_FIFO 2 `E22458 1 channel 1 0 `VEuc 1 fifoHead 1 1 ]
+"105
+[v _rxFifos rxFifos `VE[1]S386  1 s 2 rxFifos ]
+"111
+[v _DLC_BYTES DLC_BYTES `C[9]uc  1 s 9 DLC_BYTES ]
+"113
+[v _CAN1_InvalidMessageHandler CAN1_InvalidMessageHandler `*.37(v  1 s 2 CAN1_InvalidMessageHandler ]
+"114
+[v _CAN1_BusWakeUpActivityHandler CAN1_BusWakeUpActivityHandler `*.37(v  1 s 2 CAN1_BusWakeUpActivityHandler ]
+"115
+[v _CAN1_BusErrorHandler CAN1_BusErrorHandler `*.37(v  1 s 2 CAN1_BusErrorHandler ]
+"116
+[v _CAN1_ModeChangeHandler CAN1_ModeChangeHandler `*.37(v  1 s 2 CAN1_ModeChangeHandler ]
+"117
+[v _CAN1_SystemErrorHandler CAN1_SystemErrorHandler `*.37(v  1 s 2 CAN1_SystemErrorHandler ]
+"118
+[v _CAN1_TxAttemptHandler CAN1_TxAttemptHandler `*.37(v  1 s 2 CAN1_TxAttemptHandler ]
+"119
+[v _CAN1_RxBufferOverflowHandler CAN1_RxBufferOverflowHandler `*.37(v  1 s 2 CAN1_RxBufferOverflowHandler ]
+"34 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
 [v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
-"35
-[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
-"36
-[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
-"159 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+"159 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
 [v _i2c1_fsmStateTable i2c1_fsmStateTable `C[19]*.37(E22532  1 e 38 0 ]
-[s S1381 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E22532 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :2:0 
+[s S1732 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E22532 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :2:0 
 `uc 1 busy 1 35 :1:2 
 `uc 1 inUse 1 35 :1:3 
 `uc 1 bufferFree 1 35 :1:4 
 ]
 "181
-[v _I2C1_Status I2C1_Status `S1381  1 e 36 0 ]
-"60 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
+[v _I2C1_Status I2C1_Status `S1732  1 e 36 0 ]
+"60 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
 [v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
-"57 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
+"59 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
 [v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
-"58
+"60
 [v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
-"12 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\reluctor.c
-[v _ucCountFreq ucCountFreq `uc  1 e 1 0 ]
+"11 C:\Users\panze\Documents\GitHub\SEN\SEN.X\PARAMETERS.c
+[v _ucWheelID ucWheelID `uc  1 e 1 0 ]
+"12
+[v _ucTyrePerimeter ucTyrePerimeter `uc  1 e 1 0 ]
+"13
+[v _ucWheelTeeth ucWheelTeeth `uc  1 e 1 0 ]
+"12 C:\Users\panze\Documents\GitHub\SEN\SEN.X\reluctor.c
+[v _ucCountTeeth ucCountTeeth `uc  1 e 1 0 ]
 "13
 [v _ucCountPos ucCountPos `uc  1 e 1 0 ]
 "14
-[v _ucCountVueltaRueda ucCountVueltaRueda `uc  1 e 1 0 ]
+[v _uiCountVueltaRueda uiCountVueltaRueda `ui  1 e 2 0 ]
 "15
-[v _uiMeterPerSecond uiMeterPerSecond `ui  1 e 2 0 ]
+[v _ucCountVueltaRueda1 ucCountVueltaRueda1 `uc  1 e 1 0 ]
 "16
-[v _uiKmeterPerHour uiKmeterPerHour `ui  1 e 2 0 ]
-"17
-[v _ucKPHData1 ucKPHData1 `uc  1 e 1 0 ]
-"18
-[v _ucKPHData2 ucKPHData2 `uc  1 e 1 0 ]
+[v _ucCountVueltaRueda2 ucCountVueltaRueda2 `uc  1 e 1 0 ]
 "19
+[v _ui_cm_in_period ui_cm_in_period `uc  1 e 1 0 ]
+"21
+[v _ui_MeterPerSecond_E_2 ui_MeterPerSecond_E_2 `ui  1 e 2 0 ]
+"22
+[v _uiKPH_E_2 uiKPH_E_2 `ui  1 e 2 0 ]
+"23
+[v _ucKPHData1 ucKPHData1 `uc  1 e 1 0 ]
+"24
+[v _ucKPHData2 ucKPHData2 `uc  1 e 1 0 ]
+"25
 [v _ucReluctorState ucReluctorState `uc  1 e 1 0 ]
-"53 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\main.c
+"51 C:\Users\panze\Documents\GitHub\SEN\SEN.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"105
+"106
 } 0
-"50 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
+"50 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"62
+"63
 } 0
-"64 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
+"66 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 {
-"97
+"99
 } 0
-"192
+"201
 [v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
-"194
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"203
 } 0
-"62 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
+"62 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 {
 "86
@@ -1293,87 +1531,144 @@ I2C1_NULL 5
 "155
 [v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "157
 } 0
-"78 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
+"79 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
-"98
+"99
 } 0
-"55 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/pin_manager.c
+"55 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
-"126
+"124
 } 0
-"64 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
+"65 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
-"76
+"77
 } 0
-"52 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+"52 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "56
 } 0
-"183 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+"183 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/i2c1_master.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 {
 "205
 } 0
-"121 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
+"66 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
 [v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
 {
-"150
+"78
 } 0
-"112
-[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
-{
-[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
-"114
-} 0
-"86
-[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
-{
-[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
-"88
-} 0
-"60
+"58
 [v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
 {
-[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
-"62
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"60
 } 0
-"105 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+"237 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
 [v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
 {
-"127
+"264
 } 0
-"129
+"179
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+{
+"193
+} 0
+"149
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 e 1 0 ]
+{
+"151
+[v CAN1_RX_FIFO_ResetInfo@index index `uc  1 a 1 0 ]
+"157
+} 0
+"175
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+{
+"177
+} 0
+"159
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+{
+"173
+} 0
+"266
 [v _CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
 {
 [v CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 wreg ]
-"131
-[v CAN1_OperationModeSet@status status `E22356  1 a 1 3 ]
-"132
-[v CAN1_OperationModeSet@opMode opMode `E22346  1 a 1 2 ]
-"129
+"268
+[v CAN1_OperationModeSet@status status `E22356  1 a 1 1 ]
+"269
+[v CAN1_OperationModeSet@opMode opMode `E22346  1 a 1 0 ]
+"266
 [v CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 wreg ]
-"131
-[v CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 4 ]
-"157
+"268
+[v CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 2 ]
+"293
 } 0
-"159
+"295
 [v _CAN1_OperationModeGet CAN1_OperationModeGet `(E22346  1 e 1 0 ]
 {
-"162
+"298
 } 0
-"88
+"211
+[v _CAN1_ErrorNotificationInterruptEnable CAN1_ErrorNotificationInterruptEnable `(v  1 s 1 CAN1_ErrorNotificationInterruptEnable ]
+{
+"235
+} 0
+"608
+[v _CAN1_SetTxAttemptInterruptHandler CAN1_SetTxAttemptInterruptHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetTxAttemptInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"611
+} 0
+"603
+[v _CAN1_SetSystemErrorInterruptHandler CAN1_SetSystemErrorInterruptHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetSystemErrorInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"606
+} 0
+"613
+[v _CAN1_SetRxBufferOverFlowInterruptHandler CAN1_SetRxBufferOverFlowInterruptHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetRxBufferOverFlowInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"616
+} 0
+"598
+[v _CAN1_SetModeChangeInterruptHandler CAN1_SetModeChangeInterruptHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetModeChangeInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"601
+} 0
+"583
+[v _CAN1_SetInvalidMessageInterruptHandler CAN1_SetInvalidMessageInterruptHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetInvalidMessageInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"586
+} 0
+"588
+[v _CAN1_SetBusWakeUpActivityInterruptHandler CAN1_SetBusWakeUpActivityInterruptHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetBusWakeUpActivityInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"591
+} 0
+"593
+[v _CAN1_SetBusErrorInterruptHandler CAN1_SetBusErrorInterruptHandler `(v  1 e 1 0 ]
+{
+[v CAN1_SetBusErrorInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
+"596
+} 0
+"195
 [v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
 {
-"102
+"209
 } 0
-"65 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
+"65 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 {
 "177
@@ -1381,101 +1676,261 @@ I2C1_NULL 5
 "423
 [v _ADC_SetContext1ThresholdInterruptHandler ADC_SetContext1ThresholdInterruptHandler `(v  1 e 1 0 ]
 {
-[v ADC_SetContext1ThresholdInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+[v ADC_SetContext1ThresholdInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "426
 } 0
 "428
 [v _ADC_SetActiveClockTuningInterruptHandler ADC_SetActiveClockTuningInterruptHandler `(v  1 e 1 0 ]
 {
-[v ADC_SetActiveClockTuningInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+[v ADC_SetActiveClockTuningInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "431
 } 0
 "418
 [v _ADC_SetADIInterruptHandler ADC_SetADIInterruptHandler `(v  1 e 1 0 ]
 {
-[v ADC_SetADIInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+[v ADC_SetADIInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "421
 } 0
-"55 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\reluctor.c
-[v _ReluctorPosRead ReluctorPosRead `(ui  1 e 2 0 ]
+"18 C:\Users\panze\Documents\GitHub\SEN\SEN.X\PARAMETERS.c
+[v _PARAMETERSInit PARAMETERSInit `(v  1 e 1 0 ]
 {
-"58
+"23
 } 0
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-[v ___awdiv __awdiv `(i  1 e 2 0 ]
-{
-"10
-[v ___awdiv@quotient quotient `i  1 a 2 14 ]
-"11
-[v ___awdiv@sign sign `uc  1 a 1 13 ]
-[v ___awdiv@counter counter `uc  1 a 1 12 ]
-"7
-[v ___awdiv@dividend dividend `i  1 p 2 8 ]
-[v ___awdiv@divisor divisor `i  1 p 2 10 ]
-"41
-} 0
-"27 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\reluctor.c
-[v _ReluctorFreqRead ReluctorFreqRead `(v  1 e 1 0 ]
-{
-"44
-} 0
-"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
-[v ___wmul __wmul `(ui  1 e 2 0 ]
-{
-"17
-[v ___wmul@product product `ui  1 a 2 6 ]
-"15
-[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
-[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
-"53
-} 0
-"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
-[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
-{
-"10
-[v ___lwdiv@quotient quotient `ui  1 a 2 12 ]
-"11
-[v ___lwdiv@counter counter `uc  1 a 1 14 ]
-"7
-[v ___lwdiv@dividend dividend `ui  1 p 2 8 ]
-[v ___lwdiv@divisor divisor `ui  1 p 2 10 ]
-"30
-} 0
-"38 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/delay.c
+"38 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/delay.c
 [v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
 {
-[v DELAY_milliseconds@milliseconds milliseconds `us  1 p 2 2 ]
+[v DELAY_milliseconds@milliseconds milliseconds `us  1 p 2 0 ]
 "42
 } 0
-"58 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+"58 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
 {
-"85
+"81
 } 0
-"164 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
+"166 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr1.c
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
 {
-"166
+"168
 [v TMR1_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
-"181
+"189
 } 0
-"127
+"129
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
 {
 [v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
-"147
+"149
 } 0
-"183
+"191
 [v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
-{
-"190
-} 0
-"196
-[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
 "199
 } 0
-"122 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
+"205
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"208
+} 0
+"33 C:\Users\panze\Documents\GitHub\SEN\SEN.X\reluctor.c
+[v _ReluctorFreqRead ReluctorFreqRead `(v  1 e 1 0 ]
+{
+"51
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 10 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 6 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 8 ]
+"30
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 3 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 1 ]
+"26
+} 0
+"61 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
+[v _MESSAGESSendEvery100ms MESSAGESSendEvery100ms `(v  1 e 1 0 ]
+{
+"87
+} 0
+"14
+[v _CANWriteMessage CANWriteMessage `(v  1 e 1 0 ]
+{
+"19
+[v CANWriteMessage@uiData4 uiData4 `ui  1 a 2 50 ]
+"18
+[v CANWriteMessage@uiData3 uiData3 `ui  1 a 2 48 ]
+"17
+[v CANWriteMessage@uiData2 uiData2 `ui  1 a 2 46 ]
+"16
+[v CANWriteMessage@uiData1 uiData1 `ui  1 a 2 44 ]
+"14
+[v CANWriteMessage@id id `ul  1 p 4 29 ]
+[v CANWriteMessage@dataLength dataLength `uc  1 p 1 33 ]
+[v CANWriteMessage@data1 data1 `uc  1 p 1 34 ]
+[v CANWriteMessage@data2 data2 `uc  1 p 1 35 ]
+[v CANWriteMessage@data3 data3 `uc  1 p 1 36 ]
+[v CANWriteMessage@data4 data4 `uc  1 p 1 37 ]
+[v CANWriteMessage@data5 data5 `uc  1 p 1 38 ]
+[v CANWriteMessage@data6 data6 `uc  1 p 1 39 ]
+[v CANWriteMessage@data7 data7 `uc  1 p 1 40 ]
+[v CANWriteMessage@data8 data8 `uc  1 p 1 41 ]
+"59
+} 0
+"266 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+[v i2_CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
+{
+[v i2CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 wreg ]
+"268
+[v i2CAN1_OperationModeSet@status status `E22356  1 a 1 1 ]
+"269
+[v i2CAN1_OperationModeSet@opMode opMode `E22346  1 a 1 0 ]
+"266
+[v i2CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 wreg ]
+"268
+[v i2CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 2 ]
+"293
+} 0
+"528
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E22361  1 e 1 0 ]
+{
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE22383  1 a 1 wreg ]
+"530
+[v CAN1_TransmitFIFOStatusGet@status status `E22361  1 a 1 2 ]
+"528
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE22383  1 a 1 wreg ]
+"530
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE22383  1 a 1 3 ]
+"538
+} 0
+"506
+[v _CAN1_Transmit CAN1_Transmit `(E22340  1 e 1 0 ]
+{
+[v CAN1_Transmit@fifoChannel fifoChannel `CE22383  1 a 1 wreg ]
+"515
+[v CAN1_Transmit@txFifoObj txFifoObj `*.39uc  1 a 2 26 ]
+"508
+[v CAN1_Transmit@status status `E22340  1 a 1 25 ]
+"506
+[v CAN1_Transmit@fifoChannel fifoChannel `CE22383  1 a 1 wreg ]
+[s S623 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[u S629 . 1 `uc 1 msgfields 1 0 `S623 1 . 1 0 ]
+[s S632 . 7 `ul 1 msgId 4 0 `S629 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_Transmit@txCanMsg txCanMsg `*.39S632  1 p 2 23 ]
+[v CAN1_Transmit@fifoChannel fifoChannel `CE22383  1 a 1 28 ]
+"526
+} 0
+"426
+[v _isTxChannel isTxChannel `(a  1 s 1 isTxChannel ]
+{
+[v isTxChannel@channel channel `uc  1 a 1 wreg ]
+[v isTxChannel@channel channel `uc  1 a 1 wreg ]
+"428
+[v isTxChannel@channel channel `uc  1 a 1 1 ]
+"429
+} 0
+"436
+[v _WriteMessageToFifo WriteMessageToFifo `(v  1 s 1 WriteMessageToFifo ]
+{
+"438
+[v WriteMessageToFifo@msgId msgId `ul  1 a 4 19 ]
+"439
+[v WriteMessageToFifo@status status `uc  1 a 1 18 ]
+"436
+[v WriteMessageToFifo@txFifoObj txFifoObj `*.39uc  1 p 2 11 ]
+[s S623 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[u S629 . 1 `uc 1 msgfields 1 0 `S623 1 . 1 0 ]
+[s S632 . 7 `ul 1 msgId 4 0 `S629 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v WriteMessageToFifo@txCanMsg txCanMsg `*.39S632  1 p 2 13 ]
+"475
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 8 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 10 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"18
+} 0
+"477 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+[v _ValidateTransmission ValidateTransmission `(E22340  1 s 1 ValidateTransmission ]
+{
+[v ValidateTransmission@validChannel validChannel `uc  1 a 1 wreg ]
+[s S623 . 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"480
+[u S629 . 1 `uc 1 msgfields 1 0 `S623 1 . 1 0 ]
+[v ValidateTransmission@field field `S629  1 a 1 9 ]
+"479
+[v ValidateTransmission@txMsgStatus txMsgStatus `E22340  1 a 1 8 ]
+"477
+[v ValidateTransmission@validChannel validChannel `uc  1 a 1 wreg ]
+[s S632 . 7 `ul 1 msgId 4 0 `S629 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v ValidateTransmission@txCanMsg txCanMsg `*.39S632  1 p 2 1 ]
+"479
+[v ValidateTransmission@validChannel validChannel `uc  1 a 1 6 ]
+"504
+} 0
+"295
+[v i2_CAN1_OperationModeGet CAN1_OperationModeGet `(E22346  1 e 1 0 ]
+{
+"298
+} 0
+"431
+[v _GetTxFifoStatus GetTxFifoStatus `(E22361  1 s 1 GetTxFifoStatus ]
+{
+[v GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+[v GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+"433
+[v GetTxFifoStatus@validChannel validChannel `uc  1 a 1 0 ]
+"434
+} 0
+"122 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
 {
 "124
@@ -1492,58 +1947,68 @@ I2C1_NULL 5
 {
 "162
 } 0
-"94 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
-[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
-{
-"100
-} 0
-"103
-[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
-{
-"110
-} 0
-"116
-[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
-{
-"119
-} 0
-"68
-[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
-{
-"74
-} 0
-"77
-[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
-{
-"84
-} 0
-"90
-[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
-{
-"93
-} 0
-"38
+"36 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
 [v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
 {
-"44
+"42
 } 0
-"47
+"45
 [v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
 {
-"58
+"56
 } 0
-"46 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\reluctor.c
+"53 C:\Users\panze\Documents\GitHub\SEN\SEN.X\reluctor.c
 [v _ReluctorPosCount ReluctorPosCount `(v  1 e 1 0 ]
 {
-"53
+"62
 } 0
-"22
-[v _ReluctorFreqCount ReluctorFreqCount `(v  1 e 1 0 ]
+"28
+[v _ReluctorCountTeeth ReluctorCountTeeth `(v  1 e 1 0 ]
 {
-"25
+"31
 } 0
-"64 C:\Users\ruben\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
+"62 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/ext_int.c
 [v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
-"67
+"65
+} 0
+"618 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
+[v _CAN1_ISR CAN1_ISR `(v  1 e 1 0 ]
+{
+"669
+} 0
+"141
+[v _DefaultTxAttemptHandler DefaultTxAttemptHandler `(v  1 s 1 DefaultTxAttemptHandler ]
+{
+"143
+} 0
+"137
+[v _DefaultSystemErrorHandler DefaultSystemErrorHandler `(v  1 s 1 DefaultSystemErrorHandler ]
+{
+"139
+} 0
+"145
+[v _DefaultRxBufferOverflowHandler DefaultRxBufferOverflowHandler `(v  1 s 1 DefaultRxBufferOverflowHandler ]
+{
+"147
+} 0
+"133
+[v _DefaultModeChangeHandler DefaultModeChangeHandler `(v  1 s 1 DefaultModeChangeHandler ]
+{
+"135
+} 0
+"121
+[v _DefaultInvalidMessageHandler DefaultInvalidMessageHandler `(v  1 s 1 DefaultInvalidMessageHandler ]
+{
+"123
+} 0
+"125
+[v _DefaultBusWakeUpActivityHandler DefaultBusWakeUpActivityHandler `(v  1 s 1 DefaultBusWakeUpActivityHandler ]
+{
+"127
+} 0
+"129
+[v _DefaultBusErrorHandler DefaultBusErrorHandler `(v  1 s 1 DefaultBusErrorHandler ]
+{
+"131
 } 0
