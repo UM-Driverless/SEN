@@ -178,7 +178,7 @@ void TMR1_ISR(void)
     MESSAGESSendEvery100ms();
     
     // callback function - called every 2th pasos
-    if (++CountCallBack >= TMR1_INTERRUPT_TICKER_FACTOR)
+    if (++CountCallBack >= TMR1_INTERRUPT_TICKER_FACTOR) //500ms
     {
         // ticker function call
         TMR1_CallBack();

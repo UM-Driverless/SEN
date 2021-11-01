@@ -38179,7 +38179,7 @@ void MESSAGESSendEvery100ms(void);
 
 
 # 1 "./parameters.h" 1
-# 26 "./parameters.h"
+# 27 "./parameters.h"
 extern unsigned char ucWheelID;
 extern unsigned char ucTyrePerimeter;
 extern unsigned char ucWheelTeeth;
@@ -38236,23 +38236,36 @@ void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char d
     CANDATAdata [6] = data7;
     CANDATAdata [7] = data8;
 
-    if(CAN_CONFIGURATION_MODE == CAN1_OperationModeGet())
-    {
-        if(CAN_OP_MODE_REQUEST_SUCCESS == CAN1_OperationModeSet(CAN_NORMAL_2_0_MODE))
-        {
-            msg.msgId = id;
-            msg.field.formatType = CAN_2_0_FORMAT;
-            msg.field.brs = CAN_NON_BRS_MODE;
-            msg.field.frameType = CAN_FRAME_DATA;
-            msg.field.idType = CAN_FRAME_STD;
-            msg.field.dlc = dataLength;
-            msg.data = CANDATAdata;
+    msg.msgId = id;
+    msg.field.formatType = CAN_2_0_FORMAT;
+    msg.field.brs = CAN_NON_BRS_MODE;
+    msg.field.frameType = CAN_FRAME_DATA;
+    msg.field.idType = CAN_FRAME_STD;
+    msg.field.dlc = dataLength;
+    msg.data = CANDATAdata;
 
-            if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(TXQ) & CAN_TX_FIFO_AVAILABLE))
-            {
-                CAN1_Transmit(TXQ, &msg);
-            }
-        }
+
+    if(CAN1_IsBusOff() == 1)
+    {
+        __nop();
+    }
+    if(CAN1_IsTxErrorPassive() == 1)
+    {
+        __nop();
+    }
+    if(CAN1_IsTxErrorWarning() == 1)
+    {
+        __nop();
+    }
+    if(CAN1_IsTxErrorActive() == 1)
+    {
+        __nop();
+    }
+
+    if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(TXQ) & CAN_TX_FIFO_AVAILABLE))
+    {
+        CAN1_Transmit(TXQ, &msg);
+        __nop();
     }
 }
 
@@ -38263,17 +38276,17 @@ void MESSAGESSendEvery100ms(void)
         case 1:
             if ( ucReluctorState == 0x00 )
             {
-                CANWriteMessage(0x6E6, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 __nop();
-                CANWriteMessage(0x6EC, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x307, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
             }
             break;
         case 2:
             if ( ucReluctorState == 0x00 )
             {
-                CANWriteMessage(0x6E9, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x304, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 __nop();
-                CANWriteMessage(0x6EF, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x30A, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
             }
             break;
         case 3:

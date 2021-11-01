@@ -17,14 +17,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _PARAMETERSInit ]
 [f ]
 "20
-[; ;PARAMETERS.c: 20:     ucWheelID = 2;
-[e = _ucWheelID -> -> 2 `i `uc ]
+[; ;PARAMETERS.c: 20:     ucWheelID = 1;
+[e = _ucWheelID -> -> 1 `i `uc ]
 "21
 [; ;PARAMETERS.c: 21:     ucTyrePerimeter = 167;
 [e = _ucTyrePerimeter -> -> 167 `i `uc ]
 "22
-[; ;PARAMETERS.c: 22:     ucWheelTeeth = 32;
-[e = _ucWheelTeeth -> -> 32 `i `uc ]
+[; ;PARAMETERS.c: 22:     ucWheelTeeth = 16;
+[e = _ucWheelTeeth -> -> 16 `i `uc ]
 "23
 [; ;PARAMETERS.c: 23: }
 [e :UE 1 ]

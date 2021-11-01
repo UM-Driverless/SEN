@@ -38176,7 +38176,7 @@ void ReluctorPosCount(void);
 # 45 "main.c" 2
 
 # 1 "./parameters.h" 1
-# 26 "./parameters.h"
+# 27 "./parameters.h"
 extern unsigned char ucWheelID;
 extern unsigned char ucTyrePerimeter;
 extern unsigned char ucWheelTeeth;
@@ -38185,6 +38185,15 @@ extern unsigned char ucWheelTeeth;
 
 void PARAMETERSInit(void);
 # 46 "main.c" 2
+
+# 1 "./MESSAGES.h" 1
+# 22 "./MESSAGES.h"
+CAN_MSG_OBJ msg;
+uint8_t CANDATAdata[32] = "BUFFERCAN";
+# 56 "./MESSAGES.h"
+void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char data1, unsigned char data2, unsigned char data3, unsigned char data4, unsigned char data5, unsigned char data6, unsigned char data7, unsigned char data8);
+void MESSAGESSendEvery100ms(void);
+# 47 "main.c" 2
 
 
 
@@ -38217,6 +38226,6 @@ void main(void)
         DELAY_milliseconds(1000);
         do { LATAbits.LATA4 = 0; } while(0);
         DELAY_milliseconds(1000);
-# 105 "main.c"
+# 106 "main.c"
     }
 }

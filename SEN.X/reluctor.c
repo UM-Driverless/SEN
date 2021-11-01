@@ -25,15 +25,20 @@ unsigned char ucKPHData2;
 unsigned char ucReluctorState;
 
 //FUNCIONES
-void ReluctorCountTeeth(void) // se ejecuta cada 10ms con TMR0
+void ReluctorCountTeeth(void) // se ejecuta cada INT0
 {
     ucCountTeeth++;
 }
 
 void ReluctorFreqRead(void) //se ejecuta cada 100ms con TMR1
 {
-    ui_cm_in_period = ucCountTeeth*(ucTyrePerimeter/ucWheelTeeth);
-    ui_MeterPerSecond_E_2 = ui_cm_in_period * (1000 / TMR0_period_ms);
+    /*EJEMPLO DE CALCULO PARA ucCountTeeth = 1
+     * ui_cm_in_period = 1 teton * (167cm/rueda*16teton/rueda) * base calculo (100) = 1043
+     * ui_MeterPerSecond_E_2 = 1043 (10,43cm/s) * (1/100ms freq muestreo) * (1m/100cm) * (1000ms/1s) = 104,3 (1,043m/s)
+     * uiKPH_E_2 = ui_MeterPerSecond_E_2 * (3600s/1h) * (1km/1000m) = 375,48 (3,75km/h)
+     */
+    ui_cm_in_period = ucCountTeeth*(ucTyrePerimeter/ucWheelTeeth)*REL_base_calculo;
+    ui_MeterPerSecond_E_2 = ui_cm_in_period * (10 / TMR1_period_ms);
     uiKPH_E_2 = ui_MeterPerSecond_E_2 * 36/10;
     
     if ( uiKPH_E_2 >= VELOCIDADMAXRELUCTOR ) //150k/h
@@ -43,8 +48,8 @@ void ReluctorFreqRead(void) //se ejecuta cada 100ms con TMR1
     else
     {
         ucReluctorState = VELOCITYOK; //enviar mensaje CAN
-        ucKPHData1 = (( uiKPH_E_2 / 100 ) & 0x00FF);
-        ucKPHData2 = (( uiKPH_E_2 - ( 1000 * ucKPHData1 )) & 0x00FF);
+        ucKPHData1 = (( uiKPH_E_2 / REL_base_calculo ) & 0x00FF);
+        ucKPHData2 = (( uiKPH_E_2 - ( REL_base_calculo * ucKPHData1 )) & 0x00FF);
     }
     
     ucCountTeeth = 0;
@@ -53,7 +58,7 @@ void ReluctorFreqRead(void) //se ejecuta cada 100ms con TMR1
 void ReluctorPosCount(void)
 {
     ucCountPos++;
-    if(ucCountPos >= 32){
+    if(ucCountPos >= ucWheelTeeth){
         ucCountPos = 0;
         uiCountVueltaRueda++;
         ucCountVueltaRueda1 = uiCountVueltaRueda & 0x00FF;
@@ -61,7 +66,7 @@ void ReluctorPosCount(void)
     }
 }
 
-unsigned int ReluctorPosRead(void)
+unsigned int ReluctorPosRead(void) //no se usa
 {
     return (( uiCountVueltaRueda * 360 ) + ( ucCountPos*360 / ucWheelTeeth));
 }

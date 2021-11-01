@@ -1,10 +1,22 @@
 Version 4.0 HI-TECH Software Intermediate Code
+"69 ./mcc_generated_files/can_types.h
+[; ;./mcc_generated_files/can_types.h: 69:     {
+[s S3179 :1 `uc 1 :1 `uc 1 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S3179 . idType frameType dlc formatType brs ]
+"66
+[; ;./mcc_generated_files/can_types.h: 66: {
+[u S3178 `uc 1 `S3179 1 ]
+[n S3178 . msgfields . ]
+"79
+[; ;./mcc_generated_files/can_types.h: 79: {
+[s S3180 `ul 1 `S3178 1 `*uc 1 ]
+[n S3180 . msgId field data ]
 [p mainexit ]
 "77 ./mcc_generated_files/mcc.h
 [; ;./mcc_generated_files/mcc.h: 77: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"32 ./parameters.h
-[; ;./parameters.h: 32: void PARAMETERSInit(void);
+"33 ./parameters.h
+[; ;./parameters.h: 33: void PARAMETERSInit(void);
 [v _PARAMETERSInit `(v ~T0 @X0 0 ef ]
 "1728 C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
 [s S3069 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -3562,71 +3574,91 @@ Version 4.0 HI-TECH Software Intermediate Code
 "68860
 [; ;C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 68860: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
+"22 ./MESSAGES.h
+[; ;./MESSAGES.h: 22: CAN_MSG_OBJ msg;
+[v _msg `S3180 ~T0 @X0 1 e ]
+"23
+[; ;./MESSAGES.h: 23: uint8_t CANDATAdata[32] = "BUFFERCAN";
+[v _CANDATAdata `uc ~T0 @X0 -> 32 `i e ]
+[i _CANDATAdata
+:U ..
+-> 66 `c
+-> 85 `c
+-> 70 `c
+-> 70 `c
+-> 69 `c
+-> 82 `c
+-> 67 `c
+-> 65 `c
+-> 78 `c
+-> 0 `c
+..
+]
 [v $root$_main `(v ~T0 @X0 0 e ]
-"51 main.c
-[; ;main.c: 51: void main(void)
+"52 main.c
+[; ;main.c: 52: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"52
-[; ;main.c: 52: {
+"53
+[; ;main.c: 53: {
 {
 [e :U _main ]
 [f ]
-"54
-[; ;main.c: 54:     SYSTEM_Initialize();
+"55
+[; ;main.c: 55:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"56
-[; ;main.c: 56:     PARAMETERSInit();
+"57
+[; ;main.c: 57:     PARAMETERSInit();
 [e ( _PARAMETERSInit ..  ]
-"58
-[; ;main.c: 58:     do { TRISBbits.TRISB5 = 0; } while(0);
+"59
+[; ;main.c: 59:     do { TRISBbits.TRISB5 = 0; } while(0);
 [e :U 3184 ]
 {
 [e = . . _TRISBbits 0 5 -> -> 0 `i `uc ]
 }
 [e :U 3183 ]
-"59
-[; ;main.c: 59:     do { LATBbits.LATB5 = 0; } while(0);
+"60
+[; ;main.c: 60:     do { LATBbits.LATB5 = 0; } while(0);
 [e :U 3187 ]
 {
 [e = . . _LATBbits 0 5 -> -> 0 `i `uc ]
 }
 [e :U 3186 ]
-"66
-[; ;main.c: 66:     (INTCON0bits.GIE = 1);
+"67
+[; ;main.c: 67:     (INTCON0bits.GIE = 1);
 [e = . . _INTCON0bits 0 6 -> -> 1 `i `uc ]
-"71
-[; ;main.c: 71:     while (1)
-[e :U 3189 ]
 "72
-[; ;main.c: 72:     {
+[; ;main.c: 72:     while (1)
+[e :U 3189 ]
+"73
+[; ;main.c: 73:     {
 {
-"74
-[; ;main.c: 74:         do { LATAbits.LATA4 = 1; } while(0);
+"75
+[; ;main.c: 75:         do { LATAbits.LATA4 = 1; } while(0);
 [e :U 3193 ]
 {
 [e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
 }
 [e :U 3192 ]
-"75
-[; ;main.c: 75:         DELAY_milliseconds(1000);
-[e ( _DELAY_milliseconds (1 -> -> 1000 `i `us ]
 "76
-[; ;main.c: 76:         do { LATAbits.LATA4 = 0; } while(0);
+[; ;main.c: 76:         DELAY_milliseconds(1000);
+[e ( _DELAY_milliseconds (1 -> -> 1000 `i `us ]
+"77
+[; ;main.c: 77:         do { LATAbits.LATA4 = 0; } while(0);
 [e :U 3196 ]
 {
 [e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
 }
 [e :U 3195 ]
-"77
-[; ;main.c: 77:         DELAY_milliseconds(1000);
+"78
+[; ;main.c: 78:         DELAY_milliseconds(1000);
 [e ( _DELAY_milliseconds (1 -> -> 1000 `i `us ]
-"105
-[; ;main.c: 105:     }
+"106
+[; ;main.c: 106:     }
 }
 [e :U 3188 ]
 [e $U 3189  ]
 [e :U 3190 ]
-"106
-[; ;main.c: 106: }
+"107
+[; ;main.c: 107: }
 [e :UE 3181 ]
 }

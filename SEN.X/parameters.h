@@ -15,6 +15,7 @@ extern "C" {
 // OUR CONSTANTS
 #define TMR0_period_ms      10
 #define TMR1_period_ms      100
+#define REL_base_calculo    100
 // Wheels in same order as their CAN ID. (Left, Right, Front, Back/Rear)
 #define WHEEL_FL  1 // Front Left
 #define WHEEL_FR  2 // Front Right

@@ -34,21 +34,21 @@ uint8_t CANDATAdata[32] = CAN_TX_BUFF;
     
 //ID CAN
 
-#define ID_IMUSENFL     0x3E5
-#define ID_SIGSENFL     0x6E6
-#define ID_ERRORSENFL   0x6E7
+#define ID_IMUSENFL     0x300
+#define ID_SIGSENFL     0x301
+#define ID_ERRORSENFL   0x302
 
-#define ID_IMUSENFR     0x3E8
-#define ID_SIGSENFR     0x6E9
-#define ID_ERRORSENFR   0x6EA
+#define ID_IMUSENFR     0x303
+#define ID_SIGSENFR     0x304
+#define ID_ERRORSENFR   0x305
 
-#define ID_IMUSENRL     0x3EB
-#define ID_SIGSENRL     0x6EC
-#define ID_ERRORSENRL   0x6ED
+#define ID_IMUSENRL     0x306
+#define ID_SIGSENRL     0x307
+#define ID_ERRORSENRL   0x308
 
-#define ID_IMUSENRR     0x3EE
-#define ID_SIGSENRR     0x6EF
-#define ID_ERRORSENRR   0x6F0
+#define ID_IMUSENRR     0x309
+#define ID_SIGSENRR     0x30A
+#define ID_ERRORSENRR   0x30B
 
 
 

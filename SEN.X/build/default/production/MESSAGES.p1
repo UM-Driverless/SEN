@@ -11,38 +11,39 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;./mcc_generated_files/can_types.h: 79: {
 [s S3180 `ul 1 `S3178 1 `*uc 1 ]
 [n S3180 . msgId field data ]
-"41 MESSAGES.C
-[; ;MESSAGES.C: 41:     if(CAN_CONFIGURATION_MODE == CAN1_OperationModeGet())
-[c E22734 0 1 2 3 4 5 6 7 .. ]
-[n E22734 . CAN_NORMAL_FD_MODE CAN_DISABLE_MODE CAN_INTERNAL_LOOPBACK_MODE CAN_LISTEN_ONLY_MODE CAN_CONFIGURATION_MODE CAN_EXTERNAL_LOOPBACK_MODE CAN_NORMAL_2_0_MODE CAN_RESTRICTED_OPERATION_MODE  ]
-"181 ./mcc_generated_files/can1.h
-[; ;./mcc_generated_files/can1.h: 181: CAN_OP_MODES CAN1_OperationModeGet(void);
-[v _CAN1_OperationModeGet `(E22734 ~T0 @X0 0 ef ]
-"43 MESSAGES.C
-[; ;MESSAGES.C: 43:         if(CAN_OP_MODE_REQUEST_SUCCESS == CAN1_OperationModeSet(CAN_NORMAL_2_0_MODE))
-[c E22744 0 1 2 .. ]
-[n E22744 . CAN_OP_MODE_REQUEST_SUCCESS CAN_OP_MODE_REQUEST_FAIL CAN_OP_MODE_SYS_ERROR_OCCURED  ]
-"143 ./mcc_generated_files/can1.h
-[; ;./mcc_generated_files/can1.h: 143: CAN_OP_MODE_STATUS CAN1_OperationModeSet(const CAN_OP_MODES reqestMode);
-[v _CAN1_OperationModeSet `(E22744 ~T0 @X0 0 ef1`CE22734 ]
-"46 MESSAGES.C
-[; ;MESSAGES.C: 46:             msg.field.formatType = CAN_2_0_FORMAT;
+"42 MESSAGES.C
+[; ;MESSAGES.C: 42:     msg.field.formatType = CAN_2_0_FORMAT;
 [c E22724 0 1 .. ]
 [n E22724 . CAN_2_0_FORMAT CAN_FD_FORMAT  ]
-"47
-[; ;MESSAGES.C: 47:             msg.field.brs = CAN_NON_BRS_MODE;
+"43
+[; ;MESSAGES.C: 43:     msg.field.brs = CAN_NON_BRS_MODE;
 [c E22712 0 1 .. ]
 [n E22712 . CAN_NON_BRS_MODE CAN_BRS_MODE  ]
-"48
-[; ;MESSAGES.C: 48:             msg.field.frameType = CAN_FRAME_DATA;
+"44
+[; ;MESSAGES.C: 44:     msg.field.frameType = CAN_FRAME_DATA;
 [c E22720 0 1 .. ]
 [n E22720 . CAN_FRAME_DATA CAN_FRAME_RTR  ]
-"49
-[; ;MESSAGES.C: 49:             msg.field.idType = CAN_FRAME_STD;
+"45
+[; ;MESSAGES.C: 45:     msg.field.idType = CAN_FRAME_STD;
 [c E22716 0 1 .. ]
 [n E22716 . CAN_FRAME_STD CAN_FRAME_EXT  ]
-"53
-[; ;MESSAGES.C: 53:             if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(TXQ) & CAN_TX_FIFO_AVAILABLE))
+"346 ./mcc_generated_files/can1.h
+[; ;./mcc_generated_files/can1.h: 346: _Bool CAN1_IsBusOff(void);
+[v _CAN1_IsBusOff `(a ~T0 @X0 0 ef ]
+"8 C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\builtins.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"404 ./mcc_generated_files/can1.h
+[; ;./mcc_generated_files/can1.h: 404: _Bool CAN1_IsTxErrorPassive(void);
+[v _CAN1_IsTxErrorPassive `(a ~T0 @X0 0 ef ]
+"463
+[; ;./mcc_generated_files/can1.h: 463: _Bool CAN1_IsTxErrorWarning(void);
+[v _CAN1_IsTxErrorWarning `(a ~T0 @X0 0 ef ]
+"522
+[; ;./mcc_generated_files/can1.h: 522: _Bool CAN1_IsTxErrorActive(void);
+[v _CAN1_IsTxErrorActive `(a ~T0 @X0 0 ef ]
+"67 MESSAGES.C
+[; ;MESSAGES.C: 67:     if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(TXQ) & CAN_TX_FIFO_AVAILABLE))
 [c E22749 0 1 .. ]
 [n E22749 . CAN_TX_FIFO_FULL CAN_TX_FIFO_AVAILABLE  ]
 [c E22771 0 .. ]
@@ -50,8 +51,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "771 ./mcc_generated_files/can1.h
 [; ;./mcc_generated_files/can1.h: 771: CAN_TX_FIFO_STATUS CAN1_TransmitFIFOStatusGet(const CAN1_TX_FIFO_CHANNELS fifoChannel);
 [v _CAN1_TransmitFIFOStatusGet `(E22749 ~T0 @X0 0 ef1`CE22771 ]
-"55 MESSAGES.C
-[; ;MESSAGES.C: 55:                 CAN1_Transmit(TXQ, &msg);
+"69 MESSAGES.C
+[; ;MESSAGES.C: 69:         CAN1_Transmit(TXQ, &msg);
 [c E22728 0 1 2 3 .. ]
 [n E22728 . CAN_TX_MSG_REQUEST_SUCCESS CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR CAN_TX_MSG_REQUEST_BRS_ERROR CAN_TX_MSG_REQUEST_FIFO_FULL  ]
 "290 ./mcc_generated_files/can1.h
@@ -72,11 +73,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "28
 [; ;./reluctor.h: 28: extern unsigned char ucCountVueltaRueda2;
 [v _ucCountVueltaRueda2 `uc ~T0 @X0 0 e ]
-"8 C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\builtins.h
-[v ___nop `(v ~T0 @X0 0 ef ]
-[p i ___nop ]
-"26 ./parameters.h
-[; ;./parameters.h: 26: extern unsigned char ucWheelID;
+"27 ./parameters.h
+[; ;./parameters.h: 27: extern unsigned char ucWheelID;
 [v _ucWheelID `uc ~T0 @X0 0 e ]
 "363 C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
 [; ;C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h: 363: __asm("BOOTREG equ 038h");
@@ -3697,151 +3695,186 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;MESSAGES.C: 39:     CANDATAdata [7] = data8;
 [e = *U + &U _CANDATAdata * -> -> -> 7 `i `ui `ux -> -> # *U &U _CANDATAdata `ui `ux _data8 ]
 "41
-[; ;MESSAGES.C: 41:     if(CAN_CONFIGURATION_MODE == CAN1_OperationModeGet())
-[e $ ! == -> . `E22734 4 `ui -> ( _CAN1_OperationModeGet ..  `ui 3182  ]
-"42
-[; ;MESSAGES.C: 42:     {
-{
-"43
-[; ;MESSAGES.C: 43:         if(CAN_OP_MODE_REQUEST_SUCCESS == CAN1_OperationModeSet(CAN_NORMAL_2_0_MODE))
-[e $ ! == -> . `E22744 0 `ui -> ( _CAN1_OperationModeSet (1 . `E22734 6 `ui 3183  ]
-"44
-[; ;MESSAGES.C: 44:         {
-{
-"45
-[; ;MESSAGES.C: 45:             msg.msgId = id;
+[; ;MESSAGES.C: 41:     msg.msgId = id;
 [e = . _msg 0 _id ]
-"46
-[; ;MESSAGES.C: 46:             msg.field.formatType = CAN_2_0_FORMAT;
+"42
+[; ;MESSAGES.C: 42:     msg.field.formatType = CAN_2_0_FORMAT;
 [e = . . . _msg 1 1 3 -> . `E22724 0 `uc ]
-"47
-[; ;MESSAGES.C: 47:             msg.field.brs = CAN_NON_BRS_MODE;
+"43
+[; ;MESSAGES.C: 43:     msg.field.brs = CAN_NON_BRS_MODE;
 [e = . . . _msg 1 1 4 -> . `E22712 0 `uc ]
-"48
-[; ;MESSAGES.C: 48:             msg.field.frameType = CAN_FRAME_DATA;
+"44
+[; ;MESSAGES.C: 44:     msg.field.frameType = CAN_FRAME_DATA;
 [e = . . . _msg 1 1 1 -> . `E22720 0 `uc ]
-"49
-[; ;MESSAGES.C: 49:             msg.field.idType = CAN_FRAME_STD;
+"45
+[; ;MESSAGES.C: 45:     msg.field.idType = CAN_FRAME_STD;
 [e = . . . _msg 1 1 0 -> . `E22716 0 `uc ]
-"50
-[; ;MESSAGES.C: 50:             msg.field.dlc = dataLength;
+"46
+[; ;MESSAGES.C: 46:     msg.field.dlc = dataLength;
 [e = . . . _msg 1 1 2 _dataLength ]
-"51
-[; ;MESSAGES.C: 51:             msg.data = CANDATAdata;
+"47
+[; ;MESSAGES.C: 47:     msg.data = CANDATAdata;
 [e = . _msg 2 &U _CANDATAdata ]
-"53
-[; ;MESSAGES.C: 53:             if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(TXQ) & CAN_TX_FIFO_AVAILABLE))
-[e $ ! == -> . `E22749 1 `ui & -> ( _CAN1_TransmitFIFOStatusGet (1 . `E22771 0 `ui -> . `E22749 1 `ui 3184  ]
-"54
-[; ;MESSAGES.C: 54:             {
+"50
+[; ;MESSAGES.C: 50:     if(CAN1_IsBusOff() == 1)
+[e $ ! == -> ( _CAN1_IsBusOff ..  `i -> 1 `i 3182  ]
+"51
+[; ;MESSAGES.C: 51:     {
 {
-"55
-[; ;MESSAGES.C: 55:                 CAN1_Transmit(TXQ, &msg);
-[e ( _CAN1_Transmit (2 , . `E22771 0 &U _msg ]
-"56
-[; ;MESSAGES.C: 56:             }
+"52
+[; ;MESSAGES.C: 52:         __nop();
+[e ( ___nop ..  ]
+"53
+[; ;MESSAGES.C: 53:     }
 }
-[e :U 3184 ]
+[e :U 3182 ]
+"54
+[; ;MESSAGES.C: 54:     if(CAN1_IsTxErrorPassive() == 1)
+[e $ ! == -> ( _CAN1_IsTxErrorPassive ..  `i -> 1 `i 3183  ]
+"55
+[; ;MESSAGES.C: 55:     {
+{
+"56
+[; ;MESSAGES.C: 56:         __nop();
+[e ( ___nop ..  ]
 "57
-[; ;MESSAGES.C: 57:         }
+[; ;MESSAGES.C: 57:     }
 }
 [e :U 3183 ]
 "58
-[; ;MESSAGES.C: 58:     }
-}
-[e :U 3182 ]
+[; ;MESSAGES.C: 58:     if(CAN1_IsTxErrorWarning() == 1)
+[e $ ! == -> ( _CAN1_IsTxErrorWarning ..  `i -> 1 `i 3184  ]
 "59
-[; ;MESSAGES.C: 59: }
+[; ;MESSAGES.C: 59:     {
+{
+"60
+[; ;MESSAGES.C: 60:         __nop();
+[e ( ___nop ..  ]
+"61
+[; ;MESSAGES.C: 61:     }
+}
+[e :U 3184 ]
+"62
+[; ;MESSAGES.C: 62:     if(CAN1_IsTxErrorActive() == 1)
+[e $ ! == -> ( _CAN1_IsTxErrorActive ..  `i -> 1 `i 3185  ]
+"63
+[; ;MESSAGES.C: 63:     {
+{
+"64
+[; ;MESSAGES.C: 64:         __nop();
+[e ( ___nop ..  ]
+"65
+[; ;MESSAGES.C: 65:     }
+}
+[e :U 3185 ]
+"67
+[; ;MESSAGES.C: 67:     if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(TXQ) & CAN_TX_FIFO_AVAILABLE))
+[e $ ! == -> . `E22749 1 `ui & -> ( _CAN1_TransmitFIFOStatusGet (1 . `E22771 0 `ui -> . `E22749 1 `ui 3186  ]
+"68
+[; ;MESSAGES.C: 68:     {
+{
+"69
+[; ;MESSAGES.C: 69:         CAN1_Transmit(TXQ, &msg);
+[e ( _CAN1_Transmit (2 , . `E22771 0 &U _msg ]
+"70
+[; ;MESSAGES.C: 70:         __nop();
+[e ( ___nop ..  ]
+"71
+[; ;MESSAGES.C: 71:     }
+}
+[e :U 3186 ]
+"72
+[; ;MESSAGES.C: 72: }
 [e :UE 3181 ]
 }
-"61
-[; ;MESSAGES.C: 61: void MESSAGESSendEvery100ms(void)
+"74
+[; ;MESSAGES.C: 74: void MESSAGESSendEvery100ms(void)
 [v _MESSAGESSendEvery100ms `(v ~T0 @X0 1 ef ]
-"62
-[; ;MESSAGES.C: 62: {
+"75
+[; ;MESSAGES.C: 75: {
 {
 [e :U _MESSAGESSendEvery100ms ]
 [f ]
-"63
-[; ;MESSAGES.C: 63:     switch (ucWheelID)
-[e $U 3187  ]
-"64
-[; ;MESSAGES.C: 64:     {
-{
-"65
-[; ;MESSAGES.C: 65:         case 1:
-[e :U 3188 ]
-"66
-[; ;MESSAGES.C: 66:             if ( ucReluctorState == 0x00 )
-[e $ ! == -> _ucReluctorState `i -> 0 `i 3189  ]
-"67
-[; ;MESSAGES.C: 67:             {
-{
-"68
-[; ;MESSAGES.C: 68:                 CANWriteMessage(0x6E6, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 1766 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
-"69
-[; ;MESSAGES.C: 69:                 __nop();
-[e ( ___nop ..  ]
-"70
-[; ;MESSAGES.C: 70:                 CANWriteMessage(0x6EC, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 1772 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
-"71
-[; ;MESSAGES.C: 71:             }
-}
-[e :U 3189 ]
-"72
-[; ;MESSAGES.C: 72:             break;
-[e $U 3186  ]
-"73
-[; ;MESSAGES.C: 73:         case 2:
-[e :U 3190 ]
-"74
-[; ;MESSAGES.C: 74:             if ( ucReluctorState == 0x00 )
-[e $ ! == -> _ucReluctorState `i -> 0 `i 3191  ]
-"75
-[; ;MESSAGES.C: 75:             {
-{
 "76
-[; ;MESSAGES.C: 76:                 CANWriteMessage(0x6E9, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 1769 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+[; ;MESSAGES.C: 76:     switch (ucWheelID)
+[e $U 3189  ]
 "77
-[; ;MESSAGES.C: 77:                 __nop();
-[e ( ___nop ..  ]
+[; ;MESSAGES.C: 77:     {
+{
 "78
-[; ;MESSAGES.C: 78:                 CANWriteMessage(0x6EF, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 1775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+[; ;MESSAGES.C: 78:         case 1:
+[e :U 3190 ]
 "79
-[; ;MESSAGES.C: 79:             }
+[; ;MESSAGES.C: 79:             if ( ucReluctorState == 0x00 )
+[e $ ! == -> _ucReluctorState `i -> 0 `i 3191  ]
+"80
+[; ;MESSAGES.C: 80:             {
+{
+"81
+[; ;MESSAGES.C: 81:                 CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 769 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+"82
+[; ;MESSAGES.C: 82:                 __nop();
+[e ( ___nop ..  ]
+"83
+[; ;MESSAGES.C: 83:                 CANWriteMessage(0x307, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+"84
+[; ;MESSAGES.C: 84:             }
 }
 [e :U 3191 ]
-"80
-[; ;MESSAGES.C: 80:             break;
-[e $U 3186  ]
-"81
-[; ;MESSAGES.C: 81:         case 3:
-[e :U 3192 ]
-"82
-[; ;MESSAGES.C: 82:             break;
-[e $U 3186  ]
-"83
-[; ;MESSAGES.C: 83:         case 4:
-[e :U 3193 ]
-"84
-[; ;MESSAGES.C: 84:             break;
-[e $U 3186  ]
 "85
-[; ;MESSAGES.C: 85:     }
-}
-[e $U 3186  ]
-[e :U 3187 ]
-[e [\ -> _ucWheelID `i , $ -> 1 `i 3188
- , $ -> 2 `i 3190
- , $ -> 3 `i 3192
- , $ -> 4 `i 3193
- 3186 ]
-[e :U 3186 ]
+[; ;MESSAGES.C: 85:             break;
+[e $U 3188  ]
+"86
+[; ;MESSAGES.C: 86:         case 2:
+[e :U 3192 ]
 "87
-[; ;MESSAGES.C: 87: }
-[e :UE 3185 ]
+[; ;MESSAGES.C: 87:             if ( ucReluctorState == 0x00 )
+[e $ ! == -> _ucReluctorState `i -> 0 `i 3193  ]
+"88
+[; ;MESSAGES.C: 88:             {
+{
+"89
+[; ;MESSAGES.C: 89:                 CANWriteMessage(0x304, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 772 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+"90
+[; ;MESSAGES.C: 90:                 __nop();
+[e ( ___nop ..  ]
+"91
+[; ;MESSAGES.C: 91:                 CANWriteMessage(0x30A, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 778 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+"92
+[; ;MESSAGES.C: 92:             }
+}
+[e :U 3193 ]
+"93
+[; ;MESSAGES.C: 93:             break;
+[e $U 3188  ]
+"94
+[; ;MESSAGES.C: 94:         case 3:
+[e :U 3194 ]
+"95
+[; ;MESSAGES.C: 95:             break;
+[e $U 3188  ]
+"96
+[; ;MESSAGES.C: 96:         case 4:
+[e :U 3195 ]
+"97
+[; ;MESSAGES.C: 97:             break;
+[e $U 3188  ]
+"98
+[; ;MESSAGES.C: 98:     }
+}
+[e $U 3188  ]
+[e :U 3189 ]
+[e [\ -> _ucWheelID `i , $ -> 1 `i 3190
+ , $ -> 2 `i 3192
+ , $ -> 3 `i 3194
+ , $ -> 4 `i 3195
+ 3188 ]
+[e :U 3188 ]
+"100
+[; ;MESSAGES.C: 100: }
+[e :UE 3187 ]
 }

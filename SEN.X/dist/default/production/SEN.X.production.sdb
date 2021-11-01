@@ -156,44 +156,27 @@ I2C1_DATA_NACK 3
 I2C1_TIMEOUT 4
 I2C1_NULL 5
 ]
-"41 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
-[e E22734 . `uc
-CAN_NORMAL_FD_MODE 0
-CAN_DISABLE_MODE 1
-CAN_INTERNAL_LOOPBACK_MODE 2
-CAN_LISTEN_ONLY_MODE 3
-CAN_CONFIGURATION_MODE 4
-CAN_EXTERNAL_LOOPBACK_MODE 5
-CAN_NORMAL_2_0_MODE 6
-CAN_RESTRICTED_OPERATION_MODE 7
-]
-"43
-[e E22744 . `uc
-CAN_OP_MODE_REQUEST_SUCCESS 0
-CAN_OP_MODE_REQUEST_FAIL 1
-CAN_OP_MODE_SYS_ERROR_OCCURED 2
-]
-"46
+"42 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
 [e E22724 . `uc
 CAN_2_0_FORMAT 0
 CAN_FD_FORMAT 1
 ]
-"47
+"43
 [e E22712 . `uc
 CAN_NON_BRS_MODE 0
 CAN_BRS_MODE 1
 ]
-"48
+"44
 [e E22720 . `uc
 CAN_FRAME_DATA 0
 CAN_FRAME_RTR 1
 ]
-"49
+"45
 [e E22716 . `uc
 CAN_FRAME_STD 0
 CAN_FRAME_EXT 1
 ]
-"53
+"67
 [e E22749 . `uc
 CAN_TX_FIFO_FULL 0
 CAN_TX_FIFO_AVAILABLE 1
@@ -201,7 +184,7 @@ CAN_TX_FIFO_AVAILABLE 1
 [e E22771 . `uc
 TXQ 0
 ]
-"55
+"69
 [e E22728 . `uc
 CAN_TX_MSG_REQUEST_SUCCESS 0
 CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
@@ -242,7 +225,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"51 C:\Users\panze\Documents\GitHub\SEN\SEN.X\main.c
+"52 C:\Users\panze\Documents\GitHub\SEN\SEN.X\main.c
 [v _main main `(v  1 e 1 0 ]
 "65 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
@@ -288,7 +271,6 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
 "266
 [v _CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
-[v i2_CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
 "295
 [v _CAN1_OperationModeGet CAN1_OperationModeGet `(E22346  1 e 1 0 ]
 [v i2_CAN1_OperationModeGet CAN1_OperationModeGet `(E22346  1 e 1 0 ]
@@ -310,10 +292,16 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _CAN1_Transmit CAN1_Transmit `(E22340  1 e 1 0 ]
 "528
 [v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E22361  1 e 1 0 ]
+"540
+[v _CAN1_IsBusOff CAN1_IsBusOff `(a  1 e 1 0 ]
 "545
 [v _CAN1_IsRxErrorPassive CAN1_IsRxErrorPassive `(a  1 e 1 0 ]
 "560
 [v _CAN1_IsTxErrorPassive CAN1_IsTxErrorPassive `(a  1 e 1 0 ]
+"565
+[v _CAN1_IsTxErrorWarning CAN1_IsTxErrorWarning `(a  1 e 1 0 ]
+"570
+[v _CAN1_IsTxErrorActive CAN1_IsTxErrorActive `(a  1 e 1 0 ]
 "583
 [v _CAN1_SetInvalidMessageInterruptHandler CAN1_SetInvalidMessageInterruptHandler `(v  1 e 1 0 ]
 "588
@@ -508,7 +496,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
 "14 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
 [v _CANWriteMessage CANWriteMessage `(v  1 e 1 0 ]
-"61
+"74
 [v _MESSAGESSendEvery100ms MESSAGESSendEvery100ms `(v  1 e 1 0 ]
 "18 C:\Users\panze\Documents\GitHub\SEN\SEN.X\PARAMETERS.c
 [v _PARAMETERSInit PARAMETERSInit `(v  1 e 1 0 ]
@@ -516,7 +504,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _ReluctorCountTeeth ReluctorCountTeeth `(v  1 e 1 0 ]
 "33
 [v _ReluctorFreqRead ReluctorFreqRead `(v  1 e 1 0 ]
-"53
+"58
 [v _ReluctorPosCount ReluctorPosCount `(v  1 e 1 0 ]
 [s S623 . 1 `uc 1 idType 1 0 :1:0 
 `uc 1 frameType 1 0 :1:1 
@@ -616,7 +604,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
 "1536
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
-[s S2917 . 1 `uc 1 LATB0 1 0 :1:0 
+[s S2930 . 1 `uc 1 LATB0 1 0 :1:0 
 `uc 1 LATB1 1 0 :1:1 
 `uc 1 LATB2 1 0 :1:2 
 `uc 1 LATB3 1 0 :1:3 
@@ -626,8 +614,8 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 `uc 1 LATB7 1 0 :1:7 
 ]
 "1553
-[u S2926 . 1 `S2917 1 . 1 0 ]
-[v _LATBbits LATBbits `VES2926  1 e 1 @1215 ]
+[u S2939 . 1 `S2930 1 . 1 0 ]
+[v _LATBbits LATBbits `VES2939  1 e 1 @1215 ]
 "1565
 [v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
 "1598
@@ -640,7 +628,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
 "1722
 [v _TRISB TRISB `VEuc  1 e 1 @1223 ]
-[s S2896 . 1 `uc 1 TRISB0 1 0 :1:0 
+[s S2909 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -650,8 +638,8 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "1739
-[u S2905 . 1 `S2896 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES2905  1 e 1 @1223 ]
+[u S2918 . 1 `S2909 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES2918  1 e 1 @1223 ]
 "1740
 [v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
 "1784
@@ -1502,10 +1490,10 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _ucKPHData2 ucKPHData2 `uc  1 e 1 0 ]
 "25
 [v _ucReluctorState ucReluctorState `uc  1 e 1 0 ]
-"51 C:\Users\panze\Documents\GitHub\SEN\SEN.X\main.c
+"52 C:\Users\panze\Documents\GitHub\SEN\SEN.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"106
+"107
 } 0
 "50 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
@@ -1733,7 +1721,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 "33 C:\Users\panze\Documents\GitHub\SEN\SEN.X\reluctor.c
 [v _ReluctorFreqRead ReluctorFreqRead `(v  1 e 1 0 ]
 {
-"51
+"56
 } 0
 "15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
 [v ___wmul __wmul `(ui  1 e 2 0 ]
@@ -1772,10 +1760,10 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v ___lbdiv@dividend dividend `uc  1 a 1 1 ]
 "26
 } 0
-"61 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
+"74 C:\Users\panze\Documents\GitHub\SEN\SEN.X\MESSAGES.C
 [v _MESSAGESSendEvery100ms MESSAGESSendEvery100ms `(v  1 e 1 0 ]
 {
-"87
+"100
 } 0
 "14
 [v _CANWriteMessage CANWriteMessage `(v  1 e 1 0 ]
@@ -1799,23 +1787,9 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v CANWriteMessage@data6 data6 `uc  1 p 1 39 ]
 [v CANWriteMessage@data7 data7 `uc  1 p 1 40 ]
 [v CANWriteMessage@data8 data8 `uc  1 p 1 41 ]
-"59
+"72
 } 0
-"266 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
-[v i2_CAN1_OperationModeSet CAN1_OperationModeSet `(E22356  1 e 1 0 ]
-{
-[v i2CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 wreg ]
-"268
-[v i2CAN1_OperationModeSet@status status `E22356  1 a 1 1 ]
-"269
-[v i2CAN1_OperationModeSet@opMode opMode `E22346  1 a 1 0 ]
-"266
-[v i2CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 wreg ]
-"268
-[v i2CAN1_OperationModeSet@requestMode requestMode `CE22346  1 a 1 2 ]
-"293
-} 0
-"528
+"528 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/can1.c
 [v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E22361  1 e 1 0 ]
 {
 [v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE22383  1 a 1 wreg ]
@@ -1930,6 +1904,26 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v GetTxFifoStatus@validChannel validChannel `uc  1 a 1 0 ]
 "434
 } 0
+"565
+[v _CAN1_IsTxErrorWarning CAN1_IsTxErrorWarning `(a  1 e 1 0 ]
+{
+"568
+} 0
+"570
+[v _CAN1_IsTxErrorActive CAN1_IsTxErrorActive `(a  1 e 1 0 ]
+{
+"573
+} 0
+"560
+[v _CAN1_IsTxErrorPassive CAN1_IsTxErrorPassive `(a  1 e 1 0 ]
+{
+"563
+} 0
+"540
+[v _CAN1_IsBusOff CAN1_IsBusOff `(a  1 e 1 0 ]
+{
+"543
+} 0
 "122 C:\Users\panze\Documents\GitHub\SEN\SEN.X\mcc_generated_files/tmr0.c
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
 {
@@ -1957,10 +1951,10 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 {
 "56
 } 0
-"53 C:\Users\panze\Documents\GitHub\SEN\SEN.X\reluctor.c
+"58 C:\Users\panze\Documents\GitHub\SEN\SEN.X\reluctor.c
 [v _ReluctorPosCount ReluctorPosCount `(v  1 e 1 0 ]
 {
-"62
+"67
 } 0
 "28
 [v _ReluctorCountTeeth ReluctorCountTeeth `(v  1 e 1 0 ]

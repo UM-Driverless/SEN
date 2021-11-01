@@ -44,6 +44,7 @@
 #include "mcc_generated_files/mcc.h"
 #include "reluctor.h"
 #include "parameters.h"
+#include "MESSAGES.h"
 
 /*
                          Main application
@@ -80,7 +81,7 @@ void main(void)
         //unsigned int variable = ReluctorPosRead();
         
         
-        
+        //CANWriteMessage(ID_SIGSENFL, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
         
         
         // Add your application code

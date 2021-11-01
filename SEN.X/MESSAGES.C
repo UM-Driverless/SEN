@@ -38,23 +38,36 @@ void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char d
     CANDATAdata [6] = data7;
     CANDATAdata [7] = data8;
     
-    if(CAN_CONFIGURATION_MODE == CAN1_OperationModeGet())
+    msg.msgId = id;
+    msg.field.formatType = CAN_2_0_FORMAT;  //CAN 2.0
+    msg.field.brs = CAN_NON_BRS_MODE;   //NO BRS
+    msg.field.frameType = CAN_FRAME_DATA;   //FRAME DATA, NO REMOTE
+    msg.field.idType = CAN_FRAME_STD;   //CAN VERSION STANDARD
+    msg.field.dlc = dataLength; //DATA LENGTH
+    msg.data = CANDATAdata;
+    
+    //POSIBLES FALLOS 
+    if(CAN1_IsBusOff() == true)
     {
-        if(CAN_OP_MODE_REQUEST_SUCCESS == CAN1_OperationModeSet(CAN_NORMAL_2_0_MODE))
-        {
-            msg.msgId = id;
-            msg.field.formatType = CAN_2_0_FORMAT;  //CAN 2.0
-            msg.field.brs = CAN_NON_BRS_MODE;   //NO BRS
-            msg.field.frameType = CAN_FRAME_DATA;   //FRAME DATA, NO REMOTE
-            msg.field.idType = CAN_FRAME_STD;   //CAN VERSION STANDARD
-            msg.field.dlc = dataLength; //DATA LENGTH
-            msg.data = CANDATAdata;
+        Nop();
+    }
+    if(CAN1_IsTxErrorPassive() == true)
+    {
+        Nop();
+    }
+    if(CAN1_IsTxErrorWarning() == true)
+    {
+        Nop();
+    }
+    if(CAN1_IsTxErrorActive() == true)
+    {
+        Nop();
+    }
 
-            if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(CAN1_TX_TXQ) & CAN_TX_FIFO_AVAILABLE))
-            {
-                CAN1_Transmit(CAN1_TX_TXQ, &msg);
-            }
-        }
+    if(CAN_TX_FIFO_AVAILABLE == (CAN1_TransmitFIFOStatusGet(CAN1_TX_TXQ) & CAN_TX_FIFO_AVAILABLE))
+    {
+        CAN1_Transmit(CAN1_TX_TXQ, &msg);
+        Nop();
     }
 }
 
