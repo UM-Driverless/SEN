@@ -3817,8 +3817,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;MESSAGES.C: 82:                 __nop();
 [e ( ___nop ..  ]
 "83
-[; ;MESSAGES.C: 83:                 CANWriteMessage(0x307, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+[; ;MESSAGES.C: 83:                 CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 10 `i `uc -> -> 20 `i `uc _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
 "84
 [; ;MESSAGES.C: 84:             }
 }
@@ -3836,14 +3836,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;MESSAGES.C: 88:             {
 {
 "89
-[; ;MESSAGES.C: 89:                 CANWriteMessage(0x304, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 772 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+[; ;MESSAGES.C: 89:                 CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 769 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
 "90
 [; ;MESSAGES.C: 90:                 __nop();
 [e ( ___nop ..  ]
 "91
-[; ;MESSAGES.C: 91:                 CANWriteMessage(0x30A, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 778 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+[; ;MESSAGES.C: 91:                 CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 10 `i `uc -> -> 20 `i `uc _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
 "92
 [; ;MESSAGES.C: 92:             }
 }

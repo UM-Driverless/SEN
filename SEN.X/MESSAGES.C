@@ -80,15 +80,15 @@ void MESSAGESSendEvery100ms(void)
             {
                 CANWriteMessage(ID_SIGSENFL, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 Nop();
-                CANWriteMessage(ID_SIGSENRL, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(ID_SIGSENRL, data_lenght8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
             }
             break;
         case WHEEL_FR:
             if ( ucReluctorState == VELOCITYOK )
             {
-                CANWriteMessage(ID_SIGSENFR, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(ID_SIGSENFL, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 Nop();
-                CANWriteMessage(ID_SIGSENRR, data_lenght8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(ID_SIGSENRL, data_lenght8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
             }
             break;
         case WHEEL_RL:

@@ -37,7 +37,8 @@ void ReluctorFreqRead(void) //se ejecuta cada 100ms con TMR1
      * ui_MeterPerSecond_E_2 = 1043 (10,43cm/s) * (1/100ms freq muestreo) * (1m/100cm) * (1000ms/1s) = 104,3 (1,043m/s)
      * uiKPH_E_2 = ui_MeterPerSecond_E_2 * (3600s/1h) * (1km/1000m) = 375,48 (3,75km/h)
      */
-    ui_cm_in_period = ucCountTeeth*(ucTyrePerimeter/ucWheelTeeth)*REL_base_calculo;
+    ui_cm_in_period = 100;
+    //ui_cm_in_period = ucCountTeeth*(ucTyrePerimeter/ucWheelTeeth)*REL_base_calculo;
     ui_MeterPerSecond_E_2 = ui_cm_in_period * (10 / TMR1_period_ms);
     uiKPH_E_2 = ui_MeterPerSecond_E_2 * 36/10;
     

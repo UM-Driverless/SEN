@@ -73,7 +73,8 @@ void ReluctorFreqRead(void)
 
 
 
-    ui_cm_in_period = ucCountTeeth*(ucTyrePerimeter/ucWheelTeeth)*100;
+    ui_cm_in_period = 100;
+
     ui_MeterPerSecond_E_2 = ui_cm_in_period * (10 / 100);
     uiKPH_E_2 = ui_MeterPerSecond_E_2 * 36/10;
 

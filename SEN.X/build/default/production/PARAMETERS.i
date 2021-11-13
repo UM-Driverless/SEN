@@ -36,7 +36,7 @@ unsigned char ucWheelTeeth;
 
 void PARAMETERSInit(void)
 {
-    ucWheelID = 1;
+    ucWheelID = 2;
     ucTyrePerimeter = 167;
     ucWheelTeeth = 16;
 }

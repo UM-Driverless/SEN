@@ -38278,15 +38278,15 @@ void MESSAGESSendEvery100ms(void)
             {
                 CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 __nop();
-                CANWriteMessage(0x307, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
             }
             break;
         case 2:
             if ( ucReluctorState == 0x00 )
             {
-                CANWriteMessage(0x304, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 __nop();
-                CANWriteMessage(0x30A, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
             }
             break;
         case 3:

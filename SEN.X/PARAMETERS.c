@@ -17,7 +17,7 @@ unsigned char ucWheelTeeth;
 //PARAMETRIZACION A TOCAR
 void PARAMETERSInit(void)
 {
-    ucWheelID = WHEEL_FL;
+    ucWheelID = WHEEL_FR;
     ucTyrePerimeter = 167;
     ucWheelTeeth = 16;
 }
