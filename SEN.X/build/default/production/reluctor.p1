@@ -1,10 +1,13 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"29 ./parameters.h
-[; ;./parameters.h: 29: extern unsigned char ucWheelTeeth;
-[v _ucWheelTeeth `uc ~T0 @X0 0 e ]
+"28 ./parameters.h
+[; ;./parameters.h: 28: extern unsigned long ulTyrePerimeter;
+[v _ulTyrePerimeter `ul ~T0 @X0 0 e ]
+"29
+[; ;./parameters.h: 29: extern unsigned long ulWheelTeeth;
+[v _ulWheelTeeth `ul ~T0 @X0 0 e ]
 "12 reluctor.c
-[; ;reluctor.c: 12: unsigned char ucCountTeeth;
-[v _ucCountTeeth `uc ~T0 @X0 1 e ]
+[; ;reluctor.c: 12: unsigned long ulCountTeeth;
+[v _ulCountTeeth `ul ~T0 @X0 1 e ]
 "13
 [; ;reluctor.c: 13: unsigned char ucCountPos;
 [v _ucCountPos `uc ~T0 @X0 1 e ]
@@ -18,14 +21,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;reluctor.c: 16: unsigned char ucCountVueltaRueda2;
 [v _ucCountVueltaRueda2 `uc ~T0 @X0 1 e ]
 "19
-[; ;reluctor.c: 19: unsigned char ui_cm_in_period;
-[v _ui_cm_in_period `uc ~T0 @X0 1 e ]
+[; ;reluctor.c: 19: unsigned long ui_cm_in_period;
+[v _ui_cm_in_period `ul ~T0 @X0 1 e ]
 "21
-[; ;reluctor.c: 21: unsigned int ui_MeterPerSecond_E_2;
-[v _ui_MeterPerSecond_E_2 `ui ~T0 @X0 1 e ]
+[; ;reluctor.c: 21: unsigned long ui_MeterPerSecond_E_2;
+[v _ui_MeterPerSecond_E_2 `ul ~T0 @X0 1 e ]
 "22
-[; ;reluctor.c: 22: unsigned int uiKPH_E_2;
-[v _uiKPH_E_2 `ui ~T0 @X0 1 e ]
+[; ;reluctor.c: 22: unsigned long uiKPH_E_2;
+[v _uiKPH_E_2 `ul ~T0 @X0 1 e ]
 "23
 [; ;reluctor.c: 23: unsigned char ucKPHData1;
 [v _ucKPHData1 `uc ~T0 @X0 1 e ]
@@ -44,8 +47,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _ReluctorCountTeeth ]
 [f ]
 "30
-[; ;reluctor.c: 30:     ucCountTeeth++;
-[e ++ _ucCountTeeth -> -> 1 `i `uc ]
+[; ;reluctor.c: 30:     ulCountTeeth++;
+[e ++ _ulCountTeeth -> -> -> 1 `i `l `ul ]
 "31
 [; ;reluctor.c: 31: }
 [e :UE 1 ]
@@ -58,102 +61,114 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 [e :U _ReluctorFreqRead ]
 [f ]
-"40
-[; ;reluctor.c: 40:     ui_cm_in_period = 100;
-[e = _ui_cm_in_period -> -> 100 `i `uc ]
 "42
-[; ;reluctor.c: 42:     ui_MeterPerSecond_E_2 = ui_cm_in_period * (10 / 100);
-[e = _ui_MeterPerSecond_E_2 -> * -> _ui_cm_in_period `i / -> 10 `i -> 100 `i `ui ]
+[; ;reluctor.c: 42:     ui_cm_in_period = ( ulCountTeeth * 100 );
+[e = _ui_cm_in_period * _ulCountTeeth -> -> -> 100 `i `l `ul ]
 "43
-[; ;reluctor.c: 43:     uiKPH_E_2 = ui_MeterPerSecond_E_2 * 36/10;
-[e = _uiKPH_E_2 / * _ui_MeterPerSecond_E_2 -> -> 36 `i `ui -> -> 10 `i `ui ]
+[; ;reluctor.c: 43:     ui_cm_in_period = ( ui_cm_in_period * ulTyrePerimeter );
+[e = _ui_cm_in_period * _ui_cm_in_period _ulTyrePerimeter ]
+"44
+[; ;reluctor.c: 44:     ui_cm_in_period = ( ui_cm_in_period / ulWheelTeeth );
+[e = _ui_cm_in_period / _ui_cm_in_period _ulWheelTeeth ]
 "45
-[; ;reluctor.c: 45:     if ( uiKPH_E_2 >= 15000 )
-[e $ ! >= _uiKPH_E_2 -> -> 15000 `i `ui 3  ]
+[; ;reluctor.c: 45:     ui_MeterPerSecond_E_2 = ( ui_cm_in_period * 10 );
+[e = _ui_MeterPerSecond_E_2 * _ui_cm_in_period -> -> -> 10 `i `l `ul ]
 "46
-[; ;reluctor.c: 46:     {
-{
+[; ;reluctor.c: 46:     ui_MeterPerSecond_E_2 = ( ui_MeterPerSecond_E_2 / 500 ) ;
+[e = _ui_MeterPerSecond_E_2 / _ui_MeterPerSecond_E_2 -> -> -> 500 `i `l `ul ]
 "47
-[; ;reluctor.c: 47:         ucReluctorState = 0x01;
-[e = _ucReluctorState -> -> 1 `i `uc ]
+[; ;reluctor.c: 47:     uiKPH_E_2 = ( ui_MeterPerSecond_E_2 * 36 );
+[e = _uiKPH_E_2 * _ui_MeterPerSecond_E_2 -> -> -> 36 `i `l `ul ]
 "48
-[; ;reluctor.c: 48:     }
+[; ;reluctor.c: 48:     uiKPH_E_2 = ( uiKPH_E_2 / 10 );
+[e = _uiKPH_E_2 / _uiKPH_E_2 -> -> -> 10 `i `l `ul ]
+"50
+[; ;reluctor.c: 50:     if ( uiKPH_E_2 >= 15000 )
+[e $ ! >= _uiKPH_E_2 -> -> -> 15000 `i `l `ul 3  ]
+"51
+[; ;reluctor.c: 51:     {
+{
+"52
+[; ;reluctor.c: 52:         ucReluctorState = 0x01;
+[e = _ucReluctorState -> -> 1 `i `uc ]
+"53
+[; ;reluctor.c: 53:     }
 }
 [e $U 4  ]
-"49
-[; ;reluctor.c: 49:     else
+"58
+[; ;reluctor.c: 58:     else
 [e :U 3 ]
-"50
-[; ;reluctor.c: 50:     {
+"59
+[; ;reluctor.c: 59:     {
 {
-"51
-[; ;reluctor.c: 51:         ucReluctorState = 0x00;
+"60
+[; ;reluctor.c: 60:         ucReluctorState = 0x00;
 [e = _ucReluctorState -> -> 0 `i `uc ]
-"52
-[; ;reluctor.c: 52:         ucKPHData1 = (( uiKPH_E_2 / 100 ) & 0x00FF);
-[e = _ucKPHData1 -> & / _uiKPH_E_2 -> -> 100 `i `ui -> -> 255 `i `ui `uc ]
-"53
-[; ;reluctor.c: 53:         ucKPHData2 = (( uiKPH_E_2 - ( 100 * ucKPHData1 )) & 0x00FF);
-[e = _ucKPHData2 -> & - _uiKPH_E_2 -> * -> 100 `i -> _ucKPHData1 `i `ui -> -> 255 `i `ui `uc ]
-"54
-[; ;reluctor.c: 54:     }
+"61
+[; ;reluctor.c: 61:         ucKPHData1 = (( uiKPH_E_2 / 100 ) & 0x00FF);
+[e = _ucKPHData1 -> & / _uiKPH_E_2 -> -> -> 100 `i `l `ul -> -> -> 255 `i `l `ul `uc ]
+"62
+[; ;reluctor.c: 62:         ucKPHData2 = (( uiKPH_E_2 - ( 100 * ucKPHData1 )) & 0x00FF);
+[e = _ucKPHData2 -> & - _uiKPH_E_2 -> -> * -> 100 `i -> _ucKPHData1 `i `l `ul -> -> -> 255 `i `l `ul `uc ]
+"63
+[; ;reluctor.c: 63:     }
 }
 [e :U 4 ]
-"56
-[; ;reluctor.c: 56:     ucCountTeeth = 0;
-[e = _ucCountTeeth -> -> 0 `i `uc ]
-"57
-[; ;reluctor.c: 57: }
+"65
+[; ;reluctor.c: 65:     ulCountTeeth = 0;
+[e = _ulCountTeeth -> -> -> 0 `i `l `ul ]
+"66
+[; ;reluctor.c: 66: }
 [e :UE 2 ]
 }
-"59
-[; ;reluctor.c: 59: void ReluctorPosCount(void)
+"68
+[; ;reluctor.c: 68: void ReluctorPosCount(void)
 [v _ReluctorPosCount `(v ~T0 @X0 1 ef ]
-"60
-[; ;reluctor.c: 60: {
+"69
+[; ;reluctor.c: 69: {
 {
 [e :U _ReluctorPosCount ]
 [f ]
-"61
-[; ;reluctor.c: 61:     ucCountPos++;
+"70
+[; ;reluctor.c: 70:     ucCountPos++;
 [e ++ _ucCountPos -> -> 1 `i `uc ]
-"62
-[; ;reluctor.c: 62:     if(ucCountPos >= ucWheelTeeth){
-[e $ ! >= -> _ucCountPos `i -> _ucWheelTeeth `i 6  ]
+"71
+[; ;reluctor.c: 71:     if(ucCountPos >= ulWheelTeeth){
+[e $ ! >= -> _ucCountPos `ul _ulWheelTeeth 6  ]
 {
-"63
-[; ;reluctor.c: 63:         ucCountPos = 0;
+"72
+[; ;reluctor.c: 72:         ucCountPos = 0;
 [e = _ucCountPos -> -> 0 `i `uc ]
-"64
-[; ;reluctor.c: 64:         uiCountVueltaRueda++;
+"73
+[; ;reluctor.c: 73:         uiCountVueltaRueda++;
 [e ++ _uiCountVueltaRueda -> -> 1 `i `ui ]
-"65
-[; ;reluctor.c: 65:         ucCountVueltaRueda1 = uiCountVueltaRueda & 0x00FF;
+"74
+[; ;reluctor.c: 74:         ucCountVueltaRueda1 = uiCountVueltaRueda & 0x00FF;
 [e = _ucCountVueltaRueda1 -> & _uiCountVueltaRueda -> -> 255 `i `ui `uc ]
-"66
-[; ;reluctor.c: 66:         ucCountVueltaRueda2 = ( uiCountVueltaRueda >> 0x08 ) & 0x00FF;
+"75
+[; ;reluctor.c: 75:         ucCountVueltaRueda2 = ( uiCountVueltaRueda >> 0x08 ) & 0x00FF;
 [e = _ucCountVueltaRueda2 -> & >> _uiCountVueltaRueda -> 8 `i -> -> 255 `i `ui `uc ]
-"67
-[; ;reluctor.c: 67:     }
+"76
+[; ;reluctor.c: 76:     }
 }
 [e :U 6 ]
-"68
-[; ;reluctor.c: 68: }
+"77
+[; ;reluctor.c: 77: }
 [e :UE 5 ]
 }
-"70
-[; ;reluctor.c: 70: unsigned int ReluctorPosRead(void)
+"79
+[; ;reluctor.c: 79: unsigned int ReluctorPosRead(void)
 [v _ReluctorPosRead `(ui ~T0 @X0 1 ef ]
-"71
-[; ;reluctor.c: 71: {
+"80
+[; ;reluctor.c: 80: {
 {
 [e :U _ReluctorPosRead ]
 [f ]
-"72
-[; ;reluctor.c: 72:     return (( uiCountVueltaRueda * 360 ) + ( ucCountPos*360 / ucWheelTeeth));
-[e ) + * _uiCountVueltaRueda -> -> 360 `i `ui -> / * -> _ucCountPos `i -> 360 `i -> _ucWheelTeeth `i `ui ]
+"81
+[; ;reluctor.c: 81:     return (( uiCountVueltaRueda * 360 ) + ( ucCountPos*360 / ulWheelTeeth));
+[e ) -> + -> * _uiCountVueltaRueda -> -> 360 `i `ui `ul / -> -> * -> _ucCountPos `i -> 360 `i `l `ul _ulWheelTeeth `ui ]
 [e $UE 7  ]
-"73
-[; ;reluctor.c: 73: }
+"82
+[; ;reluctor.c: 82: }
 [e :UE 7 ]
 }

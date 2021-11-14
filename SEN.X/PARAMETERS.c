@@ -9,8 +9,8 @@
 
 // VARIABLES. Set which wheel is being programmed.
 unsigned char ucWheelID;
-unsigned char ucTyrePerimeter;
-unsigned char ucWheelTeeth;
+unsigned long ulTyrePerimeter;
+unsigned long ulWheelTeeth;
 
 
 
@@ -18,6 +18,6 @@ unsigned char ucWheelTeeth;
 void PARAMETERSInit(void)
 {
     ucWheelID = WHEEL_FR;
-    ucTyrePerimeter = 167;
-    ucWheelTeeth = 16;
+    ulTyrePerimeter = 167;
+    ulWheelTeeth = 16;
 }

@@ -17,8 +17,8 @@
 # 1 "./parameters.h" 1
 # 27 "./parameters.h"
 extern unsigned char ucWheelID;
-extern unsigned char ucTyrePerimeter;
-extern unsigned char ucWheelTeeth;
+extern unsigned long ulTyrePerimeter;
+extern unsigned long ulWheelTeeth;
 
 
 
@@ -28,8 +28,8 @@ void PARAMETERSInit(void);
 
 
 unsigned char ucWheelID;
-unsigned char ucTyrePerimeter;
-unsigned char ucWheelTeeth;
+unsigned long ulTyrePerimeter;
+unsigned long ulWheelTeeth;
 
 
 
@@ -37,6 +37,6 @@ unsigned char ucWheelTeeth;
 void PARAMETERSInit(void)
 {
     ucWheelID = 2;
-    ucTyrePerimeter = 167;
-    ucWheelTeeth = 16;
+    ulTyrePerimeter = 167;
+    ulWheelTeeth = 16;
 }

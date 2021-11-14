@@ -58,20 +58,20 @@ Version 4.0 HI-TECH Software Intermediate Code
 "290 ./mcc_generated_files/can1.h
 [; ;./mcc_generated_files/can1.h: 290: CAN_TX_MSG_REQUEST_STATUS CAN1_Transmit(const CAN1_TX_FIFO_CHANNELS fifoChannel, CAN_MSG_OBJ *txCanMsg);
 [v _CAN1_Transmit `(E22728 ~T0 @X0 0 ef2`CE22771`*S3180 ]
-"31 ./reluctor.h
-[; ;./reluctor.h: 31: extern unsigned char ucReluctorState;
+"32 ./reluctor.h
+[; ;./reluctor.h: 32: extern unsigned char ucReluctorState;
 [v _ucReluctorState `uc ~T0 @X0 0 e ]
-"29
-[; ;./reluctor.h: 29: extern unsigned char ucKPHData1;
-[v _ucKPHData1 `uc ~T0 @X0 0 e ]
 "30
-[; ;./reluctor.h: 30: extern unsigned char ucKPHData2;
+[; ;./reluctor.h: 30: extern unsigned char ucKPHData1;
+[v _ucKPHData1 `uc ~T0 @X0 0 e ]
+"31
+[; ;./reluctor.h: 31: extern unsigned char ucKPHData2;
 [v _ucKPHData2 `uc ~T0 @X0 0 e ]
-"27
-[; ;./reluctor.h: 27: extern unsigned char ucCountVueltaRueda1;
-[v _ucCountVueltaRueda1 `uc ~T0 @X0 0 e ]
 "28
-[; ;./reluctor.h: 28: extern unsigned char ucCountVueltaRueda2;
+[; ;./reluctor.h: 28: extern unsigned char ucCountVueltaRueda1;
+[v _ucCountVueltaRueda1 `uc ~T0 @X0 0 e ]
+"29
+[; ;./reluctor.h: 29: extern unsigned char ucCountVueltaRueda2;
 [v _ucCountVueltaRueda2 `uc ~T0 @X0 0 e ]
 "27 ./parameters.h
 [; ;./parameters.h: 27: extern unsigned char ucWheelID;
@@ -3817,54 +3817,54 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;MESSAGES.C: 82:                 __nop();
 [e ( ___nop ..  ]
 "83
-[; ;MESSAGES.C: 83:                 CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 10 `i `uc -> -> 20 `i `uc _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
-"84
-[; ;MESSAGES.C: 84:             }
+[; ;MESSAGES.C: 83:                 CANWriteMessage(0x307, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+"85
+[; ;MESSAGES.C: 85:             }
 }
 [e :U 3191 ]
-"85
-[; ;MESSAGES.C: 85:             break;
-[e $U 3188  ]
 "86
-[; ;MESSAGES.C: 86:         case 2:
-[e :U 3192 ]
+[; ;MESSAGES.C: 86:             break;
+[e $U 3188  ]
 "87
-[; ;MESSAGES.C: 87:             if ( ucReluctorState == 0x00 )
-[e $ ! == -> _ucReluctorState `i -> 0 `i 3193  ]
+[; ;MESSAGES.C: 87:         case 2:
+[e :U 3192 ]
 "88
-[; ;MESSAGES.C: 88:             {
-{
+[; ;MESSAGES.C: 88:             if ( ucReluctorState == 0x00 )
+[e $ ! == -> _ucReluctorState `i -> 0 `i 3193  ]
 "89
-[; ;MESSAGES.C: 89:                 CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 769 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+[; ;MESSAGES.C: 89:             {
+{
 "90
-[; ;MESSAGES.C: 90:                 __nop();
-[e ( ___nop ..  ]
+[; ;MESSAGES.C: 90:                 CANWriteMessage(0x304, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 772 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
 "91
-[; ;MESSAGES.C: 91:                 CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
-[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 775 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 10 `i `uc -> -> 20 `i `uc _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+[; ;MESSAGES.C: 91:                 __nop();
+[e ( ___nop ..  ]
 "92
-[; ;MESSAGES.C: 92:             }
+[; ;MESSAGES.C: 92:                 CANWriteMessage(0x30A, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 778 `i `l `ul -> -> 8 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc _ucKPHData1 _ucKPHData2 _ucCountVueltaRueda1 _ucCountVueltaRueda2 ]
+"93
+[; ;MESSAGES.C: 93:             }
 }
 [e :U 3193 ]
-"93
-[; ;MESSAGES.C: 93:             break;
-[e $U 3188  ]
 "94
-[; ;MESSAGES.C: 94:         case 3:
-[e :U 3194 ]
+[; ;MESSAGES.C: 94:             break;
+[e $U 3188  ]
 "95
-[; ;MESSAGES.C: 95:             break;
-[e $U 3188  ]
+[; ;MESSAGES.C: 95:         case 3:
+[e :U 3194 ]
 "96
-[; ;MESSAGES.C: 96:         case 4:
-[e :U 3195 ]
-"97
-[; ;MESSAGES.C: 97:             break;
+[; ;MESSAGES.C: 96:             break;
 [e $U 3188  ]
+"97
+[; ;MESSAGES.C: 97:         case 4:
+[e :U 3195 ]
 "98
-[; ;MESSAGES.C: 98:     }
+[; ;MESSAGES.C: 98:             break;
+[e $U 3188  ]
+"99
+[; ;MESSAGES.C: 99:     }
 }
 [e $U 3188  ]
 [e :U 3189 ]
@@ -3874,7 +3874,7 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 4 `i 3195
  3188 ]
 [e :U 3188 ]
-"100
-[; ;MESSAGES.C: 100: }
+"101
+[; ;MESSAGES.C: 101: }
 [e :UE 3187 ]
 }

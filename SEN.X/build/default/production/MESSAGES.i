@@ -38181,8 +38181,8 @@ void MESSAGESSendEvery100ms(void);
 # 1 "./parameters.h" 1
 # 27 "./parameters.h"
 extern unsigned char ucWheelID;
-extern unsigned char ucTyrePerimeter;
-extern unsigned char ucWheelTeeth;
+extern unsigned long ulTyrePerimeter;
+extern unsigned long ulWheelTeeth;
 
 
 
@@ -38190,8 +38190,8 @@ void PARAMETERSInit(void);
 # 10 "MESSAGES.C" 2
 
 # 1 "./reluctor.h" 1
-# 24 "./reluctor.h"
-extern unsigned char ucCountTeeth;
+# 25 "./reluctor.h"
+extern unsigned long ulCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned int uiCountVueltaRueda;
 extern unsigned char ucCountVueltaRueda1;
@@ -38199,6 +38199,11 @@ extern unsigned char ucCountVueltaRueda2;
 extern unsigned char ucKPHData1;
 extern unsigned char ucKPHData2;
 extern unsigned char ucReluctorState;
+
+extern unsigned long ui_cm_in_period;
+
+extern unsigned long ui_MeterPerSecond_E_2;
+extern unsigned long uiKPH_E_2;
 
 
 void ReluctorFreqRead(void);
@@ -38278,15 +38283,16 @@ void MESSAGESSendEvery100ms(void)
             {
                 CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 __nop();
-                CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x307, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+
             }
             break;
         case 2:
             if ( ucReluctorState == 0x00 )
             {
-                CANWriteMessage(0x301, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x304, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
                 __nop();
-                CANWriteMessage(0x307, 8, 0,0,0,0,10, 20, ucCountVueltaRueda1, ucCountVueltaRueda2);
+                CANWriteMessage(0x30A, 8, 0,0,0,0,ucKPHData1, ucKPHData2, ucCountVueltaRueda1, ucCountVueltaRueda2);
             }
             break;
         case 3:

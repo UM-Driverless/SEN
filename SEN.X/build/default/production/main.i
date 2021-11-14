@@ -38158,8 +38158,8 @@ void PMD_Initialize(void);
 # 44 "main.c" 2
 
 # 1 "./reluctor.h" 1
-# 24 "./reluctor.h"
-extern unsigned char ucCountTeeth;
+# 25 "./reluctor.h"
+extern unsigned long ulCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned int uiCountVueltaRueda;
 extern unsigned char ucCountVueltaRueda1;
@@ -38167,6 +38167,11 @@ extern unsigned char ucCountVueltaRueda2;
 extern unsigned char ucKPHData1;
 extern unsigned char ucKPHData2;
 extern unsigned char ucReluctorState;
+
+extern unsigned long ui_cm_in_period;
+
+extern unsigned long ui_MeterPerSecond_E_2;
+extern unsigned long uiKPH_E_2;
 
 
 void ReluctorFreqRead(void);
@@ -38178,8 +38183,8 @@ void ReluctorPosCount(void);
 # 1 "./parameters.h" 1
 # 27 "./parameters.h"
 extern unsigned char ucWheelID;
-extern unsigned char ucTyrePerimeter;
-extern unsigned char ucWheelTeeth;
+extern unsigned long ulTyrePerimeter;
+extern unsigned long ulWheelTeeth;
 
 
 

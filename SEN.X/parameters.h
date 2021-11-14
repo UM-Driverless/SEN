@@ -14,7 +14,7 @@ extern "C" {
 
 // OUR CONSTANTS
 #define TMR0_period_ms      10
-#define TMR1_period_ms      100
+#define TMR1_period_ms      500
 #define REL_base_calculo    100
 // Wheels in same order as their CAN ID. (Left, Right, Front, Back/Rear)
 #define WHEEL_FL  1 // Front Left
@@ -25,8 +25,8 @@ extern "C" {
     
 // VARIABLES. Set which wheel is being programmed.
 extern unsigned char ucWheelID;
-extern unsigned char ucTyrePerimeter;
-extern unsigned char ucWheelTeeth;
+extern unsigned long ulTyrePerimeter;
+extern unsigned long ulWheelTeeth;
 
 
 // FUNCIONES

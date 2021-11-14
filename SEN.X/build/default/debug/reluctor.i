@@ -15,8 +15,8 @@
 
 
 # 1 "./reluctor.h" 1
-# 24 "./reluctor.h"
-extern unsigned char ucCountTeeth;
+# 25 "./reluctor.h"
+extern unsigned long ulCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned int uiCountVueltaRueda;
 extern unsigned char ucCountVueltaRueda1;
@@ -24,6 +24,11 @@ extern unsigned char ucCountVueltaRueda2;
 extern unsigned char ucKPHData1;
 extern unsigned char ucKPHData2;
 extern unsigned char ucReluctorState;
+
+extern unsigned long ui_cm_in_period;
+
+extern unsigned long ui_MeterPerSecond_E_2;
+extern unsigned long uiKPH_E_2;
 
 
 void ReluctorFreqRead(void);
@@ -35,8 +40,8 @@ void ReluctorPosCount(void);
 # 1 "./parameters.h" 1
 # 27 "./parameters.h"
 extern unsigned char ucWheelID;
-extern unsigned char ucTyrePerimeter;
-extern unsigned char ucWheelTeeth;
+extern unsigned long ulTyrePerimeter;
+extern unsigned long ulWheelTeeth;
 
 
 
@@ -45,17 +50,17 @@ void PARAMETERSInit(void);
 
 
 
-unsigned char ucCountTeeth;
+unsigned long ulCountTeeth;
 unsigned char ucCountPos;
 unsigned int uiCountVueltaRueda;
 unsigned char ucCountVueltaRueda1;
 unsigned char ucCountVueltaRueda2;
 
 
-unsigned char ui_cm_in_period;
+unsigned long ui_cm_in_period;
 
-unsigned int ui_MeterPerSecond_E_2;
-unsigned int uiKPH_E_2;
+unsigned long ui_MeterPerSecond_E_2;
+unsigned long uiKPH_E_2;
 unsigned char ucKPHData1;
 unsigned char ucKPHData2;
 unsigned char ucReluctorState;
@@ -63,7 +68,7 @@ unsigned char ucReluctorState;
 
 void ReluctorCountTeeth(void)
 {
-    ucCountTeeth++;
+    ulCountTeeth++;
 }
 
 void ReluctorFreqRead(void)
@@ -73,15 +78,24 @@ void ReluctorFreqRead(void)
 
 
 
-    ui_cm_in_period = 1043;
 
-    ui_MeterPerSecond_E_2 = ui_cm_in_period * (10 / 100);
-    uiKPH_E_2 = ui_MeterPerSecond_E_2 * 36/10;
+
+    ui_cm_in_period = ( ulCountTeeth * 100 );
+    ui_cm_in_period = ( ui_cm_in_period * ulTyrePerimeter );
+    ui_cm_in_period = ( ui_cm_in_period / ulWheelTeeth );
+    ui_MeterPerSecond_E_2 = ( ui_cm_in_period * 10 );
+    ui_MeterPerSecond_E_2 = ( ui_MeterPerSecond_E_2 / 500 ) ;
+    uiKPH_E_2 = ( ui_MeterPerSecond_E_2 * 36 );
+    uiKPH_E_2 = ( uiKPH_E_2 / 10 );
 
     if ( uiKPH_E_2 >= 15000 )
     {
         ucReluctorState = 0x01;
     }
+
+
+
+
     else
     {
         ucReluctorState = 0x00;
@@ -89,13 +103,13 @@ void ReluctorFreqRead(void)
         ucKPHData2 = (( uiKPH_E_2 - ( 100 * ucKPHData1 )) & 0x00FF);
     }
 
-    ucCountTeeth = 0;
+    ulCountTeeth = 0;
 }
 
 void ReluctorPosCount(void)
 {
     ucCountPos++;
-    if(ucCountPos >= ucWheelTeeth){
+    if(ucCountPos >= ulWheelTeeth){
         ucCountPos = 0;
         uiCountVueltaRueda++;
         ucCountVueltaRueda1 = uiCountVueltaRueda & 0x00FF;
@@ -105,5 +119,5 @@ void ReluctorPosCount(void)
 
 unsigned int ReluctorPosRead(void)
 {
-    return (( uiCountVueltaRueda * 360 ) + ( ucCountPos*360 / ucWheelTeeth));
+    return (( uiCountVueltaRueda * 360 ) + ( ucCountPos*360 / ulWheelTeeth));
 }

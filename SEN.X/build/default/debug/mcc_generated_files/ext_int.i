@@ -37508,8 +37508,8 @@ void PIN_MANAGER_IOC(void);
 
 
 # 1 "mcc_generated_files/../reluctor.h" 1
-# 24 "mcc_generated_files/../reluctor.h"
-extern unsigned char ucCountTeeth;
+# 25 "mcc_generated_files/../reluctor.h"
+extern unsigned long ulCountTeeth;
 extern unsigned char ucCountPos;
 extern unsigned int uiCountVueltaRueda;
 extern unsigned char ucCountVueltaRueda1;
@@ -37517,6 +37517,11 @@ extern unsigned char ucCountVueltaRueda2;
 extern unsigned char ucKPHData1;
 extern unsigned char ucKPHData2;
 extern unsigned char ucReluctorState;
+
+extern unsigned long ui_cm_in_period;
+
+extern unsigned long ui_MeterPerSecond_E_2;
+extern unsigned long uiKPH_E_2;
 
 
 void ReluctorFreqRead(void);

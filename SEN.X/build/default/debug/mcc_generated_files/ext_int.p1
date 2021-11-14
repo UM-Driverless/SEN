@@ -1,5 +1,5 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F22167 `(v ~T0 @X0 0 tf ]
+[v F22170 `(v ~T0 @X0 0 tf ]
 "557 C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
 [s S3030 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S3030 . INT0IF ZCDIF ADIF ACTIF C1IF SMT1IF SMT1PRAIF SMT1PWAIF ]
@@ -11,15 +11,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 "296 mcc_generated_files/ext_int.h
 [; ;mcc_generated_files/ext_int.h: 296: void INT0_CallBack(void);
 [v _INT0_CallBack `(v ~T0 @X0 0 ef ]
-"35 mcc_generated_files/../reluctor.h
-[; ;mcc_generated_files/../reluctor.h: 35: void ReluctorCountTeeth(void);
+"41 mcc_generated_files/../reluctor.h
+[; ;mcc_generated_files/../reluctor.h: 41: void ReluctorCountTeeth(void);
 [v _ReluctorCountTeeth `(v ~T0 @X0 0 ef ]
-"37
-[; ;mcc_generated_files/../reluctor.h: 37: void ReluctorPosCount(void);
+"43
+[; ;mcc_generated_files/../reluctor.h: 43: void ReluctorPosCount(void);
 [v _ReluctorPosCount `(v ~T0 @X0 0 ef ]
-[v F22170 `(v ~T0 @X0 0 tf ]
-[v F22172 `(v ~T0 @X0 0 tf ]
-[v F22174 `(v ~T0 @X0 0 tf ]
+[v F22173 `(v ~T0 @X0 0 tf ]
+[v F22175 `(v ~T0 @X0 0 tf ]
+[v F22177 `(v ~T0 @X0 0 tf ]
 "2080 C:/Users/panze/.mchp_packs/Microchip/PIC18F-Q_DFP/1.12.193/xc8\pic\include\proc\pic18f26q84.h
 [s S3083 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S3083 . INT0EDG INT1EDG INT2EDG . IPEN GIEL GIE ]
@@ -3560,7 +3560,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSU equ 04FFh ;# ">
 "34 mcc_generated_files/ext_int.c
 [; ;mcc_generated_files/ext_int.c: 34: void (*INT0_InterruptHandler)(void);
-[v _INT0_InterruptHandler `*F22167 ~T0 @X0 1 e ]
+[v _INT0_InterruptHandler `*F22170 ~T0 @X0 1 e ]
 "36
 [; ;mcc_generated_files/ext_int.c: 36: void INT0_ISR(void)
 [v _INT0_ISR `(v ~T0 @X0 1 ef ]
@@ -3595,7 +3595,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e ( _ReluctorPosCount ..  ]
 "52
 [; ;mcc_generated_files/ext_int.c: 52:     if(INT0_InterruptHandler)
-[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F22170 3178  ]
+[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F22173 3178  ]
 "53
 [; ;mcc_generated_files/ext_int.c: 53:     {
 {
@@ -3612,10 +3612,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 "58
 [; ;mcc_generated_files/ext_int.c: 58: void INT0_SetInterruptHandler(void (* InterruptHandler)(void)){
-[v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F22172 ]
+[v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F22175 ]
 {
 [e :U _INT0_SetInterruptHandler ]
-[v _InterruptHandler `*F22174 ~T0 @X0 1 r1 ]
+[v _InterruptHandler `*F22177 ~T0 @X0 1 r1 ]
 [f ]
 "59
 [; ;mcc_generated_files/ext_int.c: 59:     INT0_InterruptHandler = InterruptHandler;

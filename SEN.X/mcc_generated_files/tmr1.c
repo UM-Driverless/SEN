@@ -171,15 +171,17 @@ void TMR1_ISR(void)
     PIR3bits.TMR1IF = 0;
     TMR1_WriteTimer(timer1ReloadVal);
     
-    // 01.10.2021 RJM - CUSTOM CALLBACK CODE FOR TMR1 - FRECUENCIOMETRO
-    // Se ejecuta cada vez que ocurre el timer TMR1, 100ms. Callback count ignorada.
-    ReluctorFreqRead();
-    //Frecuencia de mensajes CAN a 10Hz
-    MESSAGESSendEvery100ms();
+
+
     
     // callback function - called every 2th pasos
     if (++CountCallBack >= TMR1_INTERRUPT_TICKER_FACTOR) //500ms
     {
+        // 01.10.2021 RJM - CUSTOM CALLBACK CODE FOR TMR1 - FRECUENCIOMETRO
+        // Se ejecuta cada vez que ocurre el timer TMR1, 500ms. Callback count ignorada.
+        ReluctorFreqRead();
+        //Frecuencia de mensajes CAN a 2Hz
+        MESSAGESSendEvery100ms();
         // ticker function call
         TMR1_CallBack();
 

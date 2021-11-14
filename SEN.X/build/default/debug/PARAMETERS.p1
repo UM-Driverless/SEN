@@ -3,11 +3,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;PARAMETERS.c: 11: unsigned char ucWheelID;
 [v _ucWheelID `uc ~T0 @X0 1 e ]
 "12
-[; ;PARAMETERS.c: 12: unsigned char ucTyrePerimeter;
-[v _ucTyrePerimeter `uc ~T0 @X0 1 e ]
+[; ;PARAMETERS.c: 12: unsigned long ulTyrePerimeter;
+[v _ulTyrePerimeter `ul ~T0 @X0 1 e ]
 "13
-[; ;PARAMETERS.c: 13: unsigned char ucWheelTeeth;
-[v _ucWheelTeeth `uc ~T0 @X0 1 e ]
+[; ;PARAMETERS.c: 13: unsigned long ulWheelTeeth;
+[v _ulWheelTeeth `ul ~T0 @X0 1 e ]
 "18
 [; ;PARAMETERS.c: 18: void PARAMETERSInit(void)
 [v _PARAMETERSInit `(v ~T0 @X0 1 ef ]
@@ -20,11 +20,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;PARAMETERS.c: 20:     ucWheelID = 1;
 [e = _ucWheelID -> -> 1 `i `uc ]
 "21
-[; ;PARAMETERS.c: 21:     ucTyrePerimeter = 167;
-[e = _ucTyrePerimeter -> -> 167 `i `uc ]
+[; ;PARAMETERS.c: 21:     ulTyrePerimeter = 167;
+[e = _ulTyrePerimeter -> -> -> 167 `i `l `ul ]
 "22
-[; ;PARAMETERS.c: 22:     ucWheelTeeth = 16;
-[e = _ucWheelTeeth -> -> 16 `i `uc ]
+[; ;PARAMETERS.c: 22:     ulWheelTeeth = 16;
+[e = _ulWheelTeeth -> -> -> 16 `i `l `ul ]
 "23
 [; ;PARAMETERS.c: 23: }
 [e :UE 1 ]
