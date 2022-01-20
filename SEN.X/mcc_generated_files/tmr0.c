@@ -130,7 +130,7 @@ void TMR0_ISR(void)
     //ReluctorFreqRead();
     
     // callback function - called every 5th pass of timer at 10ms
-    if (++CountCallBack >= TMR0_INTERRUPT_TICKER_FACTOR)
+    if (++CountCallBack >= TMR0_INTERRUPT_TICKER_FACTOR)//50ms
     {
         // ticker function call
         TMR0_CallBack();

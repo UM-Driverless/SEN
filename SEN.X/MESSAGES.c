@@ -71,7 +71,7 @@ void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char d
     }
 }
 
-void MESSAGESSendEvery100ms(void)
+void MESSAGESSendEvery500ms(void)
 {
     switch (ucWheelID)
     {
@@ -97,7 +97,25 @@ void MESSAGESSendEvery100ms(void)
         case WHEEL_RR:
             break;
     }
-    
 }
 
+
+void MESSAGESSendEvery5s(void)
+{
+    switch (ucWheelID)
+    {
+        case WHEEL_FL:
+            CANWriteMessage(ID_ERRORSENFL, data_lenght1, ucReluctorState,0,0,0,0, 0, 0, 0);
+            break;
+        case WHEEL_FR:
+            CANWriteMessage(ID_ERRORSENFR, data_lenght1, ucReluctorState,0,0,0,0, 0, 0, 0);
+            break;
+        case WHEEL_RL:
+            CANWriteMessage(ID_ERRORSENRL, data_lenght1, ucReluctorState,0,0,0,0, 0, 0, 0);
+            break;
+        case WHEEL_RR:
+            CANWriteMessage(ID_ERRORSENRR, data_lenght1, ucReluctorState,0,0,0,0, 0, 0, 0);
+            break;
+    }
+}
 

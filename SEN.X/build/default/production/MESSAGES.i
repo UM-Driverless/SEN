@@ -37917,31 +37917,31 @@ void ADC_SetContext4ThresholdInterruptHandler(void (* InterruptHandler)(void));
 # 57 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/tmr1.h" 1
-# 101 "./mcc_generated_files/tmr1.h"
+# 102 "./mcc_generated_files/tmr1.h"
 void TMR1_Initialize(void);
-# 130 "./mcc_generated_files/tmr1.h"
+# 131 "./mcc_generated_files/tmr1.h"
 void TMR1_StartTimer(void);
-# 162 "./mcc_generated_files/tmr1.h"
+# 163 "./mcc_generated_files/tmr1.h"
 void TMR1_StopTimer(void);
-# 197 "./mcc_generated_files/tmr1.h"
+# 198 "./mcc_generated_files/tmr1.h"
 uint16_t TMR1_ReadTimer(void);
-# 236 "./mcc_generated_files/tmr1.h"
+# 237 "./mcc_generated_files/tmr1.h"
 void TMR1_WriteTimer(uint16_t timerVal);
-# 272 "./mcc_generated_files/tmr1.h"
+# 273 "./mcc_generated_files/tmr1.h"
 void TMR1_Reload(void);
-# 311 "./mcc_generated_files/tmr1.h"
+# 312 "./mcc_generated_files/tmr1.h"
 void TMR1_StartSinglePulseAcquisition(void);
-# 350 "./mcc_generated_files/tmr1.h"
+# 351 "./mcc_generated_files/tmr1.h"
 uint8_t TMR1_CheckGateValueStatus(void);
-# 368 "./mcc_generated_files/tmr1.h"
+# 369 "./mcc_generated_files/tmr1.h"
 void TMR1_ISR(void);
-# 385 "./mcc_generated_files/tmr1.h"
+# 386 "./mcc_generated_files/tmr1.h"
 void TMR1_CallBack(void);
-# 403 "./mcc_generated_files/tmr1.h"
+# 404 "./mcc_generated_files/tmr1.h"
  void TMR1_SetInterruptHandler(void (* InterruptHandler)(void));
-# 421 "./mcc_generated_files/tmr1.h"
+# 422 "./mcc_generated_files/tmr1.h"
 extern void (*TMR1_InterruptHandler)(void);
-# 439 "./mcc_generated_files/tmr1.h"
+# 440 "./mcc_generated_files/tmr1.h"
 void TMR1_DefaultInterruptHandler(void);
 # 58 "./mcc_generated_files/mcc.h" 2
 
@@ -38174,7 +38174,8 @@ CAN_MSG_OBJ msg;
 uint8_t CANDATAdata[32] = "BUFFERCAN";
 # 56 "./MESSAGES.h"
 void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char data1, unsigned char data2, unsigned char data3, unsigned char data4, unsigned char data5, unsigned char data6, unsigned char data7, unsigned char data8);
-void MESSAGESSendEvery100ms(void);
+void MESSAGESSendEvery500ms(void);
+void MESSAGESSendEvery5s(void);
 # 8 "MESSAGES.c" 2
 
 
@@ -38274,7 +38275,7 @@ void CANWriteMessage(unsigned long id, unsigned char dataLength, unsigned char d
     }
 }
 
-void MESSAGESSendEvery100ms(void)
+void MESSAGESSendEvery500ms(void)
 {
     switch (ucWheelID)
     {
@@ -38298,6 +38299,27 @@ void MESSAGESSendEvery100ms(void)
         case 3:
             break;
         case 4:
+            break;
+    }
+
+}
+
+
+void MESSAGESSendEvery5s(void)
+{
+    switch (ucWheelID)
+    {
+        case 1:
+            CANWriteMessage(0x302, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
+            break;
+        case 2:
+            CANWriteMessage(0x305, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
+            break;
+        case 3:
+            CANWriteMessage(0x308, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
+            break;
+        case 4:
+            CANWriteMessage(0x30B, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
             break;
     }
 

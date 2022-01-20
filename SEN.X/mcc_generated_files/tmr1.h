@@ -60,8 +60,9 @@
 
 #endif
 
-#define TMR1_INTERRUPT_TICKER_FACTOR    5
-
+#define TMR1_INTERRUPT_TICKER_FACTOR500ms    5
+#define TMR1_INTERRUPT_TICKER_FACTOR5s       50
+        
 /**
   Section: TMR1 APIs
 */

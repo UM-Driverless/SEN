@@ -484,16 +484,18 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
 "166
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
-"193
+"199
 [v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
-"203
+"209
 [v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
-"207
+"213
 [v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
 "14 C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
 [v _CANWriteMessage CANWriteMessage `(v  1 e 1 0 ]
 "74
-[v _MESSAGESSendEvery100ms MESSAGESSendEvery100ms `(v  1 e 1 0 ]
+[v _MESSAGESSendEvery500ms MESSAGESSendEvery500ms `(v  1 e 1 0 ]
+"104
+[v _MESSAGESSendEvery5s MESSAGESSendEvery5s `(v  1 e 1 0 ]
 "18 C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
 [v _PARAMETERSInit PARAMETERSInit `(v  1 e 1 0 ]
 "28 C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
@@ -600,7 +602,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _PMD3 PMD3 `VEuc  1 e 1 @99 ]
 "1536
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
-[s S2930 . 1 `uc 1 LATB0 1 0 :1:0 
+[s S2935 . 1 `uc 1 LATB0 1 0 :1:0 
 `uc 1 LATB1 1 0 :1:1 
 `uc 1 LATB2 1 0 :1:2 
 `uc 1 LATB3 1 0 :1:3 
@@ -610,8 +612,8 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 `uc 1 LATB7 1 0 :1:7 
 ]
 "1553
-[u S2939 . 1 `S2930 1 . 1 0 ]
-[v _LATBbits LATBbits `VES2939  1 e 1 @1215 ]
+[u S2944 . 1 `S2935 1 . 1 0 ]
+[v _LATBbits LATBbits `VES2944  1 e 1 @1215 ]
 "1565
 [v _PMD4 PMD4 `VEuc  1 e 1 @100 ]
 "1598
@@ -624,7 +626,7 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _PMD6 PMD6 `VEuc  1 e 1 @102 ]
 "1722
 [v _TRISB TRISB `VEuc  1 e 1 @1223 ]
-[s S2909 . 1 `uc 1 TRISB0 1 0 :1:0 
+[s S2914 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -634,8 +636,8 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "1739
-[u S2918 . 1 `S2909 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES2918  1 e 1 @1223 ]
+[u S2923 . 1 `S2914 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES2923  1 e 1 @1223 ]
 "1740
 [v _PMD7 PMD7 `VEuc  1 e 1 @103 ]
 "1784
@@ -966,31 +968,31 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
 "38942
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
-[s S2821 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S2826 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 MD16 1 0 :1:4 
 `uc 1 OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
 "38970
-[s S2827 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S2832 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T0MD16 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
 "38970
-[s S2833 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S2838 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
 `uc 1 T016BIT 1 0 :1:4 
 ]
 "38970
-[u S2839 . 1 `S2821 1 . 1 0 `S2827 1 . 1 0 `S2833 1 . 1 0 ]
+[u S2844 . 1 `S2826 1 . 1 0 `S2832 1 . 1 0 `S2838 1 . 1 0 ]
 "38970
 "38970
-[v _T0CON0bits T0CON0bits `VES2839  1 e 1 @794 ]
+[v _T0CON0bits T0CON0bits `VES2844  1 e 1 @794 ]
 "39040
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
 "39182
@@ -1501,11 +1503,11 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 {
 "99
 } 0
-"203
+"209
 [v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
-"205
+"211
 } 0
 "62 C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
@@ -1695,8 +1697,10 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
 {
 "168
-[v TMR1_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
-"191
+[v TMR1_ISR@CountCallBack500ms CountCallBack500ms `VEui  1 s 2 CountCallBack500ms ]
+"169
+[v TMR1_ISR@CountCallBack5s CountCallBack5s `VEui  1 s 2 CountCallBack5s ]
+"197
 } 0
 "129
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
@@ -1704,15 +1708,15 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]
 "149
 } 0
-"193
+"199
 [v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
 {
-"201
-} 0
 "207
+} 0
+"213
 [v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
 {
-"210
+"216
 } 0
 "33 C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
 [v _ReluctorFreqRead ReluctorFreqRead `(v  1 e 1 0 ]
@@ -1741,8 +1745,13 @@ CAN_TX_MSG_REQUEST_FIFO_FULL 3
 [v ___lldiv@divisor divisor `ul  1 p 4 4 ]
 "30
 } 0
-"74 C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-[v _MESSAGESSendEvery100ms MESSAGESSendEvery100ms `(v  1 e 1 0 ]
+"104 C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+[v _MESSAGESSendEvery5s MESSAGESSendEvery5s `(v  1 e 1 0 ]
+{
+"122
+} 0
+"74
+[v _MESSAGESSendEvery500ms MESSAGESSendEvery500ms `(v  1 e 1 0 ]
 {
 "101
 } 0

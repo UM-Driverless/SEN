@@ -13,92 +13,93 @@
 %PSECTS
 $dist/default/production\SEN.X.production.o
 ivt0x8 CODE 0 8 8 12 1
-cinit CODE 0 344A 344A 4C 1
+cinit CODE 0 35D6 35D6 4C 1
 idloc IDLOC 5 200000 200000 20 1
-text0 CODE 0 3596 3596 36 1
-text1 CODE 0 36EE 36EE 2C 1
-text2 CODE 0 3496 3496 48 1
-text3 CODE 0 3920 3920 A 1
-text4 CODE 0 3770 3770 28 1
-text5 CODE 0 392A 392A A 1
-text6 CODE 0 3798 3798 28 1
-text7 CODE 0 32B6 32B6 78 1
-text8 CODE 0 384C 384C 18 1
-text9 CODE 0 39BE 39BE 4 1
+text0 CODE 0 36E4 36E4 36 1
+text1 CODE 0 383C 383C 2C 1
+text2 CODE 0 3622 3622 48 1
+text3 CODE 0 3A6E 3A6E A 1
+text4 CODE 0 38BE 38BE 28 1
+text5 CODE 0 3A78 3A78 A 1
+text6 CODE 0 38E6 38E6 28 1
+text7 CODE 0 33E6 33E6 78 1
+text8 CODE 0 399A 399A 18 1
+text9 CODE 0 3B0C 3B0C 4 1
 nvCOMRAM COMRAM 1 55E 55E 2 1
-text10 CODE 0 371A 371A 2C 1
-text11 CODE 0 387C 387C 16 1
-text12 CODE 0 3934 3934 A 1
-text13 CODE 0 33F2 33F2 58 1
-text14 CODE 0 38D4 38D4 14 1
-text15 CODE 0 3636 3636 2E 1
-text16 CODE 0 39C2 39C2 2 1
-text17 CODE 0 38E8 38E8 14 1
-text18 CODE 0 3110 3110 98 1
-text19 CODE 0 393E 393E A 1
-text20 CODE 0 323C 323C 7A 1
-text21 CODE 0 3948 3948 A 1
-text22 CODE 0 3952 3952 A 1
-text23 CODE 0 395C 395C A 1
-text24 CODE 0 3966 3966 A 1
-text25 CODE 0 3970 3970 A 1
-text26 CODE 0 397A 397A A 1
-text27 CODE 0 3984 3984 A 1
-text28 CODE 0 38FC 38FC 14 1
-text29 CODE 0 2FBA 2FBA B2 1
-text30 CODE 0 398E 398E A 1
-text31 CODE 0 3998 3998 A 1
-text32 CODE 0 39A2 39A2 A 1
-text33 CODE 0 37C0 37C0 28 1
-text34 CODE 0 3602 3602 34 1
-text35 CODE 0 2EF8 2EF8 C2 1
-text36 CODE 0 34DE 34DE 3E 1
-text37 CODE 0 3664 3664 2E 1
-text38 CODE 0 3692 3692 2E 1
-text39 CODE 0 39C4 39C4 2 1
+text10 CODE 0 3868 3868 2C 1
+text11 CODE 0 39CA 39CA 16 1
+text12 CODE 0 3A82 3A82 A 1
+text13 CODE 0 357E 357E 58 1
+text14 CODE 0 3A22 3A22 14 1
+text15 CODE 0 3784 3784 2E 1
+text16 CODE 0 3B10 3B10 2 1
+text17 CODE 0 3A36 3A36 14 1
+text18 CODE 0 3240 3240 98 1
+text19 CODE 0 3A8C 3A8C A 1
+text20 CODE 0 336C 336C 7A 1
+text21 CODE 0 3A96 3A96 A 1
+text22 CODE 0 3AA0 3AA0 A 1
+text23 CODE 0 3AAA 3AAA A 1
+text24 CODE 0 3AB4 3AB4 A 1
+text25 CODE 0 3ABE 3ABE A 1
+text26 CODE 0 3AC8 3AC8 A 1
+text27 CODE 0 3AD2 3AD2 A 1
+text28 CODE 0 3A4A 3A4A 14 1
+text29 CODE 0 30EA 30EA B2 1
+text30 CODE 0 3ADC 3ADC A 1
+text31 CODE 0 3AE6 3AE6 A 1
+text32 CODE 0 3AF0 3AF0 A 1
+text33 CODE 0 390E 390E 28 1
+text34 CODE 0 3750 3750 34 1
+text35 CODE 0 3028 3028 C2 1
+text36 CODE 0 34C8 34C8 5C 1
+text37 CODE 0 37B2 37B2 2E 1
+text38 CODE 0 37E0 37E0 2E 1
+text39 CODE 0 3B12 3B12 2 1
 text40 CODE 0 287A 287A 1DA 1
-text41 CODE 0 332E 332E 6A 1
-text42 CODE 0 306C 306C A4 1
-text43 CODE 0 2BAA 2BAA 14C 1
-text44 CODE 0 2CF6 2CF6 12A 1
-text45 CODE 0 37E8 37E8 28 1
-text46 CODE 0 31A8 31A8 94 1
-text47 CODE 0 351C 351C 3E 1
-text48 CODE 0 2634 2634 246 1
-text49 CODE 0 3398 3398 5A 1
-text50 CODE 0 2E20 2E20 D8 1
-text51 CODE 0 39AC 39AC A 1
-text52 CODE 0 3864 3864 18 1
-text53 CODE 0 3892 3892 16 1
-text54 CODE 0 3832 3832 1A 1
-text55 CODE 0 38A8 38A8 16 1
-text56 CODE 0 38BE 38BE 16 1
-text57 CODE 0 3746 3746 2A 1
-text58 CODE 0 36C0 36C0 2E 1
-text59 CODE 0 39C6 39C6 2 1
-text60 CODE 0 39B6 39B6 8 1
-text61 CODE 0 35CC 35CC 36 1
-text62 CODE 0 355A 355A 3C 1
-text63 CODE 0 3910 3910 10 1
-text64 CODE 0 39C8 39C8 2 1
-text65 CODE 0 2A54 2A54 156 1
-text66 CODE 0 39CA 39CA 2 1
-text67 CODE 0 39CC 39CC 2 1
-text68 CODE 0 39CE 39CE 2 1
-text69 CODE 0 39D0 39D0 2 1
-text70 CODE 0 39D2 39D2 2 1
-text71 CODE 0 39D4 39D4 2 1
-text72 CODE 0 39D6 39D6 2 1
-nvBANK5 BANK5 1 5C4 5C4 C 1
+text41 CODE 0 345E 345E 6A 1
+text42 CODE 0 319C 319C A4 1
+text43 CODE 0 2CF6 2CF6 130 1
+text44 CODE 0 2BAA 2BAA 14C 1
+text45 CODE 0 2E26 2E26 12A 1
+text46 CODE 0 3936 3936 28 1
+text47 CODE 0 32D8 32D8 94 1
+text48 CODE 0 366A 366A 3E 1
+text49 CODE 0 2634 2634 246 1
+text50 CODE 0 3524 3524 5A 1
+text51 CODE 0 2F50 2F50 D8 1
+text52 CODE 0 3AFA 3AFA A 1
+text53 CODE 0 39B2 39B2 18 1
+text54 CODE 0 39E0 39E0 16 1
+text55 CODE 0 3980 3980 1A 1
+text56 CODE 0 39F6 39F6 16 1
+text57 CODE 0 3A0C 3A0C 16 1
+text58 CODE 0 3894 3894 2A 1
+text59 CODE 0 380E 380E 2E 1
+text60 CODE 0 3B14 3B14 2 1
+text61 CODE 0 3B04 3B04 8 1
+text62 CODE 0 371A 371A 36 1
+text63 CODE 0 36A8 36A8 3C 1
+text64 CODE 0 3A5E 3A5E 10 1
+text65 CODE 0 3B16 3B16 2 1
+text66 CODE 0 2A54 2A54 156 1
+text67 CODE 0 3B18 3B18 2 1
+text68 CODE 0 3B1A 3B1A 2 1
+text69 CODE 0 3B1C 3B1C 2 1
+text70 CODE 0 3B1E 3B1E 2 1
+text71 CODE 0 3B20 3B20 2 1
+text72 CODE 0 3B22 3B22 2 1
+text73 CODE 0 3B24 3B24 2 1
+nvBANK5 BANK5 1 5C6 5C6 C 1
 cstackCOMRAM COMRAM 1 501 501 39 1
-cstackBANK5 BANK5 1 5D0 5D0 4 1
-bssBANK5 BANK5 1 560 560 42 1
+cstackBANK5 BANK5 1 5D2 5D2 4 1
+bssBANK5 BANK5 1 560 560 44 1
 smallconst SMALLCONST 0 2600 2600 34 1
-idataBANK5 CODE 0 3810 3810 22 1
-dataBANK5 BANK5 1 5A2 5A2 22 1
+idataBANK5 CODE 0 395E 395E 22 1
+dataBANK5 BANK5 1 5A4 5A4 22 1
 bssCOMRAM COMRAM 1 53A 53A 24 1
 config CONFIG 4 300000 300000 24 1
-$C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
+$C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
 idloc IDLOC 5 200000 200000 20 1
 init CODE 0 1A 1A 4 1
 reset_vec CODE 0 0 0 4 1
@@ -109,21 +110,21 @@ config CONFIG 4 300000 300000 24 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 5D4-25FF 1
+RAM 5D6-25FF 1
 SFR 0-4FF 1
-BANK5 5D4-5FF 1
+BANK5 5D6-5FF 1
 BANK6 600-6FF 1
 BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
 CONST 4-7 1
 CONST 1E-25FF 1
-CONST 39D8-FFFF 1
-STACK 5D4-25FF 1
-SMALLCONST 39D8-FFFF 1
+CONST 3B26-FFFF 1
+STACK 5D6-25FF 1
+SMALLCONST 3B26-FFFF 1
 CODE 4-7 1
 CODE 1E-25FF 1
-CODE 39D8-FFFF 1
+CODE 3B26-FFFF 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
@@ -152,9 +153,9 @@ BANK34 2200-22FF 1
 BANK35 2300-23FF 1
 BANK36 2400-24FF 1
 BANK37 2500-25FF 1
-BIGRAM 5D4-25FF 1
+BIGRAM 5D6-25FF 1
 EEDATA 380000-3803FF 1
-MEDIUMCONST 39D8-FFFF 1
+MEDIUMCONST 3B26-FFFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -169,246 +170,263 @@ MEDIUMCONST 39D8-FFFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\SEN.X.production.o
-39D6 text72 CODE >129:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39D6 text72 CODE >131:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39D4 text71 CODE >125:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39D4 text71 CODE >127:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39D2 text70 CODE >121:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39D2 text70 CODE >123:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39D0 text69 CODE >133:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39D0 text69 CODE >135:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39CE text68 CODE >145:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39CE text68 CODE >147:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39CC text67 CODE >137:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39CC text67 CODE >139:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39CA text66 CODE >141:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39CA text66 CODE >143:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2A54 text65 CODE >618:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2A54 text65 CODE >620:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2A64 text65 CODE >622:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2A7E text65 CODE >623:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2A82 text65 CODE >626:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2A90 text65 CODE >628:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2AAA text65 CODE >629:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2AAE text65 CODE >632:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2ABC text65 CODE >634:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2AD6 text65 CODE >635:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2ADA text65 CODE >638:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2AE8 text65 CODE >640:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B02 text65 CODE >641:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B06 text65 CODE >644:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B14 text65 CODE >646:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B2E text65 CODE >647:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B32 text65 CODE >650:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B40 text65 CODE >652:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B5A text65 CODE >653:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B6A text65 CODE >655:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B6C text65 CODE >657:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B6C text65 CODE >659:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B7A text65 CODE >661:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2B94 text65 CODE >662:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2BA4 text65 CODE >664:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2BA6 text65 CODE >666:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2BA6 text65 CODE >668:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2BA8 text65 CODE >669:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39C8 text64 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-39C8 text64 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-3910 text63 CODE >28:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-3910 text63 CODE >30:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-391E text63 CODE >31:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-355A text62 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-355A text62 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-355C text62 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-3584 text62 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-3588 text62 CODE >73:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-358C text62 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-3590 text62 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-3594 text62 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-35CC text61 CODE >45:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-35CC text61 CODE >49:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-35D0 text61 CODE >50:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-35D4 text61 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-35E8 text61 CODE >54:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-3600 text61 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-39B6 text60 CODE >36:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-39B6 text60 CODE >38:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-39B8 text60 CODE >41:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-39BC text60 CODE >42:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-39C6 text59 CODE >159:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-39C6 text59 CODE >162:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-36C0 text58 CODE >145:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-36C0 text58 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-36D4 text58 CODE >151:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-36EC text58 CODE >153:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3746 text57 CODE >122:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3746 text57 CODE >127:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3748 text57 CODE >133:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3762 text57 CODE >136:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3766 text57 CODE >139:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-376E text57 CODE >143:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-38BE text56 CODE >540:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38BE text56 CODE >542:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38D2 text56 CODE >543:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38A8 text55 CODE >560:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38A8 text55 CODE >562:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38BC text55 CODE >563:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3832 text54 CODE >570:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3832 text54 CODE >572:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-384A text54 CODE >573:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3892 text53 CODE >565:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3892 text53 CODE >567:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38A6 text53 CODE >568:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3864 text52 CODE >431:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3866 text52 CODE >433:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-387A text52 CODE >434:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39AC text51 CODE >295:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39AC text51 CODE >297:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39B4 text51 CODE >298:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E20 text50 CODE >477:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E22 text50 CODE >479:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E26 text50 CODE >480:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E36 text50 CODE >481:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E36 text50 CODE >483:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E58 text50 CODE >485:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E5A text50 CODE >488:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E94 text50 CODE >490:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2E96 text50 CODE >493:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2ED8 text50 CODE >495:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2EDA text50 CODE >498:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2EF0 text50 CODE >500:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2EF4 text50 CODE >503:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2EF6 text50 CODE >504:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3398 text49 CODE >4:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-3398 text49 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-33A0 text49 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-33A8 text49 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-33AC text49 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-33C0 text49 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-33D6 text49 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-33F0 text49 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
-2634 text48 CODE >436:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2634 text48 CODE >438:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2658 text48 CODE >440:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2658 text48 CODE >446:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2672 text48 CODE >448:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2688 text48 CODE >449:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-269C text48 CODE >450:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-26AE text48 CODE >451:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-26BC text48 CODE >452:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-26CE text48 CODE >453:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-26E2 text48 CODE >454:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-26E6 text48 CODE >457:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2716 text48 CODE >460:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2728 text48 CODE >461:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2736 text48 CODE >462:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-274E text48 CODE >464:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2762 text48 CODE >465:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2788 text48 CODE >466:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-27AC text48 CODE >467:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-27D0 text48 CODE >468:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-27F4 text48 CODE >469:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2806 text48 CODE >471:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2820 text48 CODE >473:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2878 text48 CODE >475:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-351C text47 CODE >426:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-351E text47 CODE >428:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3558 text47 CODE >429:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31A8 text46 CODE >506:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31AA text46 CODE >508:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31AA text46 CODE >510:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31C0 text46 CODE >512:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31D0 text46 CODE >513:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31E0 text46 CODE >515:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31FC text46 CODE >517:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-320E text46 CODE >519:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3222 text46 CODE >520:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-323A text46 CODE >523:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-323A text46 CODE >526:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-37E8 text45 CODE >528:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-37EA text45 CODE >530:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-37EE text45 CODE >532:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3804 text45 CODE >534:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-380C text45 CODE >537:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-380E text45 CODE >538:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-2CF6 text44 CODE >14:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CF6 text44 CODE >23:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D08 text44 CODE >24:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D0C text44 CODE >25:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D1E text44 CODE >26:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D22 text44 CODE >27:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D34 text44 CODE >28:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D38 text44 CODE >29:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D4A text44 CODE >30:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D4E text44 CODE >32:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D52 text44 CODE >33:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D56 text44 CODE >34:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D5A text44 CODE >35:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D5E text44 CODE >36:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D62 text44 CODE >37:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D66 text44 CODE >38:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D6A text44 CODE >39:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D6E text44 CODE >41:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D7E text44 CODE >42:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D80 text44 CODE >43:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D82 text44 CODE >44:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D84 text44 CODE >45:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D86 text44 CODE >46:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2D98 text44 CODE >47:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DA0 text44 CODE >50:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DB4 text44 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DB6 text44 CODE >54:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DCA text44 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DCC text44 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DE0 text44 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DE2 text44 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DF6 text44 CODE >64:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2DF8 text44 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2E0E text44 CODE >69:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2E1C text44 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2E1E text44 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2BAA text43 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2BAA text43 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2BAE text43 CODE >79:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2BBE text43 CODE >81:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2BF6 text43 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2BF8 text43 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2C34 text43 CODE >88:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2C44 text43 CODE >90:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2C7C text43 CODE >91:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2C7E text43 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CBA text43 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CC4 text43 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CD2 text43 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CDA text43 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CE2 text43 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CEA text43 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-2CF4 text43 CODE >101:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
-306C text42 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-306C text42 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-307C text42 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-3092 text42 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-3096 text42 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-309A text42 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30A4 text42 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30A6 text42 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30B4 text42 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30BE text42 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30DC text42 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30EC text42 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30EE text42 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30F8 text42 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30FE text42 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-30FE text42 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-310E text42 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
-332E text41 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-332E text41 CODE >119:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-333E text41 CODE >121:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-334C text41 CODE >122:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-335C text41 CODE >123:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-3366 text41 CODE >124:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-3370 text41 CODE >125:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-3386 text41 CODE >128:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
-3396 text41 CODE >129:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+3B24 text73 CODE >129:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B24 text73 CODE >131:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B22 text72 CODE >125:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B22 text72 CODE >127:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B20 text71 CODE >121:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B20 text71 CODE >123:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B1E text70 CODE >133:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B1E text70 CODE >135:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B1C text69 CODE >145:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B1C text69 CODE >147:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B1A text68 CODE >137:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B1A text68 CODE >139:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B18 text67 CODE >141:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B18 text67 CODE >143:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2A54 text66 CODE >618:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2A54 text66 CODE >620:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2A64 text66 CODE >622:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2A7E text66 CODE >623:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2A82 text66 CODE >626:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2A90 text66 CODE >628:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2AAA text66 CODE >629:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2AAE text66 CODE >632:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2ABC text66 CODE >634:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2AD6 text66 CODE >635:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2ADA text66 CODE >638:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2AE8 text66 CODE >640:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B02 text66 CODE >641:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B06 text66 CODE >644:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B14 text66 CODE >646:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B2E text66 CODE >647:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B32 text66 CODE >650:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B40 text66 CODE >652:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B5A text66 CODE >653:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B6A text66 CODE >655:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B6C text66 CODE >657:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B6C text66 CODE >659:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B7A text66 CODE >661:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2B94 text66 CODE >662:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2BA4 text66 CODE >664:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2BA6 text66 CODE >666:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2BA6 text66 CODE >668:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2BA8 text66 CODE >669:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B16 text65 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3B16 text65 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3A5E text64 CODE >28:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+3A5E text64 CODE >30:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+3A6C text64 CODE >31:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36A8 text63 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36A8 text63 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36AA text63 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36D2 text63 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36D6 text63 CODE >73:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36DA text63 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36DE text63 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+36E2 text63 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
+371A text62 CODE >45:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+371A text62 CODE >49:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+371E text62 CODE >50:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3722 text62 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3736 text62 CODE >54:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+374E text62 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3B04 text61 CODE >36:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3B04 text61 CODE >38:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3B06 text61 CODE >41:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3B0A text61 CODE >42:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3B14 text60 CODE >159:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3B14 text60 CODE >162:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+380E text59 CODE >145:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+380E text59 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3822 text59 CODE >151:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+383A text59 CODE >153:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3894 text58 CODE >122:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3894 text58 CODE >127:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3896 text58 CODE >133:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38B0 text58 CODE >136:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38B4 text58 CODE >139:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38BC text58 CODE >143:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3A0C text57 CODE >540:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A0C text57 CODE >542:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A20 text57 CODE >543:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39F6 text56 CODE >560:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39F6 text56 CODE >562:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A0A text56 CODE >563:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3980 text55 CODE >570:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3980 text55 CODE >572:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3998 text55 CODE >573:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39E0 text54 CODE >565:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39E0 text54 CODE >567:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39F4 text54 CODE >568:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39B2 text53 CODE >431:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39B4 text53 CODE >433:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+39C8 text53 CODE >434:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AFA text52 CODE >295:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AFA text52 CODE >297:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B02 text52 CODE >298:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2F50 text51 CODE >477:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2F52 text51 CODE >479:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2F56 text51 CODE >480:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2F66 text51 CODE >481:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2F66 text51 CODE >483:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2F88 text51 CODE >485:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2F8A text51 CODE >488:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2FC4 text51 CODE >490:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2FC6 text51 CODE >493:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3008 text51 CODE >495:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+300A text51 CODE >498:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3020 text51 CODE >500:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3024 text51 CODE >503:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3026 text51 CODE >504:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3524 text50 CODE >4:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+3524 text50 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+352C text50 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+3534 text50 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+3538 text50 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+354C text50 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+3562 text50 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+357C text50 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memcpy.c
+2634 text49 CODE >436:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2634 text49 CODE >438:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2658 text49 CODE >440:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2658 text49 CODE >446:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2672 text49 CODE >448:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2688 text49 CODE >449:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+269C text49 CODE >450:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+26AE text49 CODE >451:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+26BC text49 CODE >452:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+26CE text49 CODE >453:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+26E2 text49 CODE >454:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+26E6 text49 CODE >457:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2716 text49 CODE >460:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2728 text49 CODE >461:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2736 text49 CODE >462:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+274E text49 CODE >464:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2762 text49 CODE >465:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2788 text49 CODE >466:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+27AC text49 CODE >467:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+27D0 text49 CODE >468:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+27F4 text49 CODE >469:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2806 text49 CODE >471:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2820 text49 CODE >473:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2878 text49 CODE >475:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+366A text48 CODE >426:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+366C text48 CODE >428:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+36A6 text48 CODE >429:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32D8 text47 CODE >506:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32DA text47 CODE >508:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32DA text47 CODE >510:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32F0 text47 CODE >512:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3300 text47 CODE >513:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3310 text47 CODE >515:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+332C text47 CODE >517:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+333E text47 CODE >519:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3352 text47 CODE >520:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+336A text47 CODE >523:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+336A text47 CODE >526:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3936 text46 CODE >528:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3938 text46 CODE >530:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+393C text46 CODE >532:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3952 text46 CODE >534:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+395A text46 CODE >537:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+395C text46 CODE >538:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+2E26 text45 CODE >14:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E26 text45 CODE >23:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E38 text45 CODE >24:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E3C text45 CODE >25:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E4E text45 CODE >26:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E52 text45 CODE >27:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E64 text45 CODE >28:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E68 text45 CODE >29:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E7A text45 CODE >30:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E7E text45 CODE >32:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E82 text45 CODE >33:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E86 text45 CODE >34:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E8A text45 CODE >35:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E8E text45 CODE >36:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E92 text45 CODE >37:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E96 text45 CODE >38:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E9A text45 CODE >39:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E9E text45 CODE >41:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EAE text45 CODE >42:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EB0 text45 CODE >43:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EB2 text45 CODE >44:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EB4 text45 CODE >45:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EB6 text45 CODE >46:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EC8 text45 CODE >47:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2ED0 text45 CODE >50:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EE4 text45 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EE6 text45 CODE >54:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EFA text45 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2EFC text45 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2F10 text45 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2F12 text45 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2F26 text45 CODE >64:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2F28 text45 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2F3E text45 CODE >69:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2F4C text45 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2F4E text45 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2BAA text44 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2BAA text44 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2BAE text44 CODE >79:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2BBE text44 CODE >81:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2BF6 text44 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2BF8 text44 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2C34 text44 CODE >88:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2C44 text44 CODE >90:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2C7C text44 CODE >91:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2C7E text44 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CBA text44 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CC4 text44 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CD2 text44 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CDA text44 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CE2 text44 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CEA text44 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CF4 text44 CODE >101:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CF6 text43 CODE >104:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CF6 text43 CODE >106:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2CFA text43 CODE >109:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2D32 text43 CODE >110:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2D36 text43 CODE >112:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2D6E text43 CODE >113:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2D72 text43 CODE >115:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2DAA text43 CODE >116:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2DAE text43 CODE >118:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2DE6 text43 CODE >119:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2DEA text43 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2DF4 text43 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E02 text43 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E0A text43 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E12 text43 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E1A text43 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+2E24 text43 CODE >122:C:\UMOTORSPORT\SEN\SEN.X\MESSAGES.c
+319C text42 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+319C text42 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31AC text42 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31C2 text42 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31C6 text42 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31CA text42 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31D4 text42 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31D6 text42 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31E4 text42 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+31EE text42 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+320C text42 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+321C text42 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+321E text42 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+3228 text42 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+322E text42 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+322E text42 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+323E text42 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+345E text41 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+345E text41 CODE >119:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+346E text41 CODE >121:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+347C text41 CODE >122:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+348C text41 CODE >123:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+3496 text41 CODE >124:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+34A0 text41 CODE >125:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+34B6 text41 CODE >128:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+34C6 text41 CODE >129:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
 287A text40 CODE >33:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
 287A text40 CODE >42:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
 28AE text40 CODE >43:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
@@ -425,362 +443,364 @@ $dist/default/production\SEN.X.production.o
 2A36 text40 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
 2A40 text40 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
 2A52 text40 CODE >66:C:\UMOTORSPORT\SEN\SEN.X\reluctor.c
-39C4 text39 CODE >207:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-39C4 text39 CODE >210:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3692 text38 CODE >193:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3692 text38 CODE >197:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-36A6 text38 CODE >199:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-36BE text38 CODE >201:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3664 text37 CODE >129:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3664 text37 CODE >131:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3674 text37 CODE >134:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3676 text37 CODE >137:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-367A text37 CODE >138:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3680 text37 CODE >141:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3682 text37 CODE >142:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3686 text37 CODE >146:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-368A text37 CODE >147:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3690 text37 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34DE text36 CODE >166:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34DE text36 CODE >171:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34E0 text36 CODE >172:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34EC text36 CODE >178:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3506 text36 CODE >182:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-350A text36 CODE >184:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-350E text36 CODE >186:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3512 text36 CODE >189:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-351A text36 CODE >191:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-2EF8 text35 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F10 text35 CODE >61:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F2C text35 CODE >63:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F30 text35 CODE >64:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F34 text35 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F50 text35 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F54 text35 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F58 text35 CODE >69:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F74 text35 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F78 text35 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F7C text35 CODE >73:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F98 text35 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2F9C text35 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2FA0 text35 CODE >80:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-2FA0 text35 CODE >81:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-3602 text34 CODE >38:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
-3602 text34 CODE >39:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
-3606 text34 CODE >40:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
-3618 text34 CODE >39:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
-3634 text34 CODE >42:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
-37C0 text33 CODE >18:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
-37C0 text33 CODE >20:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
-37C4 text33 CODE >21:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
-37D6 text33 CODE >22:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
-37E6 text33 CODE >23:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
-39A2 text32 CODE >418:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-39A2 text32 CODE >420:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-39AA text32 CODE >421:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3998 text31 CODE >428:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3998 text31 CODE >430:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-39A0 text31 CODE >431:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-398E text30 CODE >423:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-398E text30 CODE >425:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3996 text30 CODE >426:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FBA text29 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FBA text29 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FC0 text29 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FC4 text29 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FC8 text29 CODE >80:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FCC text29 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FD0 text29 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FD4 text29 CODE >89:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FD8 text29 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FDC text29 CODE >95:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FE0 text29 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FE4 text29 CODE >101:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FE8 text29 CODE >104:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FEC text29 CODE >107:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FF0 text29 CODE >110:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FF4 text29 CODE >113:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FF8 text29 CODE >116:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-2FFC text29 CODE >119:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3000 text29 CODE >122:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3004 text29 CODE >125:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3008 text29 CODE >128:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-300C text29 CODE >131:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3010 text29 CODE >134:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3014 text29 CODE >137:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3018 text29 CODE >140:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-301C text29 CODE >143:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3020 text29 CODE >146:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3024 text29 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3028 text29 CODE >152:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-302C text29 CODE >155:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3030 text29 CODE >158:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3034 text29 CODE >161:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3036 text29 CODE >164:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3038 text29 CODE >167:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-303A text29 CODE >171:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3048 text29 CODE >172:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3056 text29 CODE >173:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-3064 text29 CODE >176:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-306A text29 CODE >177:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
-38FC text28 CODE >195:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38FC text28 CODE >198:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3902 text28 CODE >201:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3906 text28 CODE >204:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-390A text28 CODE >207:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-390E text28 CODE >209:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3984 text27 CODE >593:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3984 text27 CODE >595:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-398C text27 CODE >596:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-397A text26 CODE >588:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-397A text26 CODE >590:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3982 text26 CODE >591:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3970 text25 CODE >583:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3970 text25 CODE >585:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3978 text25 CODE >586:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3966 text24 CODE >598:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3966 text24 CODE >600:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-396E text24 CODE >601:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-395C text23 CODE >613:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-395C text23 CODE >615:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3964 text23 CODE >616:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3952 text22 CODE >603:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3952 text22 CODE >605:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-395A text22 CODE >606:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3948 text21 CODE >608:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3948 text21 CODE >610:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3950 text21 CODE >611:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-323C text20 CODE >211:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-323C text20 CODE >213:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-324A text20 CODE >214:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3258 text20 CODE >215:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3266 text20 CODE >216:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3274 text20 CODE >217:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3282 text20 CODE >218:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3290 text20 CODE >219:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-329E text20 CODE >220:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-32A0 text20 CODE >223:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-32A6 text20 CODE >226:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-32AA text20 CODE >229:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-32AE text20 CODE >232:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-32B2 text20 CODE >234:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-32B4 text20 CODE >235:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-393E text19 CODE >295:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-393E text19 CODE >297:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3946 text19 CODE >298:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3110 text18 CODE >266:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3114 text18 CODE >268:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-311A text18 CODE >269:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3122 text18 CODE >271:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3156 text18 CODE >275:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3166 text18 CODE >277:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-316A text18 CODE >280:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-317A text18 CODE >282:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3180 text18 CODE >283:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3184 text18 CODE >277:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31A0 text18 CODE >289:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31A4 text18 CODE >290:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31A4 text18 CODE >292:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-31A6 text18 CODE >293:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38E8 text17 CODE >159:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38E8 text17 CODE >162:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38EE text17 CODE >165:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38F2 text17 CODE >168:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38F6 text17 CODE >171:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38FA text17 CODE >173:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39C2 text16 CODE >175:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-39C2 text16 CODE >177:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3636 text15 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3636 text15 CODE >153:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-363C text15 CODE >155:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3650 text15 CODE >156:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3662 text15 CODE >157:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38D4 text14 CODE >179:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38D4 text14 CODE >182:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38DA text14 CODE >185:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38DE text14 CODE >188:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38E2 text14 CODE >191:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-38E6 text14 CODE >193:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-33F2 text13 CODE >237:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-33F2 text13 CODE >240:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-33F6 text13 CODE >242:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-340C text13 CODE >245:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-341E text13 CODE >248:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3422 text13 CODE >251:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3426 text13 CODE >254:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-342A text13 CODE >256:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-342E text13 CODE >257:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3432 text13 CODE >258:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3436 text13 CODE >259:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-343A text13 CODE >260:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-343E text13 CODE >261:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3442 text13 CODE >262:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3448 text13 CODE >264:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
-3934 text12 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-3934 text12 CODE >59:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-393C text12 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-387C text11 CODE >66:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-387C text11 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-387E text11 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-3880 text11 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-388E text11 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-3890 text11 CODE >78:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
-371A text10 CODE >183:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-371A text10 CODE >186:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3720 text10 CODE >188:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3724 text10 CODE >190:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3728 text10 CODE >192:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-372C text10 CODE >194:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3730 text10 CODE >196:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3734 text10 CODE >198:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3738 text10 CODE >200:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-373C text10 CODE >201:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3740 text10 CODE >203:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-3744 text10 CODE >205:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
-39BE text9 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-39BE text9 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-39C0 text9 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
-384C text8 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-384C text8 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3852 text8 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3856 text8 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-385A text8 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-385E text8 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3862 text8 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-32B6 text7 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32B6 text7 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32BA text7 CODE >61:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32BE text7 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32C2 text7 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32C6 text7 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32CA text7 CODE >69:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32CE text7 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32D2 text7 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32D8 text7 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32DC text7 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32DE text7 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32E2 text7 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32E6 text7 CODE >84:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32EA text7 CODE >85:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32EE text7 CODE >90:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32F2 text7 CODE >91:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32F6 text7 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32FA text7 CODE >97:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32FC text7 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-32FE text7 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3300 text7 CODE >104:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3302 text7 CODE >105:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3304 text7 CODE >106:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3306 text7 CODE >107:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-330A text7 CODE >116:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3310 text7 CODE >117:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3314 text7 CODE >118:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3318 text7 CODE >119:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-331C text7 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3320 text7 CODE >121:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3324 text7 CODE >122:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3328 text7 CODE >123:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-332C text7 CODE >124:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
-3798 text6 CODE >79:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3798 text6 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-379E text6 CODE >84:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37A2 text6 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37A6 text6 CODE >88:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37AA text6 CODE >90:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37AE text6 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37B2 text6 CODE >94:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37B6 text6 CODE >96:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37BA text6 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-37BE text6 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-392A text5 CODE >155:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-392A text5 CODE >156:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3932 text5 CODE >157:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3770 text4 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3770 text4 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3776 text4 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-377A text4 CODE >73:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-377E text4 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3780 text4 CODE >79:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3782 text4 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3790 text4 CODE >85:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3796 text4 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
-3920 text3 CODE >203:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3920 text3 CODE >204:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3928 text3 CODE >205:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3496 text2 CODE >66:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-3496 text2 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-349C text2 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34A0 text2 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34A4 text2 CODE >80:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34A8 text2 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34AC text2 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34AE text2 CODE >89:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34C8 text2 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34CA text2 CODE >95:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34D6 text2 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-34DC text2 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
-36EE text1 CODE >50:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-36EE text1 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-36F2 text1 CODE >53:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-36F4 text1 CODE >54:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-36F8 text1 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-36FC text1 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3700 text1 CODE >57:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3704 text1 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3708 text1 CODE >59:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-370C text1 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3710 text1 CODE >61:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3714 text1 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3718 text1 CODE >63:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
-3596 text0 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\main.c
-3596 text0 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\main.c
-359A text0 CODE >57:C:\UMOTORSPORT\SEN\SEN.X\main.c
-359E text0 CODE >59:C:\UMOTORSPORT\SEN\SEN.X\main.c
-35A0 text0 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\main.c
-35A2 text0 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\main.c
-35A4 text0 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\main.c
-35A6 text0 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\main.c
-35B4 text0 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\main.c
-35B6 text0 CODE >78:C:\UMOTORSPORT\SEN\SEN.X\main.c
-344A cinit CODE >28995:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-344A cinit CODE >28997:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-344A cinit CODE >29000:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-344A cinit CODE >29094:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-344C cinit CODE >29095:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-344E cinit CODE >29096:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3450 cinit CODE >29097:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3452 cinit CODE >29098:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3454 cinit CODE >29099:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3456 cinit CODE >29100:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-345A cinit CODE >29101:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-345E cinit CODE >29102:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-345E cinit CODE >29103:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3460 cinit CODE >29104:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3464 cinit CODE >29105:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3466 cinit CODE >29106:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3468 cinit CODE >29107:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-346A cinit CODE >29111:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-346E cinit CODE >29112:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3470 cinit CODE >29113:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3470 cinit CODE >29114:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3472 cinit CODE >29115:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3474 cinit CODE >29116:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3476 cinit CODE >29119:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-347A cinit CODE >29120:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-347C cinit CODE >29121:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-347C cinit CODE >29122:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-347E cinit CODE >29123:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3480 cinit CODE >29124:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3482 cinit CODE >29132:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3484 cinit CODE >29133:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3486 cinit CODE >29134:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3488 cinit CODE >29135:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-348A cinit CODE >29136:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-348C cinit CODE >29137:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-348E cinit CODE >29138:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3490 cinit CODE >29144:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3490 cinit CODE >29146:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
-3492 cinit CODE >29147:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.s
+3B12 text39 CODE >213:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3B12 text39 CODE >216:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37E0 text38 CODE >199:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37E0 text38 CODE >203:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37F4 text38 CODE >205:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+380C text38 CODE >207:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37B2 text37 CODE >129:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37B2 text37 CODE >131:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37C2 text37 CODE >134:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37C4 text37 CODE >137:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37C8 text37 CODE >138:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37CE text37 CODE >141:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37D0 text37 CODE >142:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37D4 text37 CODE >146:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37D8 text37 CODE >147:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+37DE text37 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34C8 text36 CODE >166:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34C8 text36 CODE >172:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34CA text36 CODE >173:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34D6 text36 CODE >179:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34F0 text36 CODE >183:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34F4 text36 CODE >185:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34F8 text36 CODE >187:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+34FC text36 CODE >190:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3504 text36 CODE >193:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+351E text36 CODE >195:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3522 text36 CODE >197:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3028 text35 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3040 text35 CODE >61:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+305C text35 CODE >63:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3060 text35 CODE >64:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3064 text35 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3080 text35 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3084 text35 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3088 text35 CODE >69:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+30A4 text35 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+30A8 text35 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+30AC text35 CODE >73:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+30C8 text35 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+30CC text35 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+30D0 text35 CODE >80:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+30D0 text35 CODE >81:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3750 text34 CODE >38:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
+3750 text34 CODE >39:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
+3754 text34 CODE >40:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
+3766 text34 CODE >39:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
+3782 text34 CODE >42:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/delay.c
+390E text33 CODE >18:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
+390E text33 CODE >20:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
+3912 text33 CODE >21:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
+3924 text33 CODE >22:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
+3934 text33 CODE >23:C:\UMOTORSPORT\SEN\SEN.X\PARAMETERS.c
+3AF0 text32 CODE >418:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3AF0 text32 CODE >420:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3AF8 text32 CODE >421:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3AE6 text31 CODE >428:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3AE6 text31 CODE >430:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3AEE text31 CODE >431:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3ADC text30 CODE >423:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3ADC text30 CODE >425:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3AE4 text30 CODE >426:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+30EA text29 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+30EA text29 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+30F0 text29 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+30F4 text29 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+30F8 text29 CODE >80:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+30FC text29 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3100 text29 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3104 text29 CODE >89:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3108 text29 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+310C text29 CODE >95:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3110 text29 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3114 text29 CODE >101:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3118 text29 CODE >104:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+311C text29 CODE >107:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3120 text29 CODE >110:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3124 text29 CODE >113:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3128 text29 CODE >116:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+312C text29 CODE >119:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3130 text29 CODE >122:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3134 text29 CODE >125:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3138 text29 CODE >128:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+313C text29 CODE >131:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3140 text29 CODE >134:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3144 text29 CODE >137:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3148 text29 CODE >140:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+314C text29 CODE >143:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3150 text29 CODE >146:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3154 text29 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3158 text29 CODE >152:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+315C text29 CODE >155:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3160 text29 CODE >158:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3164 text29 CODE >161:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3166 text29 CODE >164:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3168 text29 CODE >167:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+316A text29 CODE >171:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3178 text29 CODE >172:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3186 text29 CODE >173:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3194 text29 CODE >176:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+319A text29 CODE >177:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/adc.c
+3A4A text28 CODE >195:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A4A text28 CODE >198:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A50 text28 CODE >201:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A54 text28 CODE >204:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A58 text28 CODE >207:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A5C text28 CODE >209:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AD2 text27 CODE >593:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AD2 text27 CODE >595:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3ADA text27 CODE >596:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AC8 text26 CODE >588:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AC8 text26 CODE >590:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AD0 text26 CODE >591:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3ABE text25 CODE >583:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3ABE text25 CODE >585:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AC6 text25 CODE >586:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AB4 text24 CODE >598:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AB4 text24 CODE >600:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3ABC text24 CODE >601:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AAA text23 CODE >613:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AAA text23 CODE >615:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AB2 text23 CODE >616:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AA0 text22 CODE >603:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AA0 text22 CODE >605:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3AA8 text22 CODE >606:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A96 text21 CODE >608:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A96 text21 CODE >610:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A9E text21 CODE >611:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+336C text20 CODE >211:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+336C text20 CODE >213:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+337A text20 CODE >214:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3388 text20 CODE >215:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3396 text20 CODE >216:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33A4 text20 CODE >217:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33B2 text20 CODE >218:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33C0 text20 CODE >219:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33CE text20 CODE >220:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33D0 text20 CODE >223:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33D6 text20 CODE >226:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33DA text20 CODE >229:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33DE text20 CODE >232:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33E2 text20 CODE >234:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+33E4 text20 CODE >235:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A8C text19 CODE >295:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A8C text19 CODE >297:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A94 text19 CODE >298:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3240 text18 CODE >266:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3244 text18 CODE >268:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+324A text18 CODE >269:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3252 text18 CODE >271:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3286 text18 CODE >275:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3296 text18 CODE >277:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+329A text18 CODE >280:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32AA text18 CODE >282:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32B0 text18 CODE >283:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32B4 text18 CODE >277:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32D0 text18 CODE >289:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32D4 text18 CODE >290:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32D4 text18 CODE >292:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+32D6 text18 CODE >293:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A36 text17 CODE >159:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A36 text17 CODE >162:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A3C text17 CODE >165:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A40 text17 CODE >168:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A44 text17 CODE >171:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A48 text17 CODE >173:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B10 text16 CODE >175:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3B10 text16 CODE >177:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3784 text15 CODE >149:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3784 text15 CODE >153:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+378A text15 CODE >155:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+379E text15 CODE >156:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+37B0 text15 CODE >157:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A22 text14 CODE >179:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A22 text14 CODE >182:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A28 text14 CODE >185:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A2C text14 CODE >188:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A30 text14 CODE >191:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A34 text14 CODE >193:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+357E text13 CODE >237:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+357E text13 CODE >240:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3582 text13 CODE >242:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3598 text13 CODE >245:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35AA text13 CODE >248:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35AE text13 CODE >251:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35B2 text13 CODE >254:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35B6 text13 CODE >256:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35BA text13 CODE >257:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35BE text13 CODE >258:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35C2 text13 CODE >259:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35C6 text13 CODE >260:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35CA text13 CODE >261:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35CE text13 CODE >262:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+35D4 text13 CODE >264:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/can1.c
+3A82 text12 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3A82 text12 CODE >59:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3A8A text12 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+39CA text11 CODE >66:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+39CA text11 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+39CC text11 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+39CE text11 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+39DC text11 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+39DE text11 CODE >78:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/ext_int.c
+3868 text10 CODE >183:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+3868 text10 CODE >186:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+386E text10 CODE >188:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+3872 text10 CODE >190:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+3876 text10 CODE >192:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+387A text10 CODE >194:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+387E text10 CODE >196:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+3882 text10 CODE >198:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+3886 text10 CODE >200:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+388A text10 CODE >201:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+388E text10 CODE >203:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+3892 text10 CODE >205:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/i2c1_master.c
+3B0C text9 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3B0C text9 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+3B0E text9 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/interrupt_manager.c
+399A text8 CODE >65:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+399A text8 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+39A0 text8 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+39A4 text8 CODE >72:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+39A8 text8 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+39AC text8 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+39B0 text8 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+33E6 text7 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+33E6 text7 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+33EA text7 CODE >61:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+33EE text7 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+33F2 text7 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+33F6 text7 CODE >68:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+33FA text7 CODE >69:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+33FE text7 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3402 text7 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3408 text7 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+340C text7 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+340E text7 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3412 text7 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3416 text7 CODE >84:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+341A text7 CODE >85:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+341E text7 CODE >90:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3422 text7 CODE >91:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3426 text7 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+342A text7 CODE >97:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+342C text7 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+342E text7 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3430 text7 CODE >104:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3432 text7 CODE >105:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3434 text7 CODE >106:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3436 text7 CODE >107:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+343A text7 CODE >116:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3440 text7 CODE >117:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3444 text7 CODE >118:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3448 text7 CODE >119:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+344C text7 CODE >120:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3450 text7 CODE >121:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3454 text7 CODE >122:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+3458 text7 CODE >123:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+345C text7 CODE >124:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/pin_manager.c
+38E6 text6 CODE >79:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+38E6 text6 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+38EC text6 CODE >84:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+38F0 text6 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+38F4 text6 CODE >88:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+38F8 text6 CODE >90:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+38FC text6 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3900 text6 CODE >94:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3904 text6 CODE >96:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3908 text6 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+390C text6 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3A78 text5 CODE >155:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3A78 text5 CODE >156:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3A80 text5 CODE >157:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38BE text4 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38BE text4 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38C4 text4 CODE >70:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38C8 text4 CODE >73:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38CC text4 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38CE text4 CODE >79:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38D0 text4 CODE >82:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38DE text4 CODE >85:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+38E4 text4 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr0.c
+3A6E text3 CODE >209:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3A6E text3 CODE >210:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3A76 text3 CODE >211:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3622 text2 CODE >66:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3622 text2 CODE >71:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3628 text2 CODE >74:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+362C text2 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3630 text2 CODE >80:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3634 text2 CODE >83:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3638 text2 CODE >86:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+363A text2 CODE >89:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3654 text2 CODE >92:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3656 text2 CODE >95:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3662 text2 CODE >98:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+3668 text2 CODE >99:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/tmr1.c
+383C text1 CODE >50:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+383C text1 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3840 text1 CODE >53:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3842 text1 CODE >54:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3846 text1 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+384A text1 CODE >56:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+384E text1 CODE >57:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3852 text1 CODE >58:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3856 text1 CODE >59:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+385A text1 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+385E text1 CODE >61:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3862 text1 CODE >62:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+3866 text1 CODE >63:C:\UMOTORSPORT\SEN\SEN.X\mcc_generated_files/mcc.c
+36E4 text0 CODE >52:C:\UMOTORSPORT\SEN\SEN.X\main.c
+36E4 text0 CODE >55:C:\UMOTORSPORT\SEN\SEN.X\main.c
+36E8 text0 CODE >57:C:\UMOTORSPORT\SEN\SEN.X\main.c
+36EC text0 CODE >59:C:\UMOTORSPORT\SEN\SEN.X\main.c
+36EE text0 CODE >60:C:\UMOTORSPORT\SEN\SEN.X\main.c
+36F0 text0 CODE >67:C:\UMOTORSPORT\SEN\SEN.X\main.c
+36F2 text0 CODE >75:C:\UMOTORSPORT\SEN\SEN.X\main.c
+36F4 text0 CODE >76:C:\UMOTORSPORT\SEN\SEN.X\main.c
+3702 text0 CODE >77:C:\UMOTORSPORT\SEN\SEN.X\main.c
+3704 text0 CODE >78:C:\UMOTORSPORT\SEN\SEN.X\main.c
+35D6 cinit CODE >28998:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35D6 cinit CODE >29000:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35D6 cinit CODE >29003:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35D6 cinit CODE >29099:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35D8 cinit CODE >29100:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35DA cinit CODE >29101:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35DC cinit CODE >29102:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35DE cinit CODE >29103:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35E0 cinit CODE >29104:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35E2 cinit CODE >29105:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35E6 cinit CODE >29106:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35EA cinit CODE >29107:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35EA cinit CODE >29108:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35EC cinit CODE >29109:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35F0 cinit CODE >29110:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35F2 cinit CODE >29111:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35F4 cinit CODE >29112:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35F6 cinit CODE >29116:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35FA cinit CODE >29117:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35FC cinit CODE >29118:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35FC cinit CODE >29119:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+35FE cinit CODE >29120:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3600 cinit CODE >29121:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3602 cinit CODE >29124:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3606 cinit CODE >29125:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3608 cinit CODE >29126:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3608 cinit CODE >29127:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+360A cinit CODE >29128:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+360C cinit CODE >29129:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+360E cinit CODE >29137:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3610 cinit CODE >29138:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3612 cinit CODE >29139:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3614 cinit CODE >29140:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3616 cinit CODE >29141:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+3618 cinit CODE >29142:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+361A cinit CODE >29143:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+361C cinit CODE >29149:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+361C cinit CODE >29151:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
+361E cinit CODE >29152:C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -793,16 +813,16 @@ $dist/default/production\SEN.X.production.o
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-_CAN1_ErrorNotificationInterruptEnable 323C 0 CODE 0 text20 dist/default/production\SEN.X.production.o
+_CAN1_ErrorNotificationInterruptEnable 336C 0 CODE 0 text20 dist/default/production\SEN.X.production.o
 __LdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\SEN.X.production.o
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\SEN.X.production.o
-_I2C1_Initialize 371A 0 CODE 0 text10 dist/default/production\SEN.X.production.o
-__Hspace_0 39D8 0 ABS 0 - dist/default/production\SEN.X.production.o
-__Hspace_1 5D4 0 ABS 0 - dist/default/production\SEN.X.production.o
+_I2C1_Initialize 3868 0 CODE 0 text10 dist/default/production\SEN.X.production.o
+__Hspace_0 3B26 0 ABS 0 - dist/default/production\SEN.X.production.o
+__Hspace_1 5D6 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hspace_4 600024 0 ABS 0 - dist/default/production\SEN.X.production.o
-ADC_SetContext1ThresholdInterruptHandler@InterruptHandler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-_CANWriteMessage 2CF6 0 CODE 0 text44 dist/default/production\SEN.X.production.o
+ADC_SetContext1ThresholdInterruptHandler@InterruptHandler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+_CANWriteMessage 2E26 0 CODE 0 text45 dist/default/production\SEN.X.production.o
 __HidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\SEN.X.production.o
 __size_of_CAN1_SetRxBufferOverFlowInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 CANWriteMessage@uiData1 52C 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
@@ -810,25 +830,25 @@ CANWriteMessage@uiData2 52E 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.
 CANWriteMessage@uiData3 530 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 CANWriteMessage@uiData4 532 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 CAN1_Transmit@status 519 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_CANDATAdata 5A4 0 BANK5 1 dataBANK5 dist/default/production\SEN.X.production.o
-__end_of_ADC_SetActiveClockTuningInterruptHandler 39A2 0 CODE 0 text31 dist/default/production\SEN.X.production.o
+_CANDATAdata 5A6 0 BANK5 1 dataBANK5 dist/default/production\SEN.X.production.o
+__end_of_ADC_SetActiveClockTuningInterruptHandler 3AF0 0 CODE 0 text31 dist/default/production\SEN.X.production.o
 __size_of_ReluctorPosCount 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_ValidateTransmission 2EF8 0 CODE 0 text50 dist/default/production\SEN.X.production.o
+__end_of_ValidateTransmission 3028 0 CODE 0 text51 dist/default/production\SEN.X.production.o
 _C1FIFOSTA1Lbits 160 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_SetBusErrorInterruptHandler 3984 0 CODE 0 text27 dist/default/production\SEN.X.production.o
+_CAN1_SetBusErrorInterruptHandler 3AD2 0 CODE 0 text27 dist/default/production\SEN.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\SEN.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-_INT0_DefaultInterruptHandler 39C8 0 CODE 0 text64 dist/default/production\SEN.X.production.o
-_CAN1_SetBusWakeUpActivityInterruptHandler 397A 0 CODE 0 text26 dist/default/production\SEN.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+_INT0_DefaultInterruptHandler 3B16 0 CODE 0 text65 dist/default/production\SEN.X.production.o
+_CAN1_SetBusWakeUpActivityInterruptHandler 3AC8 0 CODE 0 text26 dist/default/production\SEN.X.production.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\SEN.X.production.o
-__end_of_INTERRUPT_Initialize 39C2 0 CODE 0 text9 dist/default/production\SEN.X.production.o
-_CAN1_InvalidMessageHandler 598 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+__end_of_INTERRUPT_Initialize 3B10 0 CODE 0 text9 dist/default/production\SEN.X.production.o
+_CAN1_InvalidMessageHandler 59A 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 _T1CONbits 31E 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_EXT_INT_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_PMD_Initialize 3798 0 CODE 0 text6 dist/default/production\SEN.X.production.o
+_PMD_Initialize 38E6 0 CODE 0 text6 dist/default/production\SEN.X.production.o
 __size_of_CAN1_OperationModeGet 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_CAN1_OperationModeSet 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_PARAMETERSInit 37C0 0 CODE 0 text33 dist/default/production\SEN.X.production.o
+_PARAMETERSInit 390E 0 CODE 0 text33 dist/default/production\SEN.X.production.o
 __Lsmallconst 2600 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
 _ADCP 3D8 0 ABS 0 - dist/default/production\SEN.X.production.o
 _LATA 4BE 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -847,11 +867,11 @@ _WPUA 401 0 ABS 0 - dist/default/production\SEN.X.production.o
 _WPUB 409 0 ABS 0 - dist/default/production\SEN.X.production.o
 _WPUC 411 0 ABS 0 - dist/default/production\SEN.X.production.o
 _WPUE 421 0 ABS 0 - dist/default/production\SEN.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-_main 3596 0 CODE 0 text0 dist/default/production\SEN.X.production.o
-_CAN1_Initialize 33F2 0 CODE 0 text13 dist/default/production\SEN.X.production.o
-start 1A 0 CODE 0 init C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-_TMR0_InterruptHandler 5C4 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+_main 36E4 0 CODE 0 text0 dist/default/production\SEN.X.production.o
+_CAN1_Initialize 357E 0 CODE 0 text13 dist/default/production\SEN.X.production.o
+start 1A 0 CODE 0 init C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+_TMR0_InterruptHandler 5C6 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
 CANWriteMessage@data1 522 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 CANWriteMessage@data2 523 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 CANWriteMessage@data3 524 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
@@ -860,44 +880,44 @@ CANWriteMessage@data5 526 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.
 CANWriteMessage@data6 527 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 CANWriteMessage@data7 528 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 CANWriteMessage@data8 529 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_DefaultBusErrorHandler 39D6 0 CODE 0 text72 dist/default/production\SEN.X.production.o
+_DefaultBusErrorHandler 3B24 0 CODE 0 text73 dist/default/production\SEN.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of___lldiv 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-CAN1_SetBusWakeUpActivityInterruptHandler@handler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+CAN1_SetBusWakeUpActivityInterruptHandler@handler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 _isTxChannel$908 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\SEN.X.production.o
-__end_of_TMR0_SetInterruptHandler 3934 0 CODE 0 text5 dist/default/production\SEN.X.production.o
+__end_of_TMR0_SetInterruptHandler 3A82 0 CODE 0 text5 dist/default/production\SEN.X.production.o
 __size_of_DefaultBusWakeUpActivityHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1CONHbits 101 0 ABS 0 - dist/default/production\SEN.X.production.o
 ?___lmul 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 _C1CONTbits 103 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1CONUbits 102 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_IsTxErrorActive 3832 0 CODE 0 text54 dist/default/production\SEN.X.production.o
-_CAN1_SetInvalidMessageInterruptHandler 3970 0 CODE 0 text25 dist/default/production\SEN.X.production.o
+_CAN1_IsTxErrorActive 3980 0 CODE 0 text55 dist/default/production\SEN.X.production.o
+_CAN1_SetInvalidMessageInterruptHandler 3ABE 0 CODE 0 text25 dist/default/production\SEN.X.production.o
 CANWriteMessage@dataLength 521 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __LidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\SEN.X.production.o
-__end_of_CAN1_SetInvalidMessageInterruptHandler 397A 0 CODE 0 text25 dist/default/production\SEN.X.production.o
-__end_of_CAN1_SetModeChangeInterruptHandler 3970 0 CODE 0 text24 dist/default/production\SEN.X.production.o
+__end_of_CAN1_SetInvalidMessageInterruptHandler 3AC8 0 CODE 0 text25 dist/default/production\SEN.X.production.o
+__end_of_CAN1_SetModeChangeInterruptHandler 3ABE 0 CODE 0 text24 dist/default/production\SEN.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\SEN.X.production.o
 _I2C1_DO_IDLE 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_BitRateConfiguration 3910 0 CODE 0 text28 dist/default/production\SEN.X.production.o
-__end_of_MESSAGESSendEvery100ms 2CF6 0 CODE 0 text43 dist/default/production\SEN.X.production.o
+__end_of_CAN1_BitRateConfiguration 3A5E 0 CODE 0 text28 dist/default/production\SEN.X.production.o
 _I2C1_CallbackReturnReset 0 0 ABS 0 - dist/default/production\SEN.X.production.o
+__end_of_MESSAGESSendEvery500ms 2CF6 0 CODE 0 text44 dist/default/production\SEN.X.production.o
 __size_of_TMR1_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_SetSystemErrorInterruptHandler 395C 0 CODE 0 text22 dist/default/production\SEN.X.production.o
+__end_of_CAN1_SetSystemErrorInterruptHandler 3AAA 0 CODE 0 text22 dist/default/production\SEN.X.production.o
 __size_of_TMR1_WriteTimer 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_isTxChannel 351C 0 CODE 0 text47 dist/default/production\SEN.X.production.o
+_isTxChannel 366A 0 CODE 0 text48 dist/default/production\SEN.X.production.o
 _I2C1_DO_RX_EMPTY 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_ADC_ConversionComplete_ISR 5CE 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
+_ADC_ConversionComplete_ISR 5D0 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
 __LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/production\SEN.X.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-TMR0_SetInterruptHandler@InterruptHandler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-_ADC_SetContext1ThresholdInterruptHandler 398E 0 CODE 0 text30 dist/default/production\SEN.X.production.o
-__accesstop 560 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-intlevel0 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-intlevel1 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-intlevel2 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-intlevel3 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
+TMR0_SetInterruptHandler@InterruptHandler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+_ADC_SetContext1ThresholdInterruptHandler 3ADC 0 CODE 0 text30 dist/default/production\SEN.X.production.o
+__accesstop 560 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+intlevel0 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+intlevel1 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+intlevel2 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+intlevel3 0 0 CODE 0 text C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\SEN.X.production.o
 __size_of_WriteMessageToFifo 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -907,16 +927,16 @@ _uiKPH_E_2 53A 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __size_of_CAN1_ISR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _wr2RegCompleteHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\SEN.X.production.o
-__end_of_PMD_Initialize 37C0 0 CODE 0 text6 dist/default/production\SEN.X.production.o
+__end_of_PMD_Initialize 390E 0 CODE 0 text6 dist/default/production\SEN.X.production.o
 __size_of_TMR1_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_DefaultTxAttemptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\SEN.X.production.o
-__end_of_PARAMETERSInit 37E8 0 CODE 0 text33 dist/default/production\SEN.X.production.o
-__end_of_ADC_SetContext1ThresholdInterruptHandler 3998 0 CODE 0 text30 dist/default/production\SEN.X.production.o
+__end_of_PARAMETERSInit 3936 0 CODE 0 text33 dist/default/production\SEN.X.production.o
+__end_of_ADC_SetContext1ThresholdInterruptHandler 3AE6 0 CODE 0 text30 dist/default/production\SEN.X.production.o
 CAN1_Transmit@txCanMsg 517 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 ivt0x8_base 8 0 CODE 0 ivt0x8 dist/default/production\SEN.X.production.o
-__end_of_TMR1_DefaultInterruptHandler 39C6 0 CODE 0 text39 dist/default/production\SEN.X.production.o
-_CAN1_RX_FIFO_FilterMaskConfiguration 39C2 0 CODE 0 text16 dist/default/production\SEN.X.production.o
+__end_of_TMR1_DefaultInterruptHandler 3B14 0 CODE 0 text39 dist/default/production\SEN.X.production.o
+_CAN1_RX_FIFO_FilterMaskConfiguration 3B10 0 CODE 0 text16 dist/default/production\SEN.X.production.o
 _ADACCH 3E4 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADACCL 3E3 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADACCU 3E5 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -948,16 +968,16 @@ _C1FIFOCON1H 15D 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1FIFOCON1L 15C 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1FIFOCON1T 15F 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1FIFOCON1U 15E 0 ABS 0 - dist/default/production\SEN.X.production.o
-_TMR0_DefaultInterruptHandler 39C6 0 CODE 0 text59 dist/default/production\SEN.X.production.o
+_TMR0_DefaultInterruptHandler 3B14 0 CODE 0 text60 dist/default/production\SEN.X.production.o
 __size_of_CANWriteMessage 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
 _I2C1BAUD 29D 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1CNTH 28D 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1CNTL 28C 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1CON0 294 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1CON1 295 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1CON2 296 0 ABS 0 - dist/default/production\SEN.X.production.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
 __size_of_DefaultModeChangeHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1CONH 101 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1CONL 100 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -966,23 +986,23 @@ _C1INTH 11D 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1INTL 11C 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1INTT 11F 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1INTU 11E 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_DefaultSystemErrorHandler 39CE 0 CODE 0 text67 dist/default/production\SEN.X.production.o
+__end_of_DefaultSystemErrorHandler 3B1C 0 CODE 0 text68 dist/default/production\SEN.X.production.o
 __size_of_CAN1_SetTxAttemptInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_INTERRUPT_InterruptManager 2FBA 0 CODE 0 text35 dist/default/production\SEN.X.production.o
+__end_of_INTERRUPT_InterruptManager 30EA 0 CODE 0 text35 dist/default/production\SEN.X.production.o
 _ulCountTeeth 584 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 __size_of_TMR1_SetInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ucCountVueltaRueda1 555 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 _ucCountVueltaRueda2 554 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
-__end_of_DefaultInvalidMessageHandler 39D4 0 CODE 0 text70 dist/default/production\SEN.X.production.o
+__end_of_DefaultInvalidMessageHandler 3B22 0 CODE 0 text71 dist/default/production\SEN.X.production.o
 _ADACTPPS 269 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_DefaultRxBufferOverflowHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of___lmul 3398 0 CODE 0 text41 dist/default/production\SEN.X.production.o
+__end_of___lmul 34C8 0 CODE 0 text41 dist/default/production\SEN.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\SEN.X.production.o
 _I2C1_DO_BUS_COLLISION 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_TX_FIFO_Configuration 38E8 0 CODE 0 text14 dist/default/production\SEN.X.production.o
+__end_of_CAN1_TX_FIFO_Configuration 3A36 0 CODE 0 text14 dist/default/production\SEN.X.production.o
 _I2C1_DO_SEND_RESTART 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADCPbits 3D8 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_RX_FIFO_ResetInfo 3636 0 CODE 0 text15 dist/default/production\SEN.X.production.o
+_CAN1_RX_FIFO_ResetInfo 3784 0 CODE 0 text15 dist/default/production\SEN.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\SEN.X.production.o
 __LnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production\SEN.X.production.o
 _I2C1_DO_SEND_RESTART_WRITE 0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -990,26 +1010,27 @@ _ucKPHData1 553 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 _ucKPHData2 552 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __size_of_CAN1_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 GetTxFifoStatus@validChannel 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-__end_of___lldiv 3110 0 CODE 0 text42 dist/default/production\SEN.X.production.o
+__end_of___lldiv 3240 0 CODE 0 text42 dist/default/production\SEN.X.production.o
 WriteMessageToFifo@txFifoObj 50C 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __size_of_CAN1_BitRateConfiguration 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _INLVLA 404 0 ABS 0 - dist/default/production\SEN.X.production.o
 _INLVLB 40C 0 ABS 0 - dist/default/production\SEN.X.production.o
 _INLVLC 414 0 ABS 0 - dist/default/production\SEN.X.production.o
 _INLVLE 424 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_ISR 2A54 0 CODE 0 text65 dist/default/production\SEN.X.production.o
+_CAN1_ISR 2A54 0 CODE 0 text66 dist/default/production\SEN.X.production.o
 _CANRXPPS 23D 0 ABS 0 - dist/default/production\SEN.X.production.o
-DELAY_milliseconds@milliseconds 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+DELAY_milliseconds@milliseconds 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 _uiCountVueltaRueda 54A 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __HnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/production\SEN.X.production.o
-__end_of_CAN1_ISR 2BAA 0 CODE 0 text65 dist/default/production\SEN.X.production.o
+__end_of_CAN1_ISR 2BAA 0 CODE 0 text66 dist/default/production\SEN.X.production.o
 memcpy@tmp 50B 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 _INTCON0bits 4D6 0 ABS 0 - dist/default/production\SEN.X.production.o
 ___lldiv@counter 50D 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-CAN1_SetBusErrorInterruptHandler@handler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+CAN1_SetBusErrorInterruptHandler@handler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 _I2C1_DO_SEND_RESTART_READ 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_PIN_MANAGER_Initialize 32B6 0 CODE 0 text7 dist/default/production\SEN.X.production.o
-start_initialization 344A 0 CODE 0 cinit dist/default/production\SEN.X.production.o
+_PIN_MANAGER_Initialize 33E6 0 CODE 0 text7 dist/default/production\SEN.X.production.o
+start_initialization 35D6 0 CODE 0 cinit dist/default/production\SEN.X.production.o
+TMR1_ISR@CountCallBack5s 58C 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 _ODCONA 402 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ODCONB 40A 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ODCONC 412 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1018,49 +1039,48 @@ _OSCFRQ B1 0 ABS 0 - dist/default/production\SEN.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\SEN.X.production.o
 _TRISBbits 4C7 0 ABS 0 - dist/default/production\SEN.X.production.o
 ___lldiv@dividend 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-TMR1_ISR@CountCallBack 54E 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 _ADCSEL1 3FC 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1_DO_SEND_ADR_WRITE 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADFLTRH 3E2 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADFLTRL 3E1 0 ABS 0 - dist/default/production\SEN.X.production.o
-_INT0_CallBack 35CC 0 CODE 0 text61 dist/default/production\SEN.X.production.o
+_INT0_CallBack 371A 0 CODE 0 text62 dist/default/production\SEN.X.production.o
 _ADPREVH 3E9 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADPREVL 3E8 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_INT0_DefaultInterruptHandler 39CA 0 CODE 0 text64 dist/default/production\SEN.X.production.o
+__end_of_INT0_DefaultInterruptHandler 3B18 0 CODE 0 text65 dist/default/production\SEN.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADSTPTH 3E0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADSTPTL 3DF 0 ABS 0 - dist/default/production\SEN.X.production.o
 _RB4PPS 20D 0 ABS 0 - dist/default/production\SEN.X.production.o
 _RC3PPS 214 0 ABS 0 - dist/default/production\SEN.X.production.o
 _RC4PPS 215 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_memcpy 33F2 0 CODE 0 text49 dist/default/production\SEN.X.production.o
-__end_of_SYSTEM_Initialize 371A 0 CODE 0 text1 dist/default/production\SEN.X.production.o
+__end_of_memcpy 357E 0 CODE 0 text50 dist/default/production\SEN.X.production.o
+__end_of_SYSTEM_Initialize 3868 0 CODE 0 text1 dist/default/production\SEN.X.production.o
 __size_of_ReluctorCountTeeth 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_IsTxErrorPassive 38BE 0 CODE 0 text55 dist/default/production\SEN.X.production.o
+__end_of_CAN1_IsTxErrorPassive 3A0C 0 CODE 0 text56 dist/default/production\SEN.X.production.o
 __size_of_CAN1_SetBusWakeUpActivityInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__pcstackBANK5 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+__pcstackBANK5 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 _T0CON0 31A 0 ABS 0 - dist/default/production\SEN.X.production.o
 _T0CON1 31B 0 ABS 0 - dist/default/production\SEN.X.production.o
 _T1GATE 320 0 ABS 0 - dist/default/production\SEN.X.production.o
 _T1GCON 31F 0 ABS 0 - dist/default/production\SEN.X.production.o
 isTxChannel@channel 502 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-CAN1_SetInvalidMessageInterruptHandler@handler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+CAN1_SetInvalidMessageInterruptHandler@handler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 __size_of_DefaultSystemErrorHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_DefaultBusErrorHandler 39D8 0 CODE 0 text72 dist/default/production\SEN.X.production.o
+__end_of_DefaultBusErrorHandler 3B26 0 CODE 0 text73 dist/default/production\SEN.X.production.o
 _C1INTHbits 11D 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1INTLbits 11C 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1INTTbits 11F 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_CAN1_SetSystemErrorInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ReluctorFreqRead 287A 0 CODE 0 text40 dist/default/production\SEN.X.production.o
 __size_of_ADC_SetActiveClockTuningInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_DefaultModeChangeHandler 39D2 0 CODE 0 text69 dist/default/production\SEN.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-__end_of_TMR1_SetInterruptHandler 392A 0 CODE 0 text3 dist/default/production\SEN.X.production.o
+__end_of_DefaultModeChangeHandler 3B20 0 CODE 0 text70 dist/default/production\SEN.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+__end_of_TMR1_SetInterruptHandler 3A78 0 CODE 0 text3 dist/default/production\SEN.X.production.o
 _I2C1_Status 560 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 _ADC_DefaultADI_ISR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1FIFOBA 14C 0 ABS 0 - dist/default/production\SEN.X.production.o
 _rd2RegCompleteHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_TransmitFIFOStatusGet 3810 0 CODE 0 text45 dist/default/production\SEN.X.production.o
+__end_of_CAN1_TransmitFIFOStatusGet 395E 0 CODE 0 text46 dist/default/production\SEN.X.production.o
 __Hbank5 0 0 ABS 0 bank5 dist/default/production\SEN.X.production.o
 __Hbank6 0 0 ABS 0 bank6 dist/default/production\SEN.X.production.o
 __Hbank7 0 0 ABS 0 bank7 dist/default/production\SEN.X.production.o
@@ -1068,7 +1088,7 @@ __Hbank8 0 0 ABS 0 bank8 dist/default/production\SEN.X.production.o
 __Hbank9 0 0 ABS 0 bank9 dist/default/production\SEN.X.production.o
 __Hcinit 0 0 ABS 0 cinit dist/default/production\SEN.X.production.o
 __Hconst 0 0 CONST 0 const dist/default/production\SEN.X.production.o
-_CAN1_IsTxErrorPassive 38A8 0 CODE 0 text55 dist/default/production\SEN.X.production.o
+_CAN1_IsTxErrorPassive 39F6 0 CODE 0 text56 dist/default/production\SEN.X.production.o
 __Hidata 0 0 CODE 0 idata dist/default/production\SEN.X.production.o
 __Hidloc 200020 0 IDLOC 5 idloc dist/default/production\SEN.X.production.o
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\SEN.X.production.o
@@ -1114,11 +1134,12 @@ __Hbank34 0 0 ABS 0 bank34 dist/default/production\SEN.X.production.o
 __Hbank35 0 0 ABS 0 bank35 dist/default/production\SEN.X.production.o
 __Hbank36 0 0 ABS 0 bank36 dist/default/production\SEN.X.production.o
 __Hbank37 0 0 ABS 0 bank37 dist/default/production\SEN.X.production.o
+__size_of_MESSAGESSendEvery5s 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\SEN.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\SEN.X.production.o
-__smallconst 2600 0 SMALLCONST 0 smallconst C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-__size_of_MESSAGESSendEvery100ms 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_ADC_SetADIInterruptHandler 39AC 0 CODE 0 text32 dist/default/production\SEN.X.production.o
+__smallconst 2600 0 SMALLCONST 0 smallconst C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+__size_of_MESSAGESSendEvery500ms 0 0 ABS 0 - dist/default/production\SEN.X.production.o
+__end_of_ADC_SetADIInterruptHandler 3AFA 0 CODE 0 text32 dist/default/production\SEN.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\SEN.X.production.o
 __Hconfig 300024 0 CONFIG 4 config dist/default/production\SEN.X.production.o
 __size_of_CAN1_ErrorNotificationInterruptEnable 0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1127,14 +1148,14 @@ __Lbank6 0 0 ABS 0 bank6 dist/default/production\SEN.X.production.o
 __Lbank7 0 0 ABS 0 bank7 dist/default/production\SEN.X.production.o
 __Lbank8 0 0 ABS 0 bank8 dist/default/production\SEN.X.production.o
 __Lbank9 0 0 ABS 0 bank9 dist/default/production\SEN.X.production.o
-__end_of_DefaultRxBufferOverflowHandler 39D0 0 CODE 0 text68 dist/default/production\SEN.X.production.o
+__end_of_DefaultRxBufferOverflowHandler 3B1E 0 CODE 0 text69 dist/default/production\SEN.X.production.o
 __Lcinit 0 0 ABS 0 cinit dist/default/production\SEN.X.production.o
 __Lconst 0 0 CONST 0 const dist/default/production\SEN.X.production.o
 _T1GCONbits 31F 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Lidata 0 0 CODE 0 idata dist/default/production\SEN.X.production.o
 __Lidloc 0 0 IDLOC 5 idloc dist/default/production\SEN.X.production.o
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\SEN.X.production.o
-_ValidateTransmission 2E20 0 CODE 0 text50 dist/default/production\SEN.X.production.o
+_ValidateTransmission 2F50 0 CODE 0 text51 dist/default/production\SEN.X.production.o
 __Lparam 0 0 COMRAM 1 rparam dist/default/production\SEN.X.production.o
 __Lrdata 0 0 COMRAM 1 rdata dist/default/production\SEN.X.production.o
 __Lstack 0 0 STACK 2 stack dist/default/production\SEN.X.production.o
@@ -1149,15 +1170,15 @@ __Ltext7 0 0 ABS 0 text7 dist/default/production\SEN.X.production.o
 __Ltext8 0 0 ABS 0 text8 dist/default/production\SEN.X.production.o
 __Ltext9 0 0 ABS 0 text9 dist/default/production\SEN.X.production.o
 _ucWheelID 550 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
-_INT0_SetInterruptHandler 3934 0 CODE 0 text12 dist/default/production\SEN.X.production.o
+_INT0_SetInterruptHandler 3A82 0 CODE 0 text12 dist/default/production\SEN.X.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\SEN.X.production.o
-_CAN1_IsBusOff 38BE 0 CODE 0 text56 dist/default/production\SEN.X.production.o
-_CAN1_BusErrorHandler 594 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
-__end_of_CAN1_IsTxErrorWarning 38A8 0 CODE 0 text53 dist/default/production\SEN.X.production.o
+_CAN1_IsBusOff 3A0C 0 CODE 0 text57 dist/default/production\SEN.X.production.o
+_CAN1_BusErrorHandler 596 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+__end_of_CAN1_IsTxErrorWarning 39F6 0 CODE 0 text54 dist/default/production\SEN.X.production.o
 _wr1RegCompleteHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 memcpy@d1 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 memcpy@s1 503 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_INTERRUPT_Initialize 39BE 0 CODE 0 text9 dist/default/production\SEN.X.production.o
+_INTERRUPT_Initialize 3B0C 0 CODE 0 text9 dist/default/production\SEN.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\SEN.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production\SEN.X.production.o
 __Hinit 1E 0 CODE 0 init dist/default/production\SEN.X.production.o
@@ -1176,19 +1197,19 @@ memcpy@d 507 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 memcpy@n 505 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 memcpy@s 509 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 _C1TRECUbits 136 0 ABS 0 - dist/default/production\SEN.X.production.o
-__pnvBANK5 5C4 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
-__end_of_DefaultBusWakeUpActivityHandler 39D6 0 CODE 0 text71 dist/default/production\SEN.X.production.o
-___lmul 332E 0 CODE 0 text41 dist/default/production\SEN.X.production.o
+__pnvBANK5 5C6 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
+__end_of_DefaultBusWakeUpActivityHandler 3B24 0 CODE 0 text72 dist/default/production\SEN.X.production.o
+___lmul 345E 0 CODE 0 text41 dist/default/production\SEN.X.production.o
 __LcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production\SEN.X.production.o
-__end_of_CAN1_SetBusWakeUpActivityInterruptHandler 3984 0 CODE 0 text26 dist/default/production\SEN.X.production.o
-CAN1_SetModeChangeInterruptHandler@handler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+__end_of_CAN1_SetBusWakeUpActivityInterruptHandler 3AD2 0 CODE 0 text26 dist/default/production\SEN.X.production.o
+CAN1_SetModeChangeInterruptHandler@handler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\SEN.X.production.o
 __size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_BitRateConfiguration 38FC 0 CODE 0 text28 dist/default/production\SEN.X.production.o
+_CAN1_BitRateConfiguration 3A4A 0 CODE 0 text28 dist/default/production\SEN.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\SEN.X.production.o
 _I2C1_DO_BUS_ERROR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__S0 39D8 0 ABS 0 - dist/default/production\SEN.X.production.o
-__S1 5D4 0 ABS 0 - dist/default/production\SEN.X.production.o
+__S0 3B26 0 ABS 0 - dist/default/production\SEN.X.production.o
+__S1 5D6 0 ABS 0 - dist/default/production\SEN.X.production.o
 __S2 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1196,7 +1217,7 @@ _msg 557 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __Hivt0x8 1A 0 CODE 0 ivt0x8 dist/default/production\SEN.X.production.o
 __size_of_TMR0_ISR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_TMR1_ISR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_SetBusErrorInterruptHandler 398E 0 CODE 0 text27 dist/default/production\SEN.X.production.o
+__end_of_CAN1_SetBusErrorInterruptHandler 3ADC 0 CODE 0 text27 dist/default/production\SEN.X.production.o
 __size_of_TMR0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1NBTCFGH 105 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1NBTCFGL 104 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1212,45 +1233,46 @@ _C1TXQCONU 152 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_CAN1_SetBusErrorInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __pnvCOMRAM 55E 0 COMRAM 1 nvCOMRAM dist/default/production\SEN.X.production.o
 __size_of_CAN1_TX_FIFO_Configuration 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_TMR0_DefaultInterruptHandler 39C8 0 CODE 0 text59 dist/default/production\SEN.X.production.o
-_CAN1_IsTxErrorWarning 3892 0 CODE 0 text53 dist/default/production\SEN.X.production.o
-_CAN1_TxAttemptHandler 58E 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
-__end_of_isTxChannel 355A 0 CODE 0 text47 dist/default/production\SEN.X.production.o
+__end_of_TMR0_DefaultInterruptHandler 3B16 0 CODE 0 text60 dist/default/production\SEN.X.production.o
+_CAN1_IsTxErrorWarning 39E0 0 CODE 0 text54 dist/default/production\SEN.X.production.o
+_CAN1_TxAttemptHandler 590 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+__end_of_isTxChannel 36A8 0 CODE 0 text48 dist/default/production\SEN.X.production.o
 __pivt0x8 8 0 CODE 0 ivt0x8 dist/default/production\SEN.X.production.o
 _I2C1_CallbackReturnStop 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 ValidateTransmission@txMsgStatus 508 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_TMR0_CallBack 36C0 0 CODE 0 text58 dist/default/production\SEN.X.production.o
+_TMR0_CallBack 380E 0 CODE 0 text59 dist/default/production\SEN.X.production.o
 _I2C1STAT1bits 299 0 ABS 0 - dist/default/production\SEN.X.production.o
-CAN1_SetTxAttemptInterruptHandler@handler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-__end_of_DELAY_milliseconds 3636 0 CODE 0 text34 dist/default/production\SEN.X.production.o
+CAN1_SetTxAttemptInterruptHandler@handler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+_MESSAGESSendEvery5s 2CF6 0 CODE 0 text43 dist/default/production\SEN.X.production.o
+__end_of_DELAY_milliseconds 3784 0 CODE 0 text34 dist/default/production\SEN.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\SEN.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\SEN.X.production.o
 __size_of_ADC_SetContext1ThresholdInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1_DO_RESET 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_TMR1_CallBack 3692 0 CODE 0 text38 dist/default/production\SEN.X.production.o
-_SYSTEM_Initialize 36EE 0 CODE 0 text1 dist/default/production\SEN.X.production.o
-__end_of_GetTxFifoStatus 387C 0 CODE 0 text52 dist/default/production\SEN.X.production.o
+_TMR1_CallBack 37E0 0 CODE 0 text38 dist/default/production\SEN.X.production.o
+_SYSTEM_Initialize 383C 0 CODE 0 text1 dist/default/production\SEN.X.production.o
+__end_of_GetTxFifoStatus 39CA 0 CODE 0 text53 dist/default/production\SEN.X.production.o
 __size_of_INT0_CallBack 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_RX_FIFO_ResetInfo 3664 0 CODE 0 text15 dist/default/production\SEN.X.production.o
-_CAN1_SetSystemErrorInterruptHandler 3952 0 CODE 0 text22 dist/default/production\SEN.X.production.o
-_CAN1_SetTxAttemptInterruptHandler 3948 0 CODE 0 text21 dist/default/production\SEN.X.production.o
-_rxFifos 5A2 0 BANK5 1 dataBANK5 dist/default/production\SEN.X.production.o
+__end_of_CAN1_RX_FIFO_ResetInfo 37B2 0 CODE 0 text15 dist/default/production\SEN.X.production.o
+_CAN1_SetSystemErrorInterruptHandler 3AA0 0 CODE 0 text22 dist/default/production\SEN.X.production.o
+_CAN1_SetTxAttemptInterruptHandler 3A96 0 CODE 0 text21 dist/default/production\SEN.X.production.o
+_rxFifos 5A4 0 BANK5 1 dataBANK5 dist/default/production\SEN.X.production.o
 _I2C1CON0bits 294 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1CON1bits 295 0 ABS 0 - dist/default/production\SEN.X.production.o
 __HnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production\SEN.X.production.o
 ___lldiv@divisor 505 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __end_of_ReluctorFreqRead 2A54 0 CODE 0 text40 dist/default/production\SEN.X.production.o
 _I2C1ERRbits 297 0 ABS 0 - dist/default/production\SEN.X.production.o
-_rxMsgData 59A 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+_rxMsgData 59C 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 __Hramtop 2600 0 RAM 0 ramtop dist/default/production\SEN.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\SEN.X.production.o
 __size_of_CAN1_RX_FIFO_FilterMaskConfiguration 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-CAN1_OperationModeSet@requestMode 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-__pdataBANK5 5A2 0 BANK5 1 dataBANK5 dist/default/production\SEN.X.production.o
+CAN1_OperationModeSet@requestMode 5D4 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+__pdataBANK5 5A4 0 BANK5 1 dataBANK5 dist/default/production\SEN.X.production.o
 __activetblptr 3 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\SEN.X.production.o
 __size_of___lmul 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_RxBufferOverflowHandler 58C 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+_CAN1_RxBufferOverflowHandler 58E 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 __size_of_ReluctorFreqRead 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __LbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production\SEN.X.production.o
 _I2C1CLK 29E 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1323,99 +1345,101 @@ __Htext70 0 0 ABS 0 text70 dist/default/production\SEN.X.production.o
 __Htext71 0 0 ABS 0 text71 dist/default/production\SEN.X.production.o
 __Htext72 0 0 ABS 0 text72 dist/default/production\SEN.X.production.o
 __Htext73 0 0 ABS 0 text73 dist/default/production\SEN.X.production.o
-_DefaultSystemErrorHandler 39CC 0 CODE 0 text67 dist/default/production\SEN.X.production.o
-__end_of_CAN1_OperationModeGet 3948 0 CODE 0 text19 dist/default/production\SEN.X.production.o
-__end_of_CAN1_OperationModeSet 31A8 0 CODE 0 text18 dist/default/production\SEN.X.production.o
-_CAN1_Transmit 31A8 0 CODE 0 text46 dist/default/production\SEN.X.production.o
-_INTERRUPT_InterruptManager 2EF8 0 CODE 0 text35 dist/default/production\SEN.X.production.o
-_ADC_Initialize 2FBA 0 CODE 0 text29 dist/default/production\SEN.X.production.o
+__Htext74 0 0 ABS 0 text74 dist/default/production\SEN.X.production.o
+_DefaultSystemErrorHandler 3B1A 0 CODE 0 text68 dist/default/production\SEN.X.production.o
+__end_of_CAN1_OperationModeGet 3A96 0 CODE 0 text19 dist/default/production\SEN.X.production.o
+__end_of_CAN1_OperationModeSet 32D8 0 CODE 0 text18 dist/default/production\SEN.X.production.o
+_CAN1_Transmit 32D8 0 CODE 0 text47 dist/default/production\SEN.X.production.o
+_INTERRUPT_InterruptManager 3028 0 CODE 0 text35 dist/default/production\SEN.X.production.o
+_ADC_Initialize 30EA 0 CODE 0 text29 dist/default/production\SEN.X.production.o
 __size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _PIE0bits 49E 0 ABS 0 - dist/default/production\SEN.X.production.o
 _PIE1bits 49F 0 ABS 0 - dist/default/production\SEN.X.production.o
 _PIE3bits 4A1 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_EXT_INT_Initialize 3892 0 CODE 0 text11 dist/default/production\SEN.X.production.o
+__end_of_EXT_INT_Initialize 39E0 0 CODE 0 text11 dist/default/production\SEN.X.production.o
 _PIE7bits 4A5 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_RX_FIFO_Configuration 38FC 0 CODE 0 text17 dist/default/production\SEN.X.production.o
+__end_of_CAN1_RX_FIFO_Configuration 3A4A 0 CODE 0 text17 dist/default/production\SEN.X.production.o
 CAN1_TransmitFIFOStatusGet@fifoChannel 504 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_memcpy 3398 0 CODE 0 text49 dist/default/production\SEN.X.production.o
+_memcpy 3524 0 CODE 0 text50 dist/default/production\SEN.X.production.o
 __size_of_PARAMETERSInit 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 CAN1_TransmitFIFOStatusGet@status 503 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_DELAY_milliseconds 3602 0 CODE 0 text34 dist/default/production\SEN.X.production.o
-_TMR0_ISR 3746 0 CODE 0 text57 dist/default/production\SEN.X.production.o
-_TMR1_ISR 34DE 0 CODE 0 text36 dist/default/production\SEN.X.production.o
-__ptext10 371A 0 CODE 0 text10 dist/default/production\SEN.X.production.o
-__ptext11 387C 0 CODE 0 text11 dist/default/production\SEN.X.production.o
-__ptext12 3934 0 CODE 0 text12 dist/default/production\SEN.X.production.o
-__ptext13 33F2 0 CODE 0 text13 dist/default/production\SEN.X.production.o
-__ptext14 38D4 0 CODE 0 text14 dist/default/production\SEN.X.production.o
-__ptext15 3636 0 CODE 0 text15 dist/default/production\SEN.X.production.o
-__ptext16 39C2 0 CODE 0 text16 dist/default/production\SEN.X.production.o
-__ptext17 38E8 0 CODE 0 text17 dist/default/production\SEN.X.production.o
-__ptext18 3110 0 CODE 0 text18 dist/default/production\SEN.X.production.o
-__ptext19 393E 0 CODE 0 text19 dist/default/production\SEN.X.production.o
-__ptext20 323C 0 CODE 0 text20 dist/default/production\SEN.X.production.o
-__ptext21 3948 0 CODE 0 text21 dist/default/production\SEN.X.production.o
-__ptext22 3952 0 CODE 0 text22 dist/default/production\SEN.X.production.o
-__ptext23 395C 0 CODE 0 text23 dist/default/production\SEN.X.production.o
-__ptext24 3966 0 CODE 0 text24 dist/default/production\SEN.X.production.o
-__ptext25 3970 0 CODE 0 text25 dist/default/production\SEN.X.production.o
-__ptext26 397A 0 CODE 0 text26 dist/default/production\SEN.X.production.o
-__ptext27 3984 0 CODE 0 text27 dist/default/production\SEN.X.production.o
-__ptext28 38FC 0 CODE 0 text28 dist/default/production\SEN.X.production.o
-__ptext29 2FBA 0 CODE 0 text29 dist/default/production\SEN.X.production.o
-__ptext30 398E 0 CODE 0 text30 dist/default/production\SEN.X.production.o
-__ptext31 3998 0 CODE 0 text31 dist/default/production\SEN.X.production.o
-__ptext32 39A2 0 CODE 0 text32 dist/default/production\SEN.X.production.o
-__ptext33 37C0 0 CODE 0 text33 dist/default/production\SEN.X.production.o
-__ptext34 3602 0 CODE 0 text34 dist/default/production\SEN.X.production.o
-__ptext35 2EF8 0 CODE 0 text35 dist/default/production\SEN.X.production.o
-__ptext36 34DE 0 CODE 0 text36 dist/default/production\SEN.X.production.o
-__ptext37 3664 0 CODE 0 text37 dist/default/production\SEN.X.production.o
-__ptext38 3692 0 CODE 0 text38 dist/default/production\SEN.X.production.o
-__ptext39 39C4 0 CODE 0 text39 dist/default/production\SEN.X.production.o
+_DELAY_milliseconds 3750 0 CODE 0 text34 dist/default/production\SEN.X.production.o
+_TMR0_ISR 3894 0 CODE 0 text58 dist/default/production\SEN.X.production.o
+_TMR1_ISR 34C8 0 CODE 0 text36 dist/default/production\SEN.X.production.o
+__ptext10 3868 0 CODE 0 text10 dist/default/production\SEN.X.production.o
+__ptext11 39CA 0 CODE 0 text11 dist/default/production\SEN.X.production.o
+__ptext12 3A82 0 CODE 0 text12 dist/default/production\SEN.X.production.o
+__ptext13 357E 0 CODE 0 text13 dist/default/production\SEN.X.production.o
+__ptext14 3A22 0 CODE 0 text14 dist/default/production\SEN.X.production.o
+__ptext15 3784 0 CODE 0 text15 dist/default/production\SEN.X.production.o
+__ptext16 3B10 0 CODE 0 text16 dist/default/production\SEN.X.production.o
+__ptext17 3A36 0 CODE 0 text17 dist/default/production\SEN.X.production.o
+__ptext18 3240 0 CODE 0 text18 dist/default/production\SEN.X.production.o
+__ptext19 3A8C 0 CODE 0 text19 dist/default/production\SEN.X.production.o
+__ptext20 336C 0 CODE 0 text20 dist/default/production\SEN.X.production.o
+__ptext21 3A96 0 CODE 0 text21 dist/default/production\SEN.X.production.o
+__ptext22 3AA0 0 CODE 0 text22 dist/default/production\SEN.X.production.o
+__ptext23 3AAA 0 CODE 0 text23 dist/default/production\SEN.X.production.o
+__ptext24 3AB4 0 CODE 0 text24 dist/default/production\SEN.X.production.o
+__ptext25 3ABE 0 CODE 0 text25 dist/default/production\SEN.X.production.o
+__ptext26 3AC8 0 CODE 0 text26 dist/default/production\SEN.X.production.o
+__ptext27 3AD2 0 CODE 0 text27 dist/default/production\SEN.X.production.o
+__ptext28 3A4A 0 CODE 0 text28 dist/default/production\SEN.X.production.o
+__ptext29 30EA 0 CODE 0 text29 dist/default/production\SEN.X.production.o
+__ptext30 3ADC 0 CODE 0 text30 dist/default/production\SEN.X.production.o
+__ptext31 3AE6 0 CODE 0 text31 dist/default/production\SEN.X.production.o
+__ptext32 3AF0 0 CODE 0 text32 dist/default/production\SEN.X.production.o
+__ptext33 390E 0 CODE 0 text33 dist/default/production\SEN.X.production.o
+__ptext34 3750 0 CODE 0 text34 dist/default/production\SEN.X.production.o
+__ptext35 3028 0 CODE 0 text35 dist/default/production\SEN.X.production.o
+__ptext36 34C8 0 CODE 0 text36 dist/default/production\SEN.X.production.o
+__ptext37 37B2 0 CODE 0 text37 dist/default/production\SEN.X.production.o
+__ptext38 37E0 0 CODE 0 text38 dist/default/production\SEN.X.production.o
+__ptext39 3B12 0 CODE 0 text39 dist/default/production\SEN.X.production.o
 __ptext40 287A 0 CODE 0 text40 dist/default/production\SEN.X.production.o
-__ptext41 332E 0 CODE 0 text41 dist/default/production\SEN.X.production.o
-__ptext42 306C 0 CODE 0 text42 dist/default/production\SEN.X.production.o
-__ptext43 2BAA 0 CODE 0 text43 dist/default/production\SEN.X.production.o
-__ptext44 2CF6 0 CODE 0 text44 dist/default/production\SEN.X.production.o
-__ptext45 37E8 0 CODE 0 text45 dist/default/production\SEN.X.production.o
-__ptext46 31A8 0 CODE 0 text46 dist/default/production\SEN.X.production.o
-__ptext47 351C 0 CODE 0 text47 dist/default/production\SEN.X.production.o
-__ptext48 2634 0 CODE 0 text48 dist/default/production\SEN.X.production.o
-__ptext49 3398 0 CODE 0 text49 dist/default/production\SEN.X.production.o
-__ptext50 2E20 0 CODE 0 text50 dist/default/production\SEN.X.production.o
-__ptext51 39AC 0 CODE 0 text51 dist/default/production\SEN.X.production.o
-__ptext52 3864 0 CODE 0 text52 dist/default/production\SEN.X.production.o
-__ptext53 3892 0 CODE 0 text53 dist/default/production\SEN.X.production.o
-__ptext54 3832 0 CODE 0 text54 dist/default/production\SEN.X.production.o
-__ptext55 38A8 0 CODE 0 text55 dist/default/production\SEN.X.production.o
-__ptext56 38BE 0 CODE 0 text56 dist/default/production\SEN.X.production.o
-__ptext57 3746 0 CODE 0 text57 dist/default/production\SEN.X.production.o
-__ptext58 36C0 0 CODE 0 text58 dist/default/production\SEN.X.production.o
-__ptext59 39C6 0 CODE 0 text59 dist/default/production\SEN.X.production.o
-__ptext60 39B6 0 CODE 0 text60 dist/default/production\SEN.X.production.o
-__ptext61 35CC 0 CODE 0 text61 dist/default/production\SEN.X.production.o
-__ptext62 355A 0 CODE 0 text62 dist/default/production\SEN.X.production.o
-__ptext63 3910 0 CODE 0 text63 dist/default/production\SEN.X.production.o
-__ptext64 39C8 0 CODE 0 text64 dist/default/production\SEN.X.production.o
-__ptext65 2A54 0 CODE 0 text65 dist/default/production\SEN.X.production.o
-__ptext66 39CA 0 CODE 0 text66 dist/default/production\SEN.X.production.o
-__ptext67 39CC 0 CODE 0 text67 dist/default/production\SEN.X.production.o
-__ptext68 39CE 0 CODE 0 text68 dist/default/production\SEN.X.production.o
-__ptext69 39D0 0 CODE 0 text69 dist/default/production\SEN.X.production.o
-__ptext70 39D2 0 CODE 0 text70 dist/default/production\SEN.X.production.o
-__ptext71 39D4 0 CODE 0 text71 dist/default/production\SEN.X.production.o
-__ptext72 39D6 0 CODE 0 text72 dist/default/production\SEN.X.production.o
-__ptext73 0 0 CODE 0 text73 dist/default/production\SEN.X.production.o
-_CAN1_TX_FIFO_Configuration 38D4 0 CODE 0 text14 dist/default/production\SEN.X.production.o
+__ptext41 345E 0 CODE 0 text41 dist/default/production\SEN.X.production.o
+__ptext42 319C 0 CODE 0 text42 dist/default/production\SEN.X.production.o
+__ptext43 2CF6 0 CODE 0 text43 dist/default/production\SEN.X.production.o
+__ptext44 2BAA 0 CODE 0 text44 dist/default/production\SEN.X.production.o
+__ptext45 2E26 0 CODE 0 text45 dist/default/production\SEN.X.production.o
+__ptext46 3936 0 CODE 0 text46 dist/default/production\SEN.X.production.o
+__ptext47 32D8 0 CODE 0 text47 dist/default/production\SEN.X.production.o
+__ptext48 366A 0 CODE 0 text48 dist/default/production\SEN.X.production.o
+__ptext49 2634 0 CODE 0 text49 dist/default/production\SEN.X.production.o
+__ptext50 3524 0 CODE 0 text50 dist/default/production\SEN.X.production.o
+__ptext51 2F50 0 CODE 0 text51 dist/default/production\SEN.X.production.o
+__ptext52 3AFA 0 CODE 0 text52 dist/default/production\SEN.X.production.o
+__ptext53 39B2 0 CODE 0 text53 dist/default/production\SEN.X.production.o
+__ptext54 39E0 0 CODE 0 text54 dist/default/production\SEN.X.production.o
+__ptext55 3980 0 CODE 0 text55 dist/default/production\SEN.X.production.o
+__ptext56 39F6 0 CODE 0 text56 dist/default/production\SEN.X.production.o
+__ptext57 3A0C 0 CODE 0 text57 dist/default/production\SEN.X.production.o
+__ptext58 3894 0 CODE 0 text58 dist/default/production\SEN.X.production.o
+__ptext59 380E 0 CODE 0 text59 dist/default/production\SEN.X.production.o
+__ptext60 3B14 0 CODE 0 text60 dist/default/production\SEN.X.production.o
+__ptext61 3B04 0 CODE 0 text61 dist/default/production\SEN.X.production.o
+__ptext62 371A 0 CODE 0 text62 dist/default/production\SEN.X.production.o
+__ptext63 36A8 0 CODE 0 text63 dist/default/production\SEN.X.production.o
+__ptext64 3A5E 0 CODE 0 text64 dist/default/production\SEN.X.production.o
+__ptext65 3B16 0 CODE 0 text65 dist/default/production\SEN.X.production.o
+__ptext66 2A54 0 CODE 0 text66 dist/default/production\SEN.X.production.o
+__ptext67 3B18 0 CODE 0 text67 dist/default/production\SEN.X.production.o
+__ptext68 3B1A 0 CODE 0 text68 dist/default/production\SEN.X.production.o
+__ptext69 3B1C 0 CODE 0 text69 dist/default/production\SEN.X.production.o
+__ptext70 3B1E 0 CODE 0 text70 dist/default/production\SEN.X.production.o
+__ptext71 3B20 0 CODE 0 text71 dist/default/production\SEN.X.production.o
+__ptext72 3B22 0 CODE 0 text72 dist/default/production\SEN.X.production.o
+__ptext73 3B24 0 CODE 0 text73 dist/default/production\SEN.X.production.o
+__ptext74 0 0 CODE 0 text74 dist/default/production\SEN.X.production.o
+_CAN1_TX_FIFO_Configuration 3A22 0 CODE 0 text14 dist/default/production\SEN.X.production.o
 _ucCountPos 556 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 _I2C1_DO_RX_ACK 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_SetRxBufferOverFlowInterruptHandler 395C 0 CODE 0 text23 dist/default/production\SEN.X.production.o
-__end_of_PIN_MANAGER_Initialize 332E 0 CODE 0 text7 dist/default/production\SEN.X.production.o
+_CAN1_SetRxBufferOverFlowInterruptHandler 3AAA 0 CODE 0 text23 dist/default/production\SEN.X.production.o
+__end_of_PIN_MANAGER_Initialize 345E 0 CODE 0 text7 dist/default/production\SEN.X.production.o
 __size_of_CAN1_IsTxErrorActive 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_TMR0_Initialize 3798 0 CODE 0 text4 dist/default/production\SEN.X.production.o
-___lldiv 306C 0 CODE 0 text42 dist/default/production\SEN.X.production.o
-__end_of_INT0_CallBack 3602 0 CODE 0 text61 dist/default/production\SEN.X.production.o
+__end_of_TMR0_Initialize 38E6 0 CODE 0 text4 dist/default/production\SEN.X.production.o
+___lldiv 319C 0 CODE 0 text42 dist/default/production\SEN.X.production.o
+__end_of_INT0_CallBack 3750 0 CODE 0 text62 dist/default/production\SEN.X.production.o
 __Lbank10 0 0 ABS 0 bank10 dist/default/production\SEN.X.production.o
 __Lbank11 0 0 ABS 0 bank11 dist/default/production\SEN.X.production.o
 __Lbank12 0 0 ABS 0 bank12 dist/default/production\SEN.X.production.o
@@ -1452,40 +1476,40 @@ WriteMessageToFifo@msgId 513 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN
 _I2C1_DO_TX_ACK 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\SEN.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\SEN.X.production.o
-__end_of_TMR0_ISR 3770 0 CODE 0 text57 dist/default/production\SEN.X.production.o
-__end_of_TMR1_ISR 351C 0 CODE 0 text36 dist/default/production\SEN.X.production.o
-_CAN1_OperationModeGet 393E 0 CODE 0 text19 dist/default/production\SEN.X.production.o
-_CAN1_OperationModeSet 3110 0 CODE 0 text18 dist/default/production\SEN.X.production.o
+__end_of_TMR0_ISR 38BE 0 CODE 0 text58 dist/default/production\SEN.X.production.o
+__end_of_TMR1_ISR 3524 0 CODE 0 text36 dist/default/production\SEN.X.production.o
+_CAN1_OperationModeGet 3A8C 0 CODE 0 text19 dist/default/production\SEN.X.production.o
+_CAN1_OperationModeSet 3240 0 CODE 0 text18 dist/default/production\SEN.X.production.o
 _LATAbits 4BE 0 ABS 0 - dist/default/production\SEN.X.production.o
 _LATBbits 4BF 0 ABS 0 - dist/default/production\SEN.X.production.o
 TMR0_ISR@CountCallBack 54C 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __size_of_INT0_ISR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_GetTxFifoStatus 3864 0 CODE 0 text52 dist/default/production\SEN.X.production.o
+_GetTxFifoStatus 39B2 0 CODE 0 text53 dist/default/production\SEN.X.production.o
 _I2C1SCLPPS 271 0 ABS 0 - dist/default/production\SEN.X.production.o
 _C1TXQSTALbits 154 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1SDAPPS 270 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_CAN1_IsBusOff 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-i2_CAN1_OperationModeGet 39AC 0 CODE 0 text51 dist/default/production\SEN.X.production.o
+i2_CAN1_OperationModeGet 3AFA 0 CODE 0 text52 dist/default/production\SEN.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\SEN.X.production.o
-__end_of_CAN1_SetRxBufferOverFlowInterruptHandler 3966 0 CODE 0 text23 dist/default/production\SEN.X.production.o
+__end_of_CAN1_SetRxBufferOverFlowInterruptHandler 3AB4 0 CODE 0 text23 dist/default/production\SEN.X.production.o
 __size_of_CAN1_SetModeChangeInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_TMR0_SetInterruptHandler 392A 0 CODE 0 text5 dist/default/production\SEN.X.production.o
+_TMR0_SetInterruptHandler 3A78 0 CODE 0 text5 dist/default/production\SEN.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\SEN.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-__end_of_CAN1_IsTxErrorActive 384C 0 CODE 0 text54 dist/default/production\SEN.X.production.o
-CAN1_SetRxBufferOverFlowInterruptHandler@handler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-_DefaultRxBufferOverflowHandler 39CE 0 CODE 0 text68 dist/default/production\SEN.X.production.o
-__end_ofi2_CAN1_OperationModeGet 39B6 0 CODE 0 text51 dist/default/production\SEN.X.production.o
-_DefaultTxAttemptHandler 39CA 0 CODE 0 text66 dist/default/production\SEN.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+__end_of_CAN1_IsTxErrorActive 399A 0 CODE 0 text55 dist/default/production\SEN.X.production.o
+CAN1_SetRxBufferOverFlowInterruptHandler@handler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+_DefaultRxBufferOverflowHandler 3B1C 0 CODE 0 text69 dist/default/production\SEN.X.production.o
+__end_ofi2_CAN1_OperationModeGet 3B04 0 CODE 0 text52 dist/default/production\SEN.X.production.o
+_DefaultTxAttemptHandler 3B18 0 CODE 0 text67 dist/default/production\SEN.X.production.o
 __size_of_CAN1_TransmitFIFOStatusGet 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_CAN1_SetInvalidMessageInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_ModeChangeHandler 592 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
-stackhi 25FF 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-stacklo 5D4 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-_EXT_INT_Initialize 387C 0 CODE 0 text11 dist/default/production\SEN.X.production.o
+_CAN1_ModeChangeHandler 594 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+stackhi 25FF 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+stacklo 5D6 0 ABS 0 - C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+_EXT_INT_Initialize 39CA 0 CODE 0 text11 dist/default/production\SEN.X.production.o
 __size_of_INT0_SetInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-CAN1_OperationModeSet@opMode 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-__end_of_DefaultTxAttemptHandler 39CC 0 CODE 0 text66 dist/default/production\SEN.X.production.o
+CAN1_OperationModeSet@opMode 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+__end_of_DefaultTxAttemptHandler 3B1A 0 CODE 0 text67 dist/default/production\SEN.X.production.o
 _OSCCON1 AD 0 ABS 0 - dist/default/production\SEN.X.production.o
 _OSCCON3 AF 0 ABS 0 - dist/default/production\SEN.X.production.o
 _OSCTUNE B0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1496,7 +1520,8 @@ _ADCON0bits 3F3 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADCON1bits 3F4 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADCON2bits 3F5 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADCON3bits 3F6 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_WriteMessageToFifo 287A 0 CODE 0 text48 dist/default/production\SEN.X.production.o
+__end_of_WriteMessageToFifo 287A 0 CODE 0 text49 dist/default/production\SEN.X.production.o
+TMR1_ISR@CountCallBack500ms 54E 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 _ui_MeterPerSecond_E_2 53E 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __size_of_ADC_SetADIInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1_DO_RX_NACK_RESTART 0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1507,7 +1532,7 @@ __Lspace_4 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 CAN1_Transmit@fifoChannel 51C 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __pbssCOMRAM 53A 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __size_of_memcpy 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_ADC_Initialize 306C 0 CODE 0 text29 dist/default/production\SEN.X.production.o
+__end_of_ADC_Initialize 319C 0 CODE 0 text29 dist/default/production\SEN.X.production.o
 CANWriteMessage@id 51D 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __HcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production\SEN.X.production.o
 _I2C1_DO_SEND_STOP 0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1519,44 +1544,45 @@ _PIR3bits 4B1 0 ABS 0 - dist/default/production\SEN.X.production.o
 _PIR7bits 4B5 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_TMR0_CallBack 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\SEN.X.production.o
-CAN1_OperationModeSet@status 5D1 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-_ADC_Context1Thereshld_ISR 5CC 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
-end_of_initialization 3490 0 CODE 0 cinit dist/default/production\SEN.X.production.o
-CAN1_SetSystemErrorInterruptHandler@handler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
-_TMR0_Initialize 3770 0 CODE 0 text4 dist/default/production\SEN.X.production.o
-__end_of_CAN1_IsBusOff 38D4 0 CODE 0 text56 dist/default/production\SEN.X.production.o
+__end_of_MESSAGESSendEvery5s 2E26 0 CODE 0 text43 dist/default/production\SEN.X.production.o
+CAN1_OperationModeSet@status 5D3 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+_ADC_Context1Thereshld_ISR 5CE 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
+end_of_initialization 361C 0 CODE 0 cinit dist/default/production\SEN.X.production.o
+CAN1_SetSystemErrorInterruptHandler@handler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+_TMR0_Initialize 38BE 0 CODE 0 text4 dist/default/production\SEN.X.production.o
+__end_of_CAN1_IsBusOff 3A22 0 CODE 0 text57 dist/default/production\SEN.X.production.o
 __size_of_TMR1_CallBack 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\SEN.X.production.o
-_ADC_ActiveClockTuning_ISR 5CA 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
+_ADC_ActiveClockTuning_ISR 5CC 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
 ?___lldiv 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\SEN.X.production.o
-TMR1_SetInterruptHandler@InterruptHandler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+TMR1_SetInterruptHandler@InterruptHandler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 __HbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production\SEN.X.production.o
-_INT0_InterruptHandler 5C8 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
+_INT0_InterruptHandler 5CA 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
 __end_of_DLC_BYTES 2630 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
 _I2C1_DO_RX 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _I2C1_DO_TX 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Lramtop 2600 0 RAM 0 ramtop dist/default/production\SEN.X.production.o
-__end_of_CAN1_SetTxAttemptInterruptHandler 3952 0 CODE 0 text21 dist/default/production\SEN.X.production.o
+__end_of_CAN1_SetTxAttemptInterruptHandler 3AA0 0 CODE 0 text21 dist/default/production\SEN.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\SEN.X.production.o
-__pcinit 344A 0 CODE 0 cinit dist/default/production\SEN.X.production.o
+__pcinit 35D6 0 CODE 0 cinit dist/default/production\SEN.X.production.o
 _ui_cm_in_period 542 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
-__ptext0 3596 0 CODE 0 text0 dist/default/production\SEN.X.production.o
-__ptext1 36EE 0 CODE 0 text1 dist/default/production\SEN.X.production.o
-__ptext2 3496 0 CODE 0 text2 dist/default/production\SEN.X.production.o
-__ptext3 3920 0 CODE 0 text3 dist/default/production\SEN.X.production.o
-__ptext4 3770 0 CODE 0 text4 dist/default/production\SEN.X.production.o
-__ptext5 392A 0 CODE 0 text5 dist/default/production\SEN.X.production.o
-__ptext6 3798 0 CODE 0 text6 dist/default/production\SEN.X.production.o
-__ptext7 32B6 0 CODE 0 text7 dist/default/production\SEN.X.production.o
-__ptext8 384C 0 CODE 0 text8 dist/default/production\SEN.X.production.o
-__ptext9 39BE 0 CODE 0 text9 dist/default/production\SEN.X.production.o
-_INT0_ISR 39B6 0 CODE 0 text60 dist/default/production\SEN.X.production.o
-_WriteMessageToFifo 2634 0 CODE 0 text48 dist/default/production\SEN.X.production.o
+__ptext0 36E4 0 CODE 0 text0 dist/default/production\SEN.X.production.o
+__ptext1 383C 0 CODE 0 text1 dist/default/production\SEN.X.production.o
+__ptext2 3622 0 CODE 0 text2 dist/default/production\SEN.X.production.o
+__ptext3 3A6E 0 CODE 0 text3 dist/default/production\SEN.X.production.o
+__ptext4 38BE 0 CODE 0 text4 dist/default/production\SEN.X.production.o
+__ptext5 3A78 0 CODE 0 text5 dist/default/production\SEN.X.production.o
+__ptext6 38E6 0 CODE 0 text6 dist/default/production\SEN.X.production.o
+__ptext7 33E6 0 CODE 0 text7 dist/default/production\SEN.X.production.o
+__ptext8 399A 0 CODE 0 text8 dist/default/production\SEN.X.production.o
+__ptext9 3B0C 0 CODE 0 text9 dist/default/production\SEN.X.production.o
+_INT0_ISR 3B04 0 CODE 0 text61 dist/default/production\SEN.X.production.o
+_WriteMessageToFifo 2634 0 CODE 0 text49 dist/default/production\SEN.X.production.o
 _I2C1PIEbits 29B 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\SEN.X.production.o
 _I2C1PIRbits 29A 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_TransmitFIFOStatusGet 37E8 0 CODE 0 text45 dist/default/production\SEN.X.production.o
+_CAN1_TransmitFIFOStatusGet 3936 0 CODE 0 text46 dist/default/production\SEN.X.production.o
 __Ltext10 0 0 ABS 0 text10 dist/default/production\SEN.X.production.o
 __Ltext11 0 0 ABS 0 text11 dist/default/production\SEN.X.production.o
 __Ltext12 0 0 ABS 0 text12 dist/default/production\SEN.X.production.o
@@ -1621,69 +1647,70 @@ __Ltext70 0 0 ABS 0 text70 dist/default/production\SEN.X.production.o
 __Ltext71 0 0 ABS 0 text71 dist/default/production\SEN.X.production.o
 __Ltext72 0 0 ABS 0 text72 dist/default/production\SEN.X.production.o
 __Ltext73 0 0 ABS 0 text73 dist/default/production\SEN.X.production.o
+__Ltext74 0 0 ABS 0 text74 dist/default/production\SEN.X.production.o
 __size_of_isTxChannel 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADC_DefaultContext1Threshold_ISR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_CAN1_Transmit 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__ramtop 2600 0 RAM 0 ramtop C:\Users\DAVIDJ\AppData\Local\Temp\xcAs9nc.o
-__end_of_CAN1_RX_FIFO_FilterMaskConfiguration 39C4 0 CODE 0 text16 dist/default/production\SEN.X.production.o
-__end_of_TMR0_CallBack 36EE 0 CODE 0 text58 dist/default/production\SEN.X.production.o
+__ramtop 2600 0 RAM 0 ramtop C:\Users\DAVIDJ\AppData\Local\Temp\xcAs18s.o
+__end_of_CAN1_RX_FIFO_FilterMaskConfiguration 3B12 0 CODE 0 text16 dist/default/production\SEN.X.production.o
+__end_of_TMR0_CallBack 383C 0 CODE 0 text59 dist/default/production\SEN.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\SEN.X.production.o
 _ulWheelTeeth 546 0 COMRAM 1 bssCOMRAM dist/default/production\SEN.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\SEN.X.production.o
-_MESSAGESSendEvery100ms 2BAA 0 CODE 0 text43 dist/default/production\SEN.X.production.o
 TMR1_WriteTimer@timerVal 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-__end_of_INT0_ISR 39BE 0 CODE 0 text60 dist/default/production\SEN.X.production.o
-_ADC_SetADIInterruptHandler 39A2 0 CODE 0 text32 dist/default/production\SEN.X.production.o
-__end_of_TMR1_Initialize 34DE 0 CODE 0 text2 dist/default/production\SEN.X.production.o
-__end_of_TMR1_WriteTimer 3692 0 CODE 0 text37 dist/default/production\SEN.X.production.o
+__end_of_INT0_ISR 3B0C 0 CODE 0 text61 dist/default/production\SEN.X.production.o
+_ADC_SetADIInterruptHandler 3AF0 0 CODE 0 text32 dist/default/production\SEN.X.production.o
+_MESSAGESSendEvery500ms 2BAA 0 CODE 0 text44 dist/default/production\SEN.X.production.o
+__end_of_TMR1_Initialize 366A 0 CODE 0 text2 dist/default/production\SEN.X.production.o
+__end_of_TMR1_WriteTimer 37E0 0 CODE 0 text37 dist/default/production\SEN.X.production.o
 __psmallconst 2600 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
 ValidateTransmission@validChannel 507 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-__end_of_TMR1_CallBack 36C0 0 CODE 0 text38 dist/default/production\SEN.X.production.o
+__end_of_TMR1_CallBack 380E 0 CODE 0 text38 dist/default/production\SEN.X.production.o
 WriteMessageToFifo@status 512 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\SEN.X.production.o
-INT0_SetInterruptHandler@InterruptHandler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+INT0_SetInterruptHandler@InterruptHandler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 _DLC_BYTES 2627 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
 __size_of_CAN1_IsTxErrorPassive 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_ReluctorPosCount 355A 0 CODE 0 text62 dist/default/production\SEN.X.production.o
-ADC_SetADIInterruptHandler@InterruptHandler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+_ReluctorPosCount 36A8 0 CODE 0 text63 dist/default/production\SEN.X.production.o
+ADC_SetADIInterruptHandler@InterruptHandler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 _SLRCONA 403 0 ABS 0 - dist/default/production\SEN.X.production.o
 _SLRCONB 40B 0 ABS 0 - dist/default/production\SEN.X.production.o
 _SLRCONC 413 0 ABS 0 - dist/default/production\SEN.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\SEN.X.production.o
-__end_of__initialization 3490 0 CODE 0 cinit dist/default/production\SEN.X.production.o
+__end_of__initialization 361C 0 CODE 0 cinit dist/default/production\SEN.X.production.o
 _INT0PPS 23E 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_GetTxFifoStatus 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\SEN.X.production.o
-__end_of_CAN1_ErrorNotificationInterruptEnable 32B6 0 CODE 0 text20 dist/default/production\SEN.X.production.o
+__end_of_CAN1_ErrorNotificationInterruptEnable 33E6 0 CODE 0 text20 dist/default/production\SEN.X.production.o
 _ADSTATbits 3F7 0 ABS 0 - dist/default/production\SEN.X.production.o
-_DefaultBusWakeUpActivityHandler 39D4 0 CODE 0 text71 dist/default/production\SEN.X.production.o
-__pidataBANK5 3810 0 CODE 0 idataBANK5 dist/default/production\SEN.X.production.o
+_DefaultBusWakeUpActivityHandler 3B22 0 CODE 0 text72 dist/default/production\SEN.X.production.o
+__pidataBANK5 395E 0 CODE 0 idataBANK5 dist/default/production\SEN.X.production.o
 WriteMessageToFifo@txCanMsg 50E 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\SEN.X.production.o
-__end_of_INT0_SetInterruptHandler 393E 0 CODE 0 text12 dist/default/production\SEN.X.production.o
+__end_of_INT0_SetInterruptHandler 3A8C 0 CODE 0 text12 dist/default/production\SEN.X.production.o
 __size_of_CAN1_RX_FIFO_ResetInfo 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_CAN1_Transmit 323C 0 CODE 0 text46 dist/default/production\SEN.X.production.o
+__end_of_CAN1_Transmit 336C 0 CODE 0 text47 dist/default/production\SEN.X.production.o
 _timer1ReloadVal 55E 0 COMRAM 1 nvCOMRAM dist/default/production\SEN.X.production.o
 ___lmul@product 509 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_TMR1_DefaultInterruptHandler 39C4 0 CODE 0 text39 dist/default/production\SEN.X.production.o
+_TMR1_DefaultInterruptHandler 3B12 0 CODE 0 text39 dist/default/production\SEN.X.production.o
 __size_of_CAN1_RX_FIFO_Configuration 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __end_of_i2c1_fsmStateTable 2627 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
 ___lmul@multiplicand 505 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_CAN1_SetModeChangeInterruptHandler 3966 0 CODE 0 text24 dist/default/production\SEN.X.production.o
+_CAN1_SetModeChangeInterruptHandler 3AB4 0 CODE 0 text24 dist/default/production\SEN.X.production.o
 ___lldiv@quotient 509 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __pcstackCOMRAM 501 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 _I2C1_DO_SEND_ADR_READ 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _T0CON0bits 31A 0 ABS 0 - dist/default/production\SEN.X.production.o
-__end_of_I2C1_Initialize 3746 0 CODE 0 text10 dist/default/production\SEN.X.production.o
+__end_of_I2C1_Initialize 3894 0 CODE 0 text10 dist/default/production\SEN.X.production.o
 ValidateTransmission@txCanMsg 502 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-__end_of_CANWriteMessage 2E20 0 CODE 0 text44 dist/default/production\SEN.X.production.o
+__end_of_CANWriteMessage 2F50 0 CODE 0 text45 dist/default/production\SEN.X.production.o
 __size_of_TMR0_SetInterruptHandler 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 CAN1_Transmit@txFifoObj 51A 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
-_DefaultInvalidMessageHandler 39D2 0 CODE 0 text70 dist/default/production\SEN.X.production.o
+_DefaultInvalidMessageHandler 3B20 0 CODE 0 text71 dist/default/production\SEN.X.production.o
 __end_of_FIFO 2632 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
-__end_of_main 35CC 0 CODE 0 text0 dist/default/production\SEN.X.production.o
-__end_of_ReluctorCountTeeth 3920 0 CODE 0 text63 dist/default/production\SEN.X.production.o
+__end_of_main 371A 0 CODE 0 text0 dist/default/production\SEN.X.production.o
+__end_of_ReluctorCountTeeth 3A6E 0 CODE 0 text64 dist/default/production\SEN.X.production.o
 _ADC_DefaultActiveClockTuning_ISR 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADACT 3F9 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADCAP 3F0 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1693,7 +1720,7 @@ _ADCTX 3FB 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADPCH 3EC 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADREF 3F8 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ADRPT 3E7 0 ABS 0 - dist/default/production\SEN.X.production.o
-CAN1_RX_FIFO_ResetInfo@index 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+CAN1_RX_FIFO_ResetInfo@index 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 _OSCEN B3 0 ABS 0 - dist/default/production\SEN.X.production.o
 _T1CLK 321 0 ABS 0 - dist/default/production\SEN.X.production.o
 _T1CON 31E 0 ABS 0 - dist/default/production\SEN.X.production.o
@@ -1714,39 +1741,39 @@ __LRAM 1 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Lbss 0 0 RAM 1 bss dist/default/production\SEN.X.production.o
 __Lram 0 0 ABS 0 ram dist/default/production\SEN.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\SEN.X.production.o
-_TMR1_Initialize 3496 0 CODE 0 text2 dist/default/production\SEN.X.production.o
-_TMR1_WriteTimer 3664 0 CODE 0 text37 dist/default/production\SEN.X.production.o
+_TMR1_Initialize 3622 0 CODE 0 text2 dist/default/production\SEN.X.production.o
+_TMR1_WriteTimer 37B2 0 CODE 0 text37 dist/default/production\SEN.X.production.o
 _I2C1_DO_ADDRESS_NACK 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_CAN1_IsTxErrorWarning 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_CAN1_BusWakeUpActivityHandler 596 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+_CAN1_BusWakeUpActivityHandler 598 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 _ulTyrePerimeter 588 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
-ADC_SetActiveClockTuningInterruptHandler@InterruptHandler 5D0 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
+ADC_SetActiveClockTuningInterruptHandler@InterruptHandler 5D2 0 BANK5 1 cstackBANK5 dist/default/production\SEN.X.production.o
 __HdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\SEN.X.production.o
-__end_of_OSCILLATOR_Initialize 3864 0 CODE 0 text8 dist/default/production\SEN.X.production.o
-__end_of_CAN1_Initialize 344A 0 CODE 0 text13 dist/default/production\SEN.X.production.o
-__initialization 344A 0 CODE 0 cinit dist/default/production\SEN.X.production.o
+__end_of_OSCILLATOR_Initialize 39B2 0 CODE 0 text8 dist/default/production\SEN.X.production.o
+__end_of_CAN1_Initialize 35D6 0 CODE 0 text13 dist/default/production\SEN.X.production.o
+__initialization 35D6 0 CODE 0 cinit dist/default/production\SEN.X.production.o
 __pbssBANK5 560 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 _i2c1_fsmStateTable 2601 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
-_CAN1_SystemErrorHandler 590 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
+_CAN1_SystemErrorHandler 592 0 BANK5 1 bssBANK5 dist/default/production\SEN.X.production.o
 _I2C1_DO_TX_EMPTY 0 0 ABS 0 - dist/default/production\SEN.X.production.o
 __size_of_DELAY_milliseconds 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_DefaultModeChangeHandler 39D0 0 CODE 0 text69 dist/default/production\SEN.X.production.o
+_DefaultModeChangeHandler 3B1E 0 CODE 0 text70 dist/default/production\SEN.X.production.o
 ValidateTransmission@field 509 0 COMRAM 1 cstackCOMRAM dist/default/production\SEN.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\SEN.X.production.o
 __Hsmallconst 2634 0 SMALLCONST 0 smallconst dist/default/production\SEN.X.production.o
 __size_of_ValidateTransmission 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_ADC_SetActiveClockTuningInterruptHandler 3998 0 CODE 0 text31 dist/default/production\SEN.X.production.o
-_CAN1_RX_FIFO_Configuration 38E8 0 CODE 0 text17 dist/default/production\SEN.X.production.o
-_TMR1_SetInterruptHandler 3920 0 CODE 0 text3 dist/default/production\SEN.X.production.o
+_ADC_SetActiveClockTuningInterruptHandler 3AE6 0 CODE 0 text31 dist/default/production\SEN.X.production.o
+_CAN1_RX_FIFO_Configuration 3A36 0 CODE 0 text17 dist/default/production\SEN.X.production.o
+_TMR1_SetInterruptHandler 3A6E 0 CODE 0 text3 dist/default/production\SEN.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\SEN.X.production.o
 _ADCSEL1bits 3FC 0 ABS 0 - dist/default/production\SEN.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\SEN.X.production.o
 __size_of_INTERRUPT_Initialize 0 0 ABS 0 - dist/default/production\SEN.X.production.o
-_ReluctorCountTeeth 3910 0 CODE 0 text63 dist/default/production\SEN.X.production.o
-_TMR1_InterruptHandler 5C6 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
-__end_of_ReluctorPosCount 3596 0 CODE 0 text62 dist/default/production\SEN.X.production.o
-_OSCILLATOR_Initialize 384C 0 CODE 0 text8 dist/default/production\SEN.X.production.o
+_ReluctorCountTeeth 3A5E 0 CODE 0 text64 dist/default/production\SEN.X.production.o
+_TMR1_InterruptHandler 5C8 0 BANK5 1 nvBANK5 dist/default/production\SEN.X.production.o
+__end_of_ReluctorPosCount 36E4 0 CODE 0 text63 dist/default/production\SEN.X.production.o
+_OSCILLATOR_Initialize 399A 0 CODE 0 text8 dist/default/production\SEN.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1772,10 +1799,10 @@ _OSCILLATOR_Initialize 384C 0 CODE 0 text8 dist/default/production\SEN.X.product
 # All other numeric quantities are in decimal.
 %SEGMENTS
 ivt0x8 0 8 8 16 1
-text48 0 2634 2634 13A4 1
+text49 0 2634 2634 14F2 1
 cstackCOMRAM 1 501 501 5F 1
 reset_vec 0 0 0 4 1
-bssBANK5 1 560 560 74 1
+bssBANK5 1 560 560 76 1
 smallconst 0 2600 2600 34 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section

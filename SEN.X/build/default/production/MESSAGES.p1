@@ -3788,12 +3788,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :UE 3181 ]
 }
 "74
-[; ;MESSAGES.c: 74: void MESSAGESSendEvery100ms(void)
-[v _MESSAGESSendEvery100ms `(v ~T0 @X0 1 ef ]
+[; ;MESSAGES.c: 74: void MESSAGESSendEvery500ms(void)
+[v _MESSAGESSendEvery500ms `(v ~T0 @X0 1 ef ]
 "75
 [; ;MESSAGES.c: 75: {
 {
-[e :U _MESSAGESSendEvery100ms ]
+[e :U _MESSAGESSendEvery500ms ]
 [f ]
 "76
 [; ;MESSAGES.c: 76:     switch (ucWheelID)
@@ -3877,4 +3877,69 @@ Version 4.0 HI-TECH Software Intermediate Code
 "101
 [; ;MESSAGES.c: 101: }
 [e :UE 3187 ]
+}
+"104
+[; ;MESSAGES.c: 104: void MESSAGESSendEvery5s(void)
+[v _MESSAGESSendEvery5s `(v ~T0 @X0 1 ef ]
+"105
+[; ;MESSAGES.c: 105: {
+{
+[e :U _MESSAGESSendEvery5s ]
+[f ]
+"106
+[; ;MESSAGES.c: 106:     switch (ucWheelID)
+[e $U 3198  ]
+"107
+[; ;MESSAGES.c: 107:     {
+{
+"108
+[; ;MESSAGES.c: 108:         case 1:
+[e :U 3199 ]
+"109
+[; ;MESSAGES.c: 109:             CANWriteMessage(0x302, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 770 `i `l `ul -> -> 1 `i `uc _ucReluctorState -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc ]
+"110
+[; ;MESSAGES.c: 110:             break;
+[e $U 3197  ]
+"111
+[; ;MESSAGES.c: 111:         case 2:
+[e :U 3200 ]
+"112
+[; ;MESSAGES.c: 112:             CANWriteMessage(0x305, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 773 `i `l `ul -> -> 1 `i `uc _ucReluctorState -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc ]
+"113
+[; ;MESSAGES.c: 113:             break;
+[e $U 3197  ]
+"114
+[; ;MESSAGES.c: 114:         case 3:
+[e :U 3201 ]
+"115
+[; ;MESSAGES.c: 115:             CANWriteMessage(0x308, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 776 `i `l `ul -> -> 1 `i `uc _ucReluctorState -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc ]
+"116
+[; ;MESSAGES.c: 116:             break;
+[e $U 3197  ]
+"117
+[; ;MESSAGES.c: 117:         case 4:
+[e :U 3202 ]
+"118
+[; ;MESSAGES.c: 118:             CANWriteMessage(0x30B, 1, ucReluctorState,0,0,0,0, 0, 0, 0);
+[e ( _CANWriteMessage (4 , , , , , , , , , -> -> -> 779 `i `l `ul -> -> 1 `i `uc _ucReluctorState -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc -> -> 0 `i `uc ]
+"119
+[; ;MESSAGES.c: 119:             break;
+[e $U 3197  ]
+"120
+[; ;MESSAGES.c: 120:     }
+}
+[e $U 3197  ]
+[e :U 3198 ]
+[e [\ -> _ucWheelID `i , $ -> 1 `i 3199
+ , $ -> 2 `i 3200
+ , $ -> 3 `i 3201
+ , $ -> 4 `i 3202
+ 3197 ]
+[e :U 3197 ]
+"122
+[; ;MESSAGES.c: 122: }
+[e :UE 3196 ]
 }
